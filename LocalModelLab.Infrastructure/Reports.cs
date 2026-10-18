@@ -8,7 +8,12 @@ namespace LocalModelLab.Infrastructure;
 public sealed record ReportGroup(string Scope, string Model, string? CaseId, int Attempts, int Completed,
     int Failed, int InProgress, int Truncated, double? MeanClientMs, double? MedianClientMs,
     double? MeanFirstOutputMs, double? MeanFirstAnswerMs, double? MeanLoadMs,
-    double? MeanProviderExcludingLoadMs, double? MeanGenerationTokensPerSecond);
+    double? MeanProviderExcludingLoadMs, double? MeanGenerationTokensPerSecond)
+{
+    public int EmptyFinalAnswers { get; init; }
+    public int ReasoningOnly { get; init; }
+    public int MissingFirstAnswer { get; init; }
+}
 
 public static class Reports
 {
@@ -41,7 +46,12 @@ public static class Reports
             all.Count(a => a.OutputTruncated == true), Mean(completed.Select(a => a.Metrics.ClientElapsedMs)), median,
             Mean(completed.Select(a => a.Metrics.TimeToFirstOutputMs)), Mean(completed.Select(a => a.Metrics.TimeToFirstAnswerMs)),
             Mean(completed.Select(a => a.Metrics.LoadNs / 1_000_000.0)), Mean(completed.Select(a => a.Metrics.ProviderExcludingLoadMs)),
-            Mean(completed.Select(a => a.Metrics.GenerationTokensPerSecond)));
+            Mean(completed.Select(a => a.Metrics.GenerationTokensPerSecond)))
+        {
+            EmptyFinalAnswers = completed.Count(a => string.IsNullOrWhiteSpace(a.Answer)),
+            ReasoningOnly = completed.Count(a => string.IsNullOrWhiteSpace(a.Answer) && !string.IsNullOrWhiteSpace(a.Reasoning)),
+            MissingFirstAnswer = completed.Count(a => a.Metrics.TimeToFirstAnswerMs is null)
+        };
     }
 
     private static double? Mean(IEnumerable<double?> values)
@@ -67,13 +77,18 @@ public static class Reports
             $"Phase: {Safe(state.Phase)}; failure kind: {Safe(state.FailureKind ?? "none")}; error: {Safe(state.Error ?? "none")}.\n\n" +
             $"Scheduling: {manifest?.Profile.Scheduling.ToString() ?? "unavailable"}; residency: {manifest?.Profile.Residency.ToString() ?? "unavailable"}. See schedule.json for the exact order.\n\n" +
             "Measured attempts only; warmups excluded. Means use available values from completed attempts, including length-limited completions. " +
+            "Completed means successful execution, not a usable or correct answer. " +
+            "Empty final answers (null/empty/whitespace), reasoning-only (empty final with nonblank exposed reasoning), " +
+            "and missing first-answer timing count completed measured attempts only; these counts may overlap. " +
+            "Missing timing does not imply an empty answer (non-streaming timing is unavailable). " +
+            "Truncated counts all measured attempts with outputTruncated=true; unknown is not false. " +
             "null means unavailable; failures and unfinished attempts are counted separately. " +
             "First output/answer latency includes model loading and network time. Provider minus load is not proof of a warm run. " +
             "No quality scores or universal ranking. Token rates use each model's tokenizer and are not directly comparable across tokenizers.\n\n" +
-            "| Scope | Model | Case | Completed/attempts | Failed | In progress | Truncated | Mean client ms | Median client ms | First output ms | First answer ms | Load ms | Provider minus load ms | Gen tokens/s |\n" +
-            "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n");
+            "| Scope | Model | Case | Completed/attempts | Failed | In progress | Truncated | Empty final | Reasoning only | Missing first answer | Mean client ms | Median client ms | First output ms | First answer ms | Load ms | Provider minus load ms | Gen tokens/s |\n" +
+            "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n");
         foreach (var g in groups)
-            markdown.AppendLine($"| {g.Scope} | {Safe(g.Model)} | {Safe(g.CaseId ?? "all")} | {g.Completed}/{g.Attempts} | {g.Failed} | {g.InProgress} | {g.Truncated} | {N(g.MeanClientMs)} | {N(g.MedianClientMs)} | {N(g.MeanFirstOutputMs)} | {N(g.MeanFirstAnswerMs)} | {N(g.MeanLoadMs)} | {N(g.MeanProviderExcludingLoadMs)} | {N(g.MeanGenerationTokensPerSecond)} |");
+            markdown.AppendLine($"| {g.Scope} | {Safe(g.Model)} | {Safe(g.CaseId ?? "all")} | {g.Completed}/{g.Attempts} | {g.Failed} | {g.InProgress} | {g.Truncated} | {g.EmptyFinalAnswers} | {g.ReasoningOnly} | {g.MissingFirstAnswer} | {N(g.MeanClientMs)} | {N(g.MedianClientMs)} | {N(g.MeanFirstOutputMs)} | {N(g.MeanFirstAnswerMs)} | {N(g.MeanLoadMs)} | {N(g.MeanProviderExcludingLoadMs)} | {N(g.MeanGenerationTokensPerSecond)} |");
         var csv = new StringBuilder("attempt,model,digest,case,caseVersion,warmup,repetition,status,error,completionReason,truncated,clientMs,firstOutputMs,firstAnswerMs,firstReasoningMs,providerTotalNs,loadNs,promptEvalNs,evalNs,promptTokens,cachedPromptTokens,generatedTokens,providerExcludingLoadMs,generationTokensPerSecond\r\n");
         foreach (var a in attempts)
             csv.AppendLine(string.Join(",", new object?[] { a.Id, a.Model, a.Digest, a.CaseId, a.CaseVersion, a.Warmup, a.Repetition,
@@ -81,11 +96,11 @@ public static class Reports
                 a.Metrics.TimeToFirstAnswerMs, a.Metrics.TimeToFirstReasoningMs, a.Metrics.ProviderTotalNs, a.Metrics.LoadNs,
                 a.Metrics.PromptEvalNs, a.Metrics.EvalNs, a.Metrics.PromptTokens, a.Metrics.CachedPromptTokens,
                 a.Metrics.GeneratedTokens, a.Metrics.ProviderExcludingLoadMs, a.Metrics.GenerationTokensPerSecond }.Select(Csv)));
-        var summary = new StringBuilder("scope,model,case,attempts,completed,failed,inProgress,truncated,meanClientMs,medianClientMs,meanFirstOutputMs,meanFirstAnswerMs,meanLoadMs,meanProviderExcludingLoadMs,meanGenerationTokensPerSecond\r\n");
+        var summary = new StringBuilder("scope,model,case,attempts,completed,failed,inProgress,truncated,meanClientMs,medianClientMs,meanFirstOutputMs,meanFirstAnswerMs,meanLoadMs,meanProviderExcludingLoadMs,meanGenerationTokensPerSecond,emptyFinalAnswers,reasoningOnly,missingFirstAnswer\r\n");
         foreach (var g in groups)
             summary.AppendLine(string.Join(",", new object?[] { g.Scope, g.Model, g.CaseId, g.Attempts, g.Completed, g.Failed, g.InProgress,
                 g.Truncated, g.MeanClientMs, g.MedianClientMs, g.MeanFirstOutputMs, g.MeanFirstAnswerMs, g.MeanLoadMs,
-                g.MeanProviderExcludingLoadMs, g.MeanGenerationTokensPerSecond }.Select(Csv)));
+                g.MeanProviderExcludingLoadMs, g.MeanGenerationTokensPerSecond, g.EmptyFinalAnswers, g.ReasoningOnly, g.MissingFirstAnswer }.Select(Csv)));
         FileRunStore.AtomicWrite(Path.Combine(output, "report.md"), Encoding.UTF8.GetBytes(markdown.ToString()));
         FileRunStore.AtomicWrite(Path.Combine(output, "attempts.csv"), Encoding.UTF8.GetBytes(csv.ToString()));
         FileRunStore.AtomicWrite(Path.Combine(output, "summary.csv"), Encoding.UTF8.GetBytes(summary.ToString()));

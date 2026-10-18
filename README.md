@@ -33,3 +33,5 @@ Hardening release: harness 1.1.0, artifact schema 1. Existing profiles retain `m
 Preflight failures after run creation retain definitions, selection and final state with `phase`, `failureKind` and error. A manifest exists only after successful preflight. Inspect/report support these incomplete runs. CLI syntax, unreadable/malformed input, invalid endpoint and machine discovery cancellation can fail before run creation and leave no run directory. Storage failure or forced termination can still prevent final evidence.
 
 GitHub Actions builds and tests on Windows and Ubuntu using .NET 8; mocked HTTP tests require no Ollama. Machine metadata is static inventory; timestamped `/api/ps` observations are residency snapshots. GPU/CPU utilization, peak VRAM and energy are explicitly not collected. See the [measurement contract](docs/comparison.md#measurement-evidence).
+
+The separately versioned [Non-Thinking comparison](docs/comparison.md) provides a 512-token two-model smoke and a 2048-token four-model full run. Reports distinguish completed execution from empty/reasoning-only answers without scoring or changing attempt status.

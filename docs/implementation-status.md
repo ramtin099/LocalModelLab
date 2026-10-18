@@ -1,53 +1,44 @@
 # Phase 1A implementation and verification
 
-Hardening reviewed 2026-10-18 against local commit `b9c5e6ca3a1f6e86d9fc9d8ff750e828085bf221` on main. A read-only `git ls-remote` confirmed origin/main at the same commit during this review. The repository already contained the four-project Phase 1A implementation; it was not empty. This hardening is an uncommitted working-tree change. No commits or pushes were made.
+## Committed baseline
 
-## Scope and changed files
+The hardening implementation is committed on main at 0a1a7131ae3ca34ca3ffa409d40557fc7f589f7e (parent b9c5e6ca3a1f6e86d9fc9d8ff750e828085bf221). It includes harness 1.1.0, deterministic rotating schedules, singleModel residency enforcement, structured preflight evidence, context/digest checks, buffered partial output preservation, runtime snapshots, reports and the separate comparison.v1.json definition.
 
-| Files | Change |
-|---|---|
-| `Directory.Build.props` | Assembly/package version 1.1.0 |
-| `LocalModelLab.Core/Definitions.cs` | Validated scheduling/residency enums with legacy defaults |
-| `LocalModelLab.Core/Execution.cs` | Recorded schedule, preflight journal/selection, classified failures, explicit residency orchestration, attempt metadata |
-| `LocalModelLab.Infrastructure/OllamaProvider.cs` | Buffered answer/reasoning, unload/verify residency, timestamped runtime samples |
-| `LocalModelLab.Infrastructure/MachineMetadata.cs` | Distinguish static inventory from uncollected utilization/peak/energy telemetry |
-| `LocalModelLab.Infrastructure/Reports.cs` | Report preflight failures without manifest and display policies/failure evidence |
-| `LocalModelLab.Cli/Program.cs` | Inspect missing-manifest runs, preserve service validation evidence, distinguish provider timeout from user cancellation, harness help version |
-| `LocalModelLab.Tests/HardeningTests.cs` | New regression coverage for the corrected behaviors |
-| `LocalModelLab.Tests/BenchmarkServiceTests.cs` | Exact unavailable-model exception assertion |
-| `LocalModelLab.Tests/TestSupport.cs` | Mock request hook and correct partial reads in interruption fixture |
-| `.github/workflows/ci.yml` | .NET 8 build/test on Ubuntu and Windows, TRX artifacts, no Ollama |
-| `benchmarks/comparison.v1.json` | Separate opt-in four-model comparison profile; existing initial definition unchanged |
-| `README.md`, `docs/architecture.md`, `docs/operations.fa.md`, `docs/comparison.md`, this file | Current behavior, limits and controlled comparison instructions |
+GitHub API verification confirmed [build-and-test run 39162228502](https://github.com/ramtin099/LocalModelLab/actions/runs/39162228502) succeeded for that exact commit: both [Windows](https://github.com/ramtin099/LocalModelLab/actions/runs/39162228502/job/117777744785) and [Ubuntu](https://github.com/ramtin099/LocalModelLab/actions/runs/39162228502/job/117777745036) jobs passed. The workflow uses .NET SDK 8.0.x for restore, Release build and tests. These CI results describe the committed baseline, not the changes below.
 
-.NET 8, existing CLI -> application service -> infrastructure architecture, no new production dependency. Still Phase 1A pure inference. No agents, RAG, Jev, generated-code execution, scoring or ranking were introduced.
+## Current uncommitted correction
 
-## Verified during this review
+Reviewed across the 2026-10-18/19 local session. No commit or push was made.
+
+- Existing initial.v1.json and comparison.v1.json remain unchanged.
+- New comparison.non-thinking.v1.json preserves all original cases/suites and adds version-1.0.0 non-thinking-smoke (512 tokens) and non-thinking-full (2048 tokens). Both use explicit thinking=false, context 4096, rotating scheduling and singleModel residency.
+- Both tested Qwen/Gemma digests advertise false/true in saved /api/show metadata; no invented declarations. Explicit false also validates for models advertising thinking=unsupported, matching Ollama 0.40.5 behavior. Missing/unknown capability remains rejected; thinking-capable models still require advertised allowed values. Requests retain explicit think=false.
+- Reports retain completed execution status independently of answer usability. Empty final answers, reasoning-only attempts and missing first-answer timing count completed measured attempts; existing truncated count covers all measured attempts explicitly marked truncated. No scoring or status rewriting.
+- Markdown exposes diagnostics; summary.csv appends three columns while preserving existing columns/order. Attempt JSON schema 1 and attempts.csv are unchanged. Old artifacts can be reported without migration.
+- Regression tests cover null/empty/whitespace answers, reasoning-only versus mixed output, absent reasoning, missing/zero timing, unknown/false/true truncation, warmup and unsuccessful-attempt exclusions, unchanged serialized results, CSV/Markdown rendering, profiles, validation and request options.
+- Persian operations and comparison instructions document exact operator tags qwen3.5:4b-q4_K_M and gemma4, installed-name/digest resolution, exact two-model smoke and four-model full commands, and memory-field limitations.
+
+## Local verification of this correction
+
+Executed successfully:
 
 ```powershell
 dotnet build LocalModelLab.sln -c Release
 dotnet test LocalModelLab.sln -c Release --no-build --logger "console;verbosity=minimal"
+dotnet run --project LocalModelLab.Cli -c Release --no-build -- cases validate --definitions benchmarks/comparison.non-thinking.v1.json
+dotnet run --project LocalModelLab.Cli -c Release --no-build -- benchmark report --run results/comparison/20261018T201755261Z-31358b18d0964db4b99d3dd67c4834af
 ```
 
-Build succeeded with 0 warnings and 0 errors, using SDK 10.0.402 and targeting net8.0; tests ran on .NET 8.0.32. No .NET 8 SDK is installed locally; CI is configured to compile using SDK 8.0.x. Tests: 55 passed, 0 failed, 0 skipped. All HTTP tests use mocked HttpMessageHandler; no Ollama is required. Existing tests continue to verify legacy model-first order, exact requests/raw bytes, metrics, timeout, digest checks, context clamps, cancellation and reports. New cases verify balanced deterministic rotation for four models/multiple cases, persisted plan matching executed attempts, unchanged legacy profile defaults, invalid policy rejection, preflight invalid configuration/missing model/provider failure/provider timeout/cancellation evidence, preflight reports without manifest, unload failure, residency unavailability/contamination/malformed observations, preserved load metrics and residency snapshots, and buffered partial answer/reasoning with an incomplete raw tail on cancellation.
+Build: 0 warnings/errors. Tests: 65 passed, 0 failed/skipped on Windows, targeting net8.0. Local SDK is 10.0.402; test runtime is .NET 8.0.32. HTTP regression tests are mocked. The corrected definition validates with four cases, two suites and two profiles. Regenerating a report from the existing smoke artifacts succeeded without altering those attempts: each model has four measured completions, four empty finals, four reasoning-only, four truncated and four missing-first-answer attempts (warmups excluded).
 
-CLI help, comparison-definition validation, and invalid-configuration run/inspect/report were also executed successfully. Verification artifacts are under ignored `results/hardening-verification/`.
+The real default-thinking smoke has 10 successful provider executions including two warmups, all length-limited with empty final answers and exposed reasoning. Context/residency checks passed. This validates execution evidence, not answer usefulness or correctness. The revised non-thinking smoke and full four-model hardware run have not been executed. This uncommitted correction has not run on hosted CI; the successful Windows/Ubuntu CI above belongs to the baseline.
 
-No live inference was run during hardening. The previous document described an earlier Granite-only smoke run; it is historical evidence for the old implementation, not verification of these changes. The four-model comparison remains to be performed on real hardware. GitHub-hosted CI has been configured but cannot be claimed successful until it runs after an approved push.
+## Scope and limitations
 
-## Behavior and compatibility
+Still Phase 1A local pure inference with the existing CLI -> application service -> infrastructure architecture and no new production dependency. No Agent, Jev, RAG, generated-code execution, LLM judging, subjective correctness scores or ranking.
 
-- Harness version 1.1.0; artifact schema remains 1. Existing profiles default to modelFirst/providerManaged. New policies are explicit; exact schedule is written before inference. No retries or changes to prompts/output limits/scoring.
-- New reader accepts older artifacts. Existing fingerprints are retained when reading old runs; new fingerprints include added policy fields. Older strict readers may reject new additive artifact fields.
-- Configuration/model preflight after run creation leaves definitions, selection and final state. A manifest/schedule exists only after successful preflight. Invalid CLI syntax, input read/JSON parsing, endpoint validation or machine discovery cancellation can fail before creating a directory.
-- singleModel unloads other digests, including unselected models, then verifies snapshots. Failure to query/enforce is an attempt failure. Keep-alive is unchanged; target load is timed/preserved. Empty post-inference residency is unknown verification (null), not evidence of a resident target. Defaults remain provider-managed and make no exclusivity claim.
-- TimeoutSeconds now bounds residency preparation, inference and postflight checks. ClientElapsedMs still covers only inference including raw recording; policy/metadata work is outside that metric. User cancellation is interrupted/cancelled; provider timeout is a failure, not exit code 130.
-- Static hardware metadata and timestamped residency snapshots are distinguished. Utilization, peak VRAM, energy and precise CPU/GPU attribution are not collected or inferred.
+Ollama 0.40.5 runtime size/size_vram are provider accounting, not file size or utilization telemetry. Gemma's small value is preserved and unexplained without runner logs; see [source investigation](comparison.md). No inferred CPU/GPU split, peak VRAM, utilization, energy or hardware efficiency.
 
-## Limits and remaining Phase 1A work
+Rotating order does not remove thermal/cache effects. Residency checks are snapshots, not continuous isolation. Provider-minus-load does not prove a warm cache. Missing timings are null, never zero. No periodic sampler, cooling automation, cache flush, statistical significance testing, cross-run aggregation, resume or regeneration. Summary consumers requiring a fixed header must handle the appended columns.
 
-Run the documented four-model comparison and inspect real unload timing, context observations, load/cache metrics, truncation and digest stability. The comparison uses provider-default thinking, not equal reasoning budgets. Complete rotations balance positions but cannot eliminate thermal drift, internal prompt caches, OS page caches or external clients. Dedicated-server settings are operator-controlled, not verified by the harness. Runtime observations are snapshots, not continuous isolation evidence.
-
-No periodic NVIDIA sampler, process attribution, automated cooling, cache flushing, statistical significance testing or cross-run aggregation is implemented. Add these only for a concrete measurement need. Disk failure/forced termination can leave incomplete evidence; atomic writes are per file. No resume/regeneration. Discovery currently fetches show metadata for all installed models, so an unrelated broken model can prevent preflight. Keep the dedicated model store healthy and stable.
-
-Any Phase 1B evaluation or generated-code execution needs separate scope and approval; it is not remaining work for this Phase 1A hardening.
+Remaining Phase 1A verification: run the revised smoke, inspect final content/reasoning/truncation/timing/context/residency/digests, then run the full four-model benchmark. A larger output budget may still truncate. New hosted CI requires a future approved commit/push; no claim is made that these local changes passed Ubuntu.

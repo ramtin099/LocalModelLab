@@ -7,6 +7,49 @@ namespace LocalModelLab.Tests;
 public class ValidationTests
 {
     [Fact]
+    public async Task NonThinkingProfilesPreserveCasesAndSendFalseForAllFourModelKinds()
+    {
+        var root = Path.Combine(AppContext.BaseDirectory, "benchmarks");
+        var legacy = Reports.Read<BenchmarkDefinitions>(Path.Combine(root, "comparison.v1.json"));
+        var revised = Reports.Read<BenchmarkDefinitions>(Path.Combine(root, "comparison.non-thinking.v1.json"));
+        DefinitionValidator.Validate(revised);
+        Assert.Equal(LabJson.Fingerprint(legacy.Cases), LabJson.Fingerprint(revised.Cases));
+        Assert.Equal(LabJson.Fingerprint(legacy.Suites), LabJson.Fingerprint(revised.Suites));
+        Assert.Null(Assert.Single(legacy.Profiles).Thinking);
+        Assert.Equal(512, legacy.Profiles[0].NumPredict);
+        Assert.Equal(2, revised.Profiles.Length);
+        using var mock = new MockOllama();
+        using var client = mock.Client();
+        var provider = new OllamaProvider(client);
+        var model = (await provider.ListModelsAsync(default))[0];
+        foreach (var profile in revised.Profiles)
+        {
+            Assert.Equal("1.0.0", profile.Version);
+            Assert.Equal(JsonValueKind.False, profile.Thinking!.Value.ValueKind);
+            var budget = profile.Id == "non-thinking-smoke" ? 512 : 2048;
+            Assert.Equal(legacy.Profiles[0] with { Id = profile.Id, Thinking = profile.Thinking, NumPredict = budget }, profile);
+            ModelValidation.Validate(model, profile);
+            var nonThinking = model with
+            {
+                Capabilities = new(model.Capabilities) { [ModelCapability.Thinking] = CapabilityState.Unsupported },
+                ThinkingValues = null
+            };
+            ModelValidation.Validate(nonThinking, profile);
+            foreach (var candidate in new[] { model, nonThinking })
+            {
+                var request = TestData.Json(provider.BuildRequest(candidate, revised.Cases[0], profile));
+                Assert.False(request.GetProperty("think").GetBoolean());
+                Assert.Equal(budget, request.GetProperty("options").GetProperty("num_predict").GetInt32());
+            }
+            foreach (var state in new[] { CapabilityState.Missing, CapabilityState.Unknown })
+                Assert.Throws<ArgumentException>(() => ModelValidation.Validate(model with
+                {
+                    Capabilities = new(model.Capabilities) { [ModelCapability.Thinking] = state }
+                }, profile));
+        }
+    }
+
+    [Fact]
     public void ValidDefinitionsHaveStableFingerprints()
     {
         var definitions = TestData.Definitions();
@@ -70,7 +113,8 @@ public class ValidationTests
         Assert.Throws<ArgumentException>(() => ModelValidation.Validate(model, new("p", "1")));
         mock.ShowBody = "{\"capabilities\":[\"completion\"]}";
         var local = (await new OllamaProvider(client).ListModelsAsync(default))[0];
-        Assert.Throws<ArgumentException>(() => ModelValidation.Validate(local, new("p", "1", Thinking: TestData.Json("false"))));
+        ModelValidation.Validate(local, new("p", "1", Thinking: TestData.Json("false")));
+        Assert.Throws<ArgumentException>(() => ModelValidation.Validate(local, new("p", "1", Thinking: TestData.Json("true"))));
     }
 
     [Fact]

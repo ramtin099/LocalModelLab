@@ -114,7 +114,10 @@ public static class ModelValidation
     {
         if (model.IsRemote) throw new ArgumentException($"{model.Name}: remote/cloud model is outside local Phase 1A scope.");
         Require(model, ModelCapability.Chat);
-        if (profile.Thinking is { } thinking)
+        // Ollama accepts false for models explicitly advertising no thinking capability.
+        if (profile.Thinking is { } thinking &&
+            !(thinking.ValueKind == JsonValueKind.False &&
+              model.Capabilities.GetValueOrDefault(ModelCapability.Thinking) == CapabilityState.Unsupported))
         {
             Require(model, ModelCapability.Thinking);
             if (model.ThinkingValues is null)
