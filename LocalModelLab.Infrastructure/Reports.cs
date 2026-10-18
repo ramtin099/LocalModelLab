@@ -52,17 +52,20 @@ public static class Reports
 
     public static string Generate(string runDirectory)
     {
-        var manifest = Read<RunManifest>(Path.Combine(runDirectory, "manifest.json"));
+        var manifestPath = Path.Combine(runDirectory, "manifest.json");
+        var manifest = File.Exists(manifestPath) ? Read<RunManifest>(manifestPath) : null;
         var state = Read<RunState>(Path.Combine(runDirectory, "state.json"));
         var attempts = ReadAttempts(runDirectory);
         var measured = attempts.Where(a => !a.Warmup).ToArray();
-        var groups = manifest.Models.Select(m => Summarize("model", m.Name, null, measured.Where(a => a.Model == m.Name)))
+        var groups = manifest is null ? Aggregate(attempts) : manifest.Models.Select(m => Summarize("model", m.Name, null, measured.Where(a => a.Model == m.Name)))
             .Concat(manifest.Models.SelectMany(m => manifest.Cases.Select(c =>
                 Summarize("case", m.Name, c.Id, measured.Where(a => a.Model == m.Name && a.CaseId == c.Id))))).ToArray();
         var output = Path.Combine(runDirectory, "reports", Guid.NewGuid().ToString("N"));
         Directory.CreateDirectory(output);
-        var markdown = new StringBuilder($"# LocalModelLab inference report\n\nRun: {Safe(manifest.Id)}\n\n" +
+        var markdown = new StringBuilder($"# LocalModelLab inference report\n\nRun: {Safe(manifest?.Id ?? Path.GetFileName(runDirectory))}\n\n" +
             $"Journal status: {Safe(state.Status)}; finalized attempts: {attempts.Count(a => a.Status != "inProgress")}/{state.PlannedAttempts}.\n\n" +
+            $"Phase: {Safe(state.Phase)}; failure kind: {Safe(state.FailureKind ?? "none")}; error: {Safe(state.Error ?? "none")}.\n\n" +
+            $"Scheduling: {manifest?.Profile.Scheduling.ToString() ?? "unavailable"}; residency: {manifest?.Profile.Residency.ToString() ?? "unavailable"}. See schedule.json for the exact order.\n\n" +
             "Measured attempts only; warmups excluded. Means use available values from completed attempts, including length-limited completions. " +
             "null means unavailable; failures and unfinished attempts are counted separately. " +
             "First output/answer latency includes model loading and network time. Provider minus load is not proof of a warm run. " +

@@ -1,70 +1,53 @@
 # Phase 1A implementation and verification
 
-Completed 2026-10-18. No commits or pushes were made.
+Hardening reviewed 2026-10-18 against local commit `b9c5e6ca3a1f6e86d9fc9d8ff750e828085bf221` on main. A read-only `git ls-remote` confirmed origin/main at the same commit during this review. The repository already contained the four-project Phase 1A implementation; it was not empty. This hardening is an uncommitted working-tree change. No commits or pushes were made.
 
-## Changed files
+## Scope and changed files
 
-This was an empty repository; all application files are new. Template placeholder classes/tests were removed.
-
-| Area | Files |
+| Files | Change |
 |---|---|
-| Solution/build | `LocalModelLab.sln`, `Directory.Build.props`, `.gitignore` |
-| CLI | `LocalModelLab.Cli/LocalModelLab.Cli.csproj`, `LocalModelLab.Cli/Program.cs` |
-| Core | `LocalModelLab.Core/LocalModelLab.Core.csproj`, `LocalModelLab.Core/Definitions.cs`, `LocalModelLab.Core/Execution.cs` |
-| Infrastructure | `LocalModelLab.Infrastructure/LocalModelLab.Infrastructure.csproj`, `LocalModelLab.Infrastructure/OllamaProvider.cs`, `LocalModelLab.Infrastructure/FileRunStore.cs`, `LocalModelLab.Infrastructure/Reports.cs`, `LocalModelLab.Infrastructure/MachineMetadata.cs` |
-| Tests | `LocalModelLab.Tests/LocalModelLab.Tests.csproj`, `LocalModelLab.Tests/TestSupport.cs`, `LocalModelLab.Tests/ValidationTests.cs`, `LocalModelLab.Tests/OllamaProviderTests.cs`, `LocalModelLab.Tests/BenchmarkServiceTests.cs` |
-| Definitions | `benchmarks/initial.v1.json` |
-| Documentation | `README.md`, `docs/architecture.md`, `docs/operations.fa.md`, `docs/implementation-status.md` |
+| `Directory.Build.props` | Assembly/package version 1.1.0 |
+| `LocalModelLab.Core/Definitions.cs` | Validated scheduling/residency enums with legacy defaults |
+| `LocalModelLab.Core/Execution.cs` | Recorded schedule, preflight journal/selection, classified failures, explicit residency orchestration, attempt metadata |
+| `LocalModelLab.Infrastructure/OllamaProvider.cs` | Buffered answer/reasoning, unload/verify residency, timestamped runtime samples |
+| `LocalModelLab.Infrastructure/MachineMetadata.cs` | Distinguish static inventory from uncollected utilization/peak/energy telemetry |
+| `LocalModelLab.Infrastructure/Reports.cs` | Report preflight failures without manifest and display policies/failure evidence |
+| `LocalModelLab.Cli/Program.cs` | Inspect missing-manifest runs, preserve service validation evidence, distinguish provider timeout from user cancellation, harness help version |
+| `LocalModelLab.Tests/HardeningTests.cs` | New regression coverage for the corrected behaviors |
+| `LocalModelLab.Tests/BenchmarkServiceTests.cs` | Exact unavailable-model exception assertion |
+| `LocalModelLab.Tests/TestSupport.cs` | Mock request hook and correct partial reads in interruption fixture |
+| `.github/workflows/ci.yml` | .NET 8 build/test on Ubuntu and Windows, TRX artifacts, no Ollama |
+| `benchmarks/comparison.v1.json` | Separate opt-in four-model comparison profile; existing initial definition unchanged |
+| `README.md`, `docs/architecture.md`, `docs/operations.fa.md`, `docs/comparison.md`, this file | Current behavior, limits and controlled comparison instructions |
 
-Local `results/` smoke artifacts and `graphify-out/` navigation index are intentionally gitignored. Existing IDE/Serena directories were preserved.
+.NET 8, existing CLI -> application service -> infrastructure architecture, no new production dependency. Still Phase 1A pure inference. No agents, RAG, Jev, generated-code execution, scoring or ranking were introduced.
 
-## Decisions and features
-
-The four projects target net8.0. Cli calls BenchmarkService; Infrastructure implements inference and storage contracts. The application service explicitly validates selections, resolves metadata, snapshots a run, executes independent sequential attempts, persists each outcome and handles cancellation. Provider-specific runtime verification and protocol parsing stay in Infrastructure. There are no new application layers, mediator, CQRS, generic repositories or production package dependencies.
-
-Implemented: versioned JSON cases/suites/profiles; strict field/reference/setting validation; single/multiple models; digest-bound capabilities with distinct missing/unknown/unsupported states; configurable warmups, repetitions, sampling, context/output limits, thinking, streaming, keep-alive and request timeout; raw response recording; separate reasoning/answer output when exposed; client and provider metrics; terminal reasons/truncation; digest checks; model/provider/harness/machine provenance; atomic JSON persistence and partial results; all five CLI workflows; per-model/per-case Markdown and CSV reports; Persian operating instructions.
-
-No generated code was compiled or executed. No evaluation scores, self-assessment scores, automated judge or universal model ranking exist. Future executors have capability names only.
-
-## Automated verification
-
-Executed successfully:
+## Verified during this review
 
 ```powershell
 dotnet build LocalModelLab.sln -c Release
 dotnet test LocalModelLab.sln -c Release --no-build --logger "console;verbosity=minimal"
 ```
 
-- Build: 0 warnings, 0 errors, using SDK 10.0.402 and targeting .NET 8.
-- Tests: 37 passed, 0 failed, 0 skipped, running on .NET 8.0.32.
-- All HTTP integration tests use an in-memory HttpMessageHandler; tests do not require an Ollama installation or service.
-- Coverage includes configuration/fingerprint validation; capability distinctions and digest-bound declarations; unsupported thinking/remote models; model metadata/version/digest discovery; exact request options and independent messages; exact UTF-8/NDJSON raw capture; answer/reasoning separation; streaming/nonstreaming timing semantics; null/zero metrics; HTTP/provider errors; malformed/incomplete streams; no retries; multiple-model sequential orchestration; timeout and cancellation before/during response streaming; partial result persistence; digest drift; provider context clamp; atomic writes/path traversal protection; reports excluding warmups and failed timing samples.
-- Actual CLI help, model discovery, definition validation, run, inspect and report commands were exercised successfully.
-- A local code-only Graphify index was built for navigation. Serena activation succeeded but symbol lookup was unavailable because the pre-existing project configuration has no active language server; focused source searches and compilation supplied verification.
+Build succeeded with 0 warnings and 0 errors, using SDK 10.0.402 and targeting net8.0; tests ran on .NET 8.0.32. No .NET 8 SDK is installed locally; CI is configured to compile using SDK 8.0.x. Tests: 55 passed, 0 failed, 0 skipped. All HTTP tests use mocked HttpMessageHandler; no Ollama is required. Existing tests continue to verify legacy model-first order, exact requests/raw bytes, metrics, timeout, digest checks, context clamps, cancellation and reports. New cases verify balanced deterministic rotation for four models/multiple cases, persisted plan matching executed attempts, unchanged legacy profile defaults, invalid policy rejection, preflight invalid configuration/missing model/provider failure/provider timeout/cancellation evidence, preflight reports without manifest, unload failure, residency unavailability/contamination/malformed observations, preserved load metrics and residency snapshots, and buffered partial answer/reasoning with an incomplete raw tail on cancellation.
 
-## Real Ollama smoke
+CLI help, comparison-definition validation, and invalid-configuration run/inspect/report were also executed successfully. Verification artifacts are under ignored `results/hardening-verification/`.
 
-Executed the supplied smoke suite/profile on installed `granite4:3b`, Ollama 0.40.5, on Windows with i7-12700H, approximately 16 GB RAM and RTX 3060 Laptop GPU. NVIDIA discovery recorded 6144 MiB VRAM and driver 610.88.
+No live inference was run during hardening. The previous document described an earlier Granite-only smoke run; it is historical evidence for the old implementation, not verification of these changes. The four-model comparison remains to be performed on real hardware. GitHub-hosted CI has been configured but cannot be claimed successful until it runs after an approved push.
 
-Final smoke artifacts:
+## Behavior and compatibility
 
-```text
-results/20261018T090219300Z-2fa623c1e1824c1fb7ee466cae504e28/
-reports/28db3632226d437dbf0bec143d1a172e/report.md
-```
+- Harness version 1.1.0; artifact schema remains 1. Existing profiles default to modelFirst/providerManaged. New policies are explicit; exact schedule is written before inference. No retries or changes to prompts/output limits/scoring.
+- New reader accepts older artifacts. Existing fingerprints are retained when reading old runs; new fingerprints include added policy fields. Older strict readers may reject new additive artifact fields.
+- Configuration/model preflight after run creation leaves definitions, selection and final state. A manifest/schedule exists only after successful preflight. Invalid CLI syntax, input read/JSON parsing, endpoint validation or machine discovery cancellation can fail before creating a directory.
+- singleModel unloads other digests, including unselected models, then verifies snapshots. Failure to query/enforce is an attempt failure. Keep-alive is unchanged; target load is timed/preserved. Empty post-inference residency is unknown verification (null), not evidence of a resident target. Defaults remain provider-managed and make no exclusivity claim.
+- TimeoutSeconds now bounds residency preparation, inference and postflight checks. ClientElapsedMs still covers only inference including raw recording; policy/metadata work is outside that metric. User cancellation is interrupted/cancelled; provider timeout is a failure, not exit code 130.
+- Static hardware metadata and timestamped residency snapshots are distinguished. Utilization, peak VRAM, energy and precise CPU/GPU attribution are not collected or inferred.
 
-One warmup and one measured attempt completed, with model digest verified after each. The measured attempt recorded 635.6814 ms client time, 27.7252 ms first answer time, 7.1749 ms provider load time, 64 generated tokens and verified context length 2048. Both attempts ended with reason `length` and correctly have `outputTruncated: true`. This is a connectivity/artifact smoke test, not a model-quality conclusion or a statistically useful performance benchmark. Earlier smoke artifacts also preserve a run with approximately 3.44 seconds of model-loading latency.
+## Limits and remaining Phase 1A work
 
-## Known limitations
+Run the documented four-model comparison and inspect real unload timing, context observations, load/cache metrics, truncation and digest stability. The comparison uses provider-default thinking, not equal reasoning budgets. Complete rotations balance positions but cannot eliminate thermal drift, internal prompt caches, OS page caches or external clients. Dedicated-server settings are operator-controlled, not verified by the harness. Runtime observations are snapshots, not continuous isolation evidence.
 
-- Real execution was verified for Granite chat streaming only. Other models, thinking, nonstreaming, errors and multiple-model orchestration have mocked coverage; no full initial-suite real-model run was performed.
-- Sent sampling options, model defaults and observed runtime context are retained. Ollama does not echo every effective internal option; unobservable values remain unverified. Explicit unsupported/unknown thinking is rejected rather than replaced.
-- Digest checks detect changes before/after trials but cannot eliminate an external mutation between API calls. Keep model files and provider version stable during a run.
-- First output times are client observations and include load/network/capture overhead. Persistent raw capture is inside the client interval; provider metrics are separate. Keep-alive and warmups cannot guarantee model residency or remove provider prompt-cache effects.
-- Graceful interruption finalizes the active trial; forced termination can leave an in-progress marker and raw bytes without a parsed partial answer. Report/inspect do not resume or regenerate attempts. Atomicity is per JSON file, not across all files or against disk failure.
-- When runtime or hardware discovery is unavailable, nullable data and explicit discovery errors are retained. Win32 GPU AdapterRAM alone is not reliable above 4 GiB; NVIDIA memory metadata is preferred when available.
-- Filesystem artifacts are immutable by runner convention after completion, not write-protected or signed. Deliberate external edits remain possible.
+No periodic NVIDIA sampler, process attribution, automated cooling, cache flushing, statistical significance testing or cross-run aggregation is implemented. Add these only for a concrete measurement need. Disk failure/forced termination can leave incomplete evidence; atomic writes are per file. No resume/regeneration. Discovery currently fetches show metadata for all installed models, so an unrelated broken model can prevent preflight. Keep the dedicated model store healthy and stable.
 
-## Remaining Phase 1B work
-
-Requires separate approval: independent versioned evaluation contracts/artifacts, deterministic correctness checks and their tests, resource-limit and isolation design, worker contracts and a threat model before any generated-code execution. Preserve inference/evaluation separation. FIM, embeddings, vision/decision execution, agents/tools, RAG, Jev, dashboards and LLM judging remain outside this implementation and need explicit future scoping.
+Any Phase 1B evaluation or generated-code execution needs separate scope and approval; it is not remaining work for this Phase 1A hardening.

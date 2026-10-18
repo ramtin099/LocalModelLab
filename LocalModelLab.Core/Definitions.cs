@@ -21,12 +21,15 @@ public static class LabJson
 
 public enum CapabilityState { Missing, Unknown, Unsupported, Supported }
 public enum ModelCapability { Chat, Fim, Embedding, Vision, Decision, Thinking }
+public enum SchedulingPolicy { ModelFirst, Rotating }
+public enum ResidencyPolicy { ProviderManaged, SingleModel }
 
 public sealed record BenchmarkCase(string Id, string Version, string Prompt, string? System = null);
 public sealed record BenchmarkSuite(string Id, string Version, string[] Cases);
 public sealed record ExecutionProfile(string Id, string Version, int Warmups = 1, int Repetitions = 3,
     double Temperature = 0, int Seed = 42, int NumCtx = 4096, int NumPredict = 512,
-    JsonElement? Thinking = null, bool Stream = true, int TimeoutSeconds = 180, int KeepAliveSeconds = 300);
+    JsonElement? Thinking = null, bool Stream = true, int TimeoutSeconds = 180, int KeepAliveSeconds = 300,
+    SchedulingPolicy Scheduling = SchedulingPolicy.ModelFirst, ResidencyPolicy Residency = ResidencyPolicy.ProviderManaged);
 public sealed record ModelDeclaration(string Model, string Digest,
     Dictionary<ModelCapability, CapabilityState> Capabilities, JsonElement[]? ThinkingValues = null);
 public sealed record BenchmarkDefinitions(int SchemaVersion, BenchmarkCase[] Cases, BenchmarkSuite[] Suites,
@@ -51,6 +54,8 @@ public static class DefinitionValidator
                 throw new ArgumentException($"Suite {suite.Id}: empty, duplicate or unknown case reference.");
         foreach (var profile in definitions.Profiles)
         {
+            if (!Enum.IsDefined(profile.Scheduling) || !Enum.IsDefined(profile.Residency))
+                throw new ArgumentException($"Profile {profile.Id}: invalid scheduling or residency policy.");
             if (profile.Warmups < 0 || profile.Repetitions < 1 || !double.IsFinite(profile.Temperature) ||
                 profile.Temperature < 0 || profile.Temperature > 2 || profile.Seed < 0 || profile.NumCtx < 1 ||
                 profile.NumPredict < 1 || profile.TimeoutSeconds < 1 || profile.TimeoutSeconds > 86400 ||

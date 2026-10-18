@@ -13,12 +13,14 @@ internal sealed class MockOllama : HttpMessageHandler
     public const string Final = """{"model":"small:latest","message":{"content":"answer"},"done":true,"done_reason":"stop","total_duration":1000000000,"load_duration":200000000,"prompt_eval_duration":300000000,"eval_duration":500000000,"prompt_eval_count":10,"eval_count":20}""";
     public List<string> Requests { get; } = [];
     public Func<HttpRequestMessage, CancellationToken, Task<HttpResponseMessage>>? Chat { get; set; }
+    public Func<HttpRequestMessage, CancellationToken, Task<HttpResponseMessage?>>? Override { get; set; }
     public string ShowBody { get; set; } = Show;
     public string TagsBody { get; set; } = Tags;
     public string RuntimeBody { get; set; } = """{"models":[{"digest":"sha256:abc","context_length":4096},{"digest":"sha256:def","context_length":4096}]}""";
     public int ChatCalls { get; private set; }
     protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
+        if (Override is not null && await Override(request, cancellationToken) is { } response) return response;
         switch (request.RequestUri!.AbsolutePath)
         {
             case "/api/version": return Response("""{"version":"test-1"}""");
@@ -64,7 +66,7 @@ internal static class TestData
 internal sealed class CancelAfterChunkStream(string chunk, CancellationTokenSource cancellation) : Stream
 {
     private readonly byte[] bytes = Encoding.UTF8.GetBytes(chunk);
-    private bool delivered;
+    private int offset;
     public override bool CanRead => true;
     public override bool CanSeek => false;
     public override bool CanWrite => false;
@@ -72,11 +74,12 @@ internal sealed class CancelAfterChunkStream(string chunk, CancellationTokenSour
     public override long Position { get => throw new NotSupportedException(); set => throw new NotSupportedException(); }
     public override ValueTask<int> ReadAsync(Memory<byte> buffer, CancellationToken cancellationToken = default)
     {
-        if (!delivered)
+        if (offset < bytes.Length)
         {
-            delivered = true;
-            bytes.CopyTo(buffer);
-            return ValueTask.FromResult(bytes.Length);
+            var count = Math.Min(buffer.Length, bytes.Length - offset);
+            bytes.AsMemory(offset, count).CopyTo(buffer);
+            offset += count;
+            return ValueTask.FromResult(count);
         }
         cancellation.Cancel();
         return ValueTask.FromCanceled<int>(cancellation.Token);

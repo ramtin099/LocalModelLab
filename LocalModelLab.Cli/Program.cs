@@ -11,7 +11,7 @@ static async Task<int> ExecuteAsync(string[] args)
     if (args.Length == 0 || args is ["--help"] or ["help"])
     {
         Console.WriteLine("""
-            LocalModelLab 1.0.0 — Phase 1A pure inference
+            LocalModelLab 1.1.0 — Phase 1A pure inference
             models list [--endpoint http://localhost:11434/]
             cases validate [--definitions benchmarks/initial.v1.json]
             benchmark run --models NAME[,NAME] [--suite initial --profile default --definitions benchmarks/initial.v1.json --output results --endpoint URL]
@@ -63,7 +63,7 @@ static async Task<int> ExecuteAsync(string[] args)
             }
             else
             {
-                Console.WriteLine(JsonSerializer.Serialize(new { manifest = Reports.Read<RunManifest>(Path.Combine(run, "manifest.json")),
+                Console.WriteLine(JsonSerializer.Serialize(new { manifest = File.Exists(Path.Combine(run, "manifest.json")) ? Reports.Read<RunManifest>(Path.Combine(run, "manifest.json")) : null,
                     journal = Reports.Read<RunState>(Path.Combine(run, "state.json")), attempts = Reports.ReadAttempts(run) }, LabJson.Options));
             }
             return 0;
@@ -74,9 +74,9 @@ static async Task<int> ExecuteAsync(string[] args)
         {
             definitionBytes = await File.ReadAllBytesAsync(Get("definitions", "benchmarks/initial.v1.json"), cancellation.Token);
             definitions = JsonSerializer.Deserialize<BenchmarkDefinitions>(definitionBytes, LabJson.Options) ?? throw new JsonException("Empty definitions.");
-            DefinitionValidator.Validate(definitions);
             if (command == "cases validate")
             {
+                DefinitionValidator.Validate(definitions);
                 Console.WriteLine($"Valid schema v1: {definitions.Cases.Length} cases, {definitions.Suites.Length} suites, {definitions.Profiles.Length} profiles. SHA256 {LabJson.Hash(definitionBytes)}");
                 return 0;
             }
@@ -104,7 +104,8 @@ static async Task<int> ExecuteAsync(string[] args)
         Console.WriteLine($"{state.Status}; reports: {Reports.Generate(store.Location)}");
         return state.Status switch { "completed" => 0, "interrupted" => 130, _ => 1 };
     }
-    catch (OperationCanceledException) { Console.Error.WriteLine("Interrupted."); return 130; }
+    catch (OperationCanceledException) when (cancellation.IsCancellationRequested) { Console.Error.WriteLine("Interrupted."); return 130; }
+    catch (OperationCanceledException) { Console.Error.WriteLine("Provider request timed out; see run state when a run directory was created."); return 1; }
     catch (Exception ex) when (ex is ArgumentException or InvalidOperationException or IOException or JsonException or HttpRequestException or OverflowException or KeyNotFoundException)
     {
         Console.Error.WriteLine(ex.Message);

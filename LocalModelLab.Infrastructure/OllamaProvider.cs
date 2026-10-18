@@ -45,14 +45,55 @@ public sealed class OllamaProvider(HttpClient http) : IInferenceProvider
             throw new ModelDigestChangedException($"Model digest changed or model removed: {model.Name}. Attribution is invalid; stop changing models during runs.");
     }
 
+    public async Task PrepareResidencyAsync(ModelMetadata model, ExecutionProfile profile, AttemptResult result, CancellationToken cancellationToken)
+    {
+        if (profile.Residency == ResidencyPolicy.ProviderManaged) return;
+        result.ResidencyVerified = false;
+        result.ResidencyBefore = await GetAsync("api/ps", cancellationToken);
+        foreach (var resident in result.ResidencyBefore.Value.GetProperty("models").EnumerateArray())
+        {
+            if (resident.GetProperty("digest").GetString() == model.Digest) continue;
+            var name = resident.GetProperty("name").GetString();
+            if (string.IsNullOrWhiteSpace(name)) throw new JsonException("Resident model name missing; cannot unload safely.");
+            result.UnloadRequests.Add(name);
+            using var response = await http.PostAsJsonAsync("api/generate", new { model = name, keep_alive = 0, stream = false }, cancellationToken);
+            response.EnsureSuccessStatusCode();
+            using var body = JsonDocument.Parse(await response.Content.ReadAsStringAsync(cancellationToken));
+            if (body.RootElement.TryGetProperty("error", out var error)) throw new IOException($"Unload failed: {error}");
+        }
+        // Unloading may be asynchronous. Bound verification by the attempt timeout and a short polling window.
+        for (var poll = 0; poll < 20; poll++)
+        {
+            result.ResidencyAfter = await GetAsync("api/ps", cancellationToken);
+            if (!HasOtherResidents(result.ResidencyAfter.Value, model)) return;
+            await Task.Delay(100, cancellationToken);
+        }
+        throw new InvalidOperationException("singleModel residency could not be established; no inference sent.");
+    }
+
+    private static bool HasOtherResidents(JsonElement runtime, ModelMetadata model) =>
+        runtime.GetProperty("models").EnumerateArray().Any(m => m.GetProperty("digest").GetString() != model.Digest);
+
     public async Task CaptureRuntimeMetadataAsync(ModelMetadata model, ExecutionProfile profile, AttemptResult result, CancellationToken cancellationToken)
     {
-        try { result.ProviderRuntime = await GetAsync("api/ps", cancellationToken); }
+        try
+        {
+            result.ProviderRuntime = await GetAsync("api/ps", cancellationToken);
+            result.RuntimeSampleUtc = DateTimeOffset.UtcNow;
+        }
         catch (Exception ex) when (ex is HttpRequestException or IOException or JsonException or OperationCanceledException)
         {
             cancellationToken.ThrowIfCancellationRequested();
             result.RuntimeMetadataError = ex.Message;
+            if (profile.Residency == ResidencyPolicy.SingleModel)
+                throw new InvalidOperationException("singleModel residency verification unavailable.", ex);
             return;
+        }
+        if (profile.Residency == ResidencyPolicy.SingleModel)
+        {
+            if (HasOtherResidents(result.ProviderRuntime!.Value, model))
+                throw new InvalidOperationException("singleModel residency violated after inference.");
+            result.ResidencyVerified = result.ProviderRuntime.Value.GetProperty("models").GetArrayLength() > 0 ? true : null;
         }
         if (result.ProviderRuntime is { } runtime && runtime.TryGetProperty("models", out var loaded))
         {
@@ -114,6 +155,8 @@ public sealed class OllamaProvider(HttpClient http) : IInferenceProvider
             Content = new StringContent(request, new UTF8Encoding(false), "application/json")
         };
         var clock = Stopwatch.StartNew();
+        var answerBuffer = new StringBuilder(result.Answer);
+        StringBuilder? reasoningBuffer = result.Reasoning is null ? null : new(result.Reasoning);
         try
         {
             using var response = await http.SendAsync(message, HttpCompletionOption.ResponseHeadersRead, cancellationToken);
@@ -133,22 +176,25 @@ public sealed class OllamaProvider(HttpClient http) : IInferenceProvider
                 while (await reader.ReadLineAsync(cancellationToken) is { } line)
                 {
                     if (string.IsNullOrWhiteSpace(line)) continue;
-                    ParseChunk(line, result, clock.Elapsed.TotalMilliseconds, true);
+                    ParseChunk(line, result, clock.Elapsed.TotalMilliseconds, true, answerBuffer, ref reasoningBuffer);
                 }
             }
             else
             {
-                ParseChunk(await reader.ReadToEndAsync(cancellationToken), result, clock.Elapsed.TotalMilliseconds, false);
+                ParseChunk(await reader.ReadToEndAsync(cancellationToken), result, clock.Elapsed.TotalMilliseconds, false, answerBuffer, ref reasoningBuffer);
             }
             if (!result.ProviderCompleted) throw new IOException("Provider stream ended without done=true.");
         }
         finally
         {
+            result.Answer = answerBuffer.ToString();
+            result.Reasoning = reasoningBuffer?.ToString();
             result.Metrics.ClientElapsedMs = clock.Elapsed.TotalMilliseconds;
         }
     }
 
-    private static void ParseChunk(string raw, AttemptResult result, double elapsedMs, bool streaming)
+    private static void ParseChunk(string raw, AttemptResult result, double elapsedMs, bool streaming,
+        StringBuilder answerBuffer, ref StringBuilder? reasoningBuffer)
     {
         using var document = JsonDocument.Parse(raw);
         var chunk = document.RootElement;
@@ -160,7 +206,7 @@ public sealed class OllamaProvider(HttpClient http) : IInferenceProvider
                 throw new IOException("Unexpected tool calls in pure inference response; no tools were executed.");
             if (message.TryGetProperty("content", out var content) && content.GetString() is { Length: > 0 } answer)
             {
-                result.Answer += answer;
+                answerBuffer.Append(answer);
                 if (streaming)
                 {
                     result.Metrics.TimeToFirstAnswerMs ??= elapsedMs;
@@ -170,7 +216,7 @@ public sealed class OllamaProvider(HttpClient http) : IInferenceProvider
             if (message.TryGetProperty("thinking", out var thinking))
             {
                 var reasoning = thinking.GetString();
-                if (reasoning is not null) result.Reasoning = (result.Reasoning ?? "") + reasoning;
+                if (reasoning is not null) (reasoningBuffer ??= new StringBuilder()).Append(reasoning);
                 if (streaming && reasoning is { Length: > 0 })
                 {
                     result.Metrics.TimeToFirstReasoningMs ??= elapsedMs;

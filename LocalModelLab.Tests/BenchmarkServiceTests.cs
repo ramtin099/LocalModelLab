@@ -51,7 +51,7 @@ public class BenchmarkServiceTests
     {
         using var directory = new TemporaryDirectory();
         using var mock = new MockOllama();
-        await Assert.ThrowsAsync<ArgumentException>(() => TestData.Run(mock, new FileRunStore(directory.Path), models: ["small:latest", "not-installed"]));
+        await Assert.ThrowsAsync<ModelUnavailableException>(() => TestData.Run(mock, new FileRunStore(directory.Path), models: ["small:latest", "not-installed"]));
         Assert.Equal(0, mock.ChatCalls);
         mock.ShowBody = "{\"capabilities\":[\"embedding\"]}";
         await Assert.ThrowsAsync<ArgumentException>(() => TestData.Run(mock, new FileRunStore(directory.Path)));

@@ -46,11 +46,17 @@ public static class MachineMetadata
         }
         return JsonSerializer.SerializeToElement(new
         {
+            capturedUtc = DateTimeOffset.UtcNow,
+            measurementKind = "staticHardwareMetadata",
+            telemetry = new { status = "notCollected", gpuUtilization = (double?)null, cpuUtilization = (double?)null,
+                peakVramBytes = (long?)null, energyJoules = (double?)null },
+            attributionNote = "No per-attempt CPU/GPU attribution. NVIDIA query contains static device metadata only. /api/ps is a post-inference residency snapshot, not utilization or peak memory telemetry.",
             hostName = Environment.MachineName, os = RuntimeInformation.OSDescription,
             osArchitecture = RuntimeInformation.OSArchitecture.ToString(), processArchitecture = RuntimeInformation.ProcessArchitecture.ToString(),
             runtime = RuntimeInformation.FrameworkDescription, logicalProcessors = Environment.ProcessorCount,
             cpuIdentifier = Environment.GetEnvironmentVariable("PROCESSOR_IDENTIFIER"), hardware,
             hardwareDiscoveryError = discoveryError,
+            hardwareDiscoveryStatus = hardware is not null ? "captured" : OperatingSystem.IsWindows() ? "unavailable" : "unsupportedPlatform",
             gpuMemoryNote = "Prefer nvidiaSmiCsv memory.total in MiB when available. Win32 AdapterRAM may overflow above 4 GiB; if NVIDIA discovery is unavailable, dedicated VRAM is unknown.",
             culture = System.Globalization.CultureInfo.CurrentCulture.Name, timezone = TimeZoneInfo.Local.Id
         });
