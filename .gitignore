@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+.vs/
+.serena/
+results/
+graphify-out/
+TestResults/

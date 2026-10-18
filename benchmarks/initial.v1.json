@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "csharp-explanation",
+      "version": "1.0.0",
+      "system": "You are a C#/.NET technical assistant. Respond to the request directly.",
+      "prompt": "Explain what this C# method does, when enumeration occurs, and what happens if source is null. Do not execute code.\nstatic IEnumerable<int> Positive(IEnumerable<int> source)\n{\n    foreach (var value in source)\n        if (value > 0) yield return value;\n}"
+    },
+    {
+      "id": "csharp-bug-detection",
+      "version": "1.0.0",
+      "prompt": "Identify the bug and propose a minimal fix for this C# method. Explain the empty-array behavior. Do not execute code.\nstatic int Sum(int[] values)\n{\n    int total = 0;\n    for (int i = 0; i <= values.Length; i++) total += values[i];\n    return total;\n}"
+    },
+    {
+      "id": "csharp-generation",
+      "version": "1.0.0",
+      "prompt": "Write a .NET 8 C# method that counts occurrences of nonempty strings from IEnumerable<string?> using ordinal case-insensitive comparison. Reject a null enumerable, ignore null/empty elements, and return Dictionary<string,int>. Include a short usage example. Return code as text only; do not execute it."
+    },
+    {
+      "id": "persian-technical-explanation",
+      "version": "1.0.0",
+      "prompt": "به فارسی و با یک مثال کوتاه در سی‌شارپ توضیح بده async/await چه تفاوتی با اجرای موازی دارد و CancellationToken چگونه برای لغو درخواست HTTP استفاده می‌شود. کد را اجرا نکن."
+    }
+  ],
+  "suites": [
+    { "id": "initial", "version": "1.0.0", "cases": ["csharp-explanation", "csharp-bug-detection", "csharp-generation", "persian-technical-explanation"] },
+    { "id": "smoke", "version": "1.0.0", "cases": ["csharp-explanation"] }
+  ],
+  "profiles": [
+    { "id": "default", "version": "1.0.0", "warmups": 1, "repetitions": 3, "temperature": 0, "seed": 42, "numCtx": 4096, "numPredict": 512, "stream": true, "timeoutSeconds": 180, "keepAliveSeconds": 300 },
+    { "id": "smoke", "version": "1.0.0", "warmups": 1, "repetitions": 1, "temperature": 0, "seed": 42, "numCtx": 2048, "numPredict": 64, "stream": true, "timeoutSeconds": 120, "keepAliveSeconds": 300 }
+  ]
+}
