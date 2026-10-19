@@ -1,0 +1,427 @@
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.1371954Z","message":{"role":"assistant","content":"","thinking":"Here"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.1371954Z","message":{"role":"assistant","content":"","thinking":"'"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.2087956Z","message":{"role":"assistant","content":"","thinking":"s"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.2087956Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.2087956Z","message":{"role":"assistant","content":"","thinking":" thinking"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.2087956Z","message":{"role":"assistant","content":"","thinking":" process"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.2597999Z","message":{"role":"assistant","content":"","thinking":" to"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.2844709Z","message":{"role":"assistant","content":"","thinking":" construct"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3057681Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3057681Z","message":{"role":"assistant","content":"","thinking":" explanation"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3262077Z","message":{"role":"assistant","content":"","thinking":":"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3262077Z","message":{"role":"assistant","content":"","thinking":"\n\n1"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3272883Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3452481Z","message":{"role":"assistant","content":"","thinking":"  **"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3452481Z","message":{"role":"assistant","content":"","thinking":"Analyze"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3482314Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3665106Z","message":{"role":"assistant","content":"","thinking":" Request"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3665106Z","message":{"role":"assistant","content":"","thinking":":**"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3694139Z","message":{"role":"assistant","content":"","thinking":" The"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3694139Z","message":{"role":"assistant","content":"","thinking":" user"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3848024Z","message":{"role":"assistant","content":"","thinking":" wants"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3848024Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3848024Z","message":{"role":"assistant","content":"","thinking":" explanation"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.3848024Z","message":{"role":"assistant","content":"","thinking":" of"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.408319Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4262378Z","message":{"role":"assistant","content":"","thinking":" specific"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4451061Z","message":{"role":"assistant","content":"","thinking":" C"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4451061Z","message":{"role":"assistant","content":"","thinking":"#"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4451061Z","message":{"role":"assistant","content":"","thinking":" method"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4451061Z","message":{"role":"assistant","content":"","thinking":" (`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4662635Z","message":{"role":"assistant","content":"","thinking":"Positive"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4706262Z","message":{"role":"assistant","content":"","thinking":"`),"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.4869189Z","message":{"role":"assistant","content":"","thinking":" focusing"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5108306Z","message":{"role":"assistant","content":"","thinking":" on"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5108306Z","message":{"role":"assistant","content":"","thinking":" three"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5277032Z","message":{"role":"assistant","content":"","thinking":" aspects"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5484859Z","message":{"role":"assistant","content":"","thinking":":"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5484859Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5691293Z","message":{"role":"assistant","content":"","thinking":"   What"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5691293Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5897765Z","message":{"role":"assistant","content":"","thinking":" method"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5897765Z","message":{"role":"assistant","content":"","thinking":" does"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.5944432Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6106189Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6106189Z","message":{"role":"assistant","content":"","thinking":"   What"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.631139Z","message":{"role":"assistant","content":"","thinking":" happens"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.631139Z","message":{"role":"assistant","content":"","thinking":" when"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6360567Z","message":{"role":"assistant","content":"","thinking":" enumeration"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6558282Z","message":{"role":"assistant","content":"","thinking":" occurs"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6558282Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6720173Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6720173Z","message":{"role":"assistant","content":"","thinking":"   What"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6781099Z","message":{"role":"assistant","content":"","thinking":" happens"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6987844Z","message":{"role":"assistant","content":"","thinking":" if"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6987844Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.6987844Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7170148Z","message":{"role":"assistant","content":"","thinking":"source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7170148Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.720211Z","message":{"role":"assistant","content":"","thinking":" is"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.720211Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7336593Z","message":{"role":"assistant","content":"","thinking":"null"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7336593Z","message":{"role":"assistant","content":"","thinking":"`."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7561417Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7610784Z","message":{"role":"assistant","content":"","thinking":"   Constraint"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7823823Z","message":{"role":"assistant","content":"","thinking":":"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7823823Z","message":{"role":"assistant","content":"","thinking":" Do"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7823823Z","message":{"role":"assistant","content":"","thinking":" not"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.7823823Z","message":{"role":"assistant","content":"","thinking":" execute"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.794831Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.794831Z","message":{"role":"assistant","content":"","thinking":" code"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.794831Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8149336Z","message":{"role":"assistant","content":"","thinking":"\n\n2"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8149336Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.824665Z","message":{"role":"assistant","content":"","thinking":"  **"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8458635Z","message":{"role":"assistant","content":"","thinking":"Analyze"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8458635Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8458635Z","message":{"role":"assistant","content":"","thinking":" Code"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8658251Z","message":{"role":"assistant","content":"","thinking":":**"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8658251Z","message":{"role":"assistant","content":"","thinking":"\n    ```"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8865328Z","message":{"role":"assistant","content":"","thinking":"c"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.8884699Z","message":{"role":"assistant","content":"","thinking":"sharp"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9071265Z","message":{"role":"assistant","content":"","thinking":"\n    static"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9104306Z","message":{"role":"assistant","content":"","thinking":" IEnumerable"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9104306Z","message":{"role":"assistant","content":"","thinking":"\u003cint"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9278166Z","message":{"role":"assistant","content":"","thinking":"\u003e"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9278166Z","message":{"role":"assistant","content":"","thinking":" Positive"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9278166Z","message":{"role":"assistant","content":"","thinking":"("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9278166Z","message":{"role":"assistant","content":"","thinking":"IEnumerable"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9521685Z","message":{"role":"assistant","content":"","thinking":"\u003cint"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9521685Z","message":{"role":"assistant","content":"","thinking":"\u003e"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9521685Z","message":{"role":"assistant","content":"","thinking":" source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9725138Z","message":{"role":"assistant","content":"","thinking":")"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9725138Z","message":{"role":"assistant","content":"","thinking":"\n    {"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9925862Z","message":{"role":"assistant","content":"","thinking":"\n        foreach"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:29.9925862Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0087614Z","message":{"role":"assistant","content":"","thinking":"var"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0087614Z","message":{"role":"assistant","content":"","thinking":" value"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0143391Z","message":{"role":"assistant","content":"","thinking":" in"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0143391Z","message":{"role":"assistant","content":"","thinking":" source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0290705Z","message":{"role":"assistant","content":"","thinking":")"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0290705Z","message":{"role":"assistant","content":"","thinking":"\n            if"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0525409Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0525409Z","message":{"role":"assistant","content":"","thinking":"value"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0525409Z","message":{"role":"assistant","content":"","thinking":" \u003e"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0732052Z","message":{"role":"assistant","content":"","thinking":" 0"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0732052Z","message":{"role":"assistant","content":"","thinking":")"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0732052Z","message":{"role":"assistant","content":"","thinking":" yield"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0732052Z","message":{"role":"assistant","content":"","thinking":" return"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0891084Z","message":{"role":"assistant","content":"","thinking":" value"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.0891084Z","message":{"role":"assistant","content":"","thinking":";"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.1095005Z","message":{"role":"assistant","content":"","thinking":"\n    }"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.1095005Z","message":{"role":"assistant","content":"","thinking":"\n    ```"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.1646319Z","message":{"role":"assistant","content":"","thinking":"\n\n3"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.1877671Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.1888624Z","message":{"role":"assistant","content":"","thinking":"  **"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.1888624Z","message":{"role":"assistant","content":"","thinking":"Determine"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.201159Z","message":{"role":"assistant","content":"","thinking":" What"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2326837Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2326837Z","message":{"role":"assistant","content":"","thinking":" Method"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2512905Z","message":{"role":"assistant","content":"","thinking":" Does"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2512905Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2587394Z","message":{"role":"assistant","content":"","thinking":"Core"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2835787Z","message":{"role":"assistant","content":"","thinking":" Function"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2835787Z","message":{"role":"assistant","content":"","thinking":"ality"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2835787Z","message":{"role":"assistant","content":"","thinking":"):"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.2835787Z","message":{"role":"assistant","content":"","thinking":"**"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3040833Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3226264Z","message":{"role":"assistant","content":"","thinking":"   It"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3226264Z","message":{"role":"assistant","content":"","thinking":" takes"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.324067Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.324067Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3452586Z","message":{"role":"assistant","content":"","thinking":"IEnumerable"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3452586Z","message":{"role":"assistant","content":"","thinking":"\u003cint"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3452586Z","message":{"role":"assistant","content":"","thinking":"\u003e`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3647998Z","message":{"role":"assistant","content":"","thinking":" as"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3843251Z","message":{"role":"assistant","content":"","thinking":" input"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.3843251Z","message":{"role":"assistant","content":"","thinking":" (`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4057176Z","message":{"role":"assistant","content":"","thinking":"source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4057176Z","message":{"role":"assistant","content":"","thinking":"`)."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4261615Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4270664Z","message":{"role":"assistant","content":"","thinking":"   It"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4270664Z","message":{"role":"assistant","content":"","thinking":" uses"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4473426Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4477061Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4477061Z","message":{"role":"assistant","content":"","thinking":"foreach"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4477061Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4670624Z","message":{"role":"assistant","content":"","thinking":" loop"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4670624Z","message":{"role":"assistant","content":"","thinking":" to"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4681569Z","message":{"role":"assistant","content":"","thinking":" iterate"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4681569Z","message":{"role":"assistant","content":"","thinking":" over"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.4846444Z","message":{"role":"assistant","content":"","thinking":" every"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5050972Z","message":{"role":"assistant","content":"","thinking":" element"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5050972Z","message":{"role":"assistant","content":"","thinking":" in"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5078198Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5252829Z","message":{"role":"assistant","content":"","thinking":" source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5478688Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5478688Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5693016Z","message":{"role":"assistant","content":"","thinking":"   It"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.570023Z","message":{"role":"assistant","content":"","thinking":" checks"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.5897453Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6059614Z","message":{"role":"assistant","content":"","thinking":" condition"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6059614Z","message":{"role":"assistant","content":"","thinking":" (`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6101838Z","message":{"role":"assistant","content":"","thinking":"if"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6101838Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6290559Z","message":{"role":"assistant","content":"","thinking":"value"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6290559Z","message":{"role":"assistant","content":"","thinking":" \u003e"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6309087Z","message":{"role":"assistant","content":"","thinking":" 0"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6486624Z","message":{"role":"assistant","content":"","thinking":")`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.651573Z","message":{"role":"assistant","content":"","thinking":")."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6718269Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6718269Z","message":{"role":"assistant","content":"","thinking":"   If"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6891089Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6920803Z","message":{"role":"assistant","content":"","thinking":" condition"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6920803Z","message":{"role":"assistant","content":"","thinking":" is"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.6920803Z","message":{"role":"assistant","content":"","thinking":" true"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.7123624Z","message":{"role":"assistant","content":"","thinking":","},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.7123624Z","message":{"role":"assistant","content":"","thinking":" it"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.7123624Z","message":{"role":"assistant","content":"","thinking":" returns"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.7123624Z","message":{"role":"assistant","content":"","thinking":" that"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.7296305Z","message":{"role":"assistant","content":"","thinking":" value"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.73229Z","message":{"role":"assistant","content":"","thinking":" using"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.752296Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.752296Z","message":{"role":"assistant","content":"","thinking":"yield"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.752296Z","message":{"role":"assistant","content":"","thinking":" return"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.752296Z","message":{"role":"assistant","content":"","thinking":"`."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.7725273Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.789635Z","message":{"role":"assistant","content":"","thinking":"   The"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.7927468Z","message":{"role":"assistant","content":"","thinking":" method"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8092209Z","message":{"role":"assistant","content":"","thinking":" returns"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8092209Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8092209Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8092209Z","message":{"role":"assistant","content":"","thinking":"IEnumerable"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8300651Z","message":{"role":"assistant","content":"","thinking":"\u003cint"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8300651Z","message":{"role":"assistant","content":"","thinking":"\u003e`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8300651Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8506457Z","message":{"role":"assistant","content":"","thinking":"an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8715799Z","message":{"role":"assistant","content":"","thinking":" iterator"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8715799Z","message":{"role":"assistant","content":"","thinking":"/"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.8920852Z","message":{"role":"assistant","content":"","thinking":"lazy"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9146049Z","message":{"role":"assistant","content":"","thinking":" sequence"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9335756Z","message":{"role":"assistant","content":"","thinking":")."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9540105Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9572962Z","message":{"role":"assistant","content":"","thinking":"   *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9778957Z","message":{"role":"assistant","content":"","thinking":"Conclusion"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9778957Z","message":{"role":"assistant","content":"","thinking":":*"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9778957Z","message":{"role":"assistant","content":"","thinking":" It"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:30.9949285Z","message":{"role":"assistant","content":"","thinking":" filters"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.0156664Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.0367601Z","message":{"role":"assistant","content":"","thinking":" input"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.0597062Z","message":{"role":"assistant","content":"","thinking":" sequence"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.078087Z","message":{"role":"assistant","content":"","thinking":","},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.0988386Z","message":{"role":"assistant","content":"","thinking":" yielding"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1288638Z","message":{"role":"assistant","content":"","thinking":" only"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1288638Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.149852Z","message":{"role":"assistant","content":"","thinking":" positive"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1700688Z","message":{"role":"assistant","content":"","thinking":" integers"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1700688Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1756899Z","message":{"role":"assistant","content":"","thinking":"\n\n4"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1917379Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1971167Z","message":{"role":"assistant","content":"","thinking":"  **"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.1971167Z","message":{"role":"assistant","content":"","thinking":"Determine"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.2100297Z","message":{"role":"assistant","content":"","thinking":" Behavior"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.233572Z","message":{"role":"assistant","content":"","thinking":" During"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.2565784Z","message":{"role":"assistant","content":"","thinking":" Enumer"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.2565784Z","message":{"role":"assistant","content":"","thinking":"ation"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.2572166Z","message":{"role":"assistant","content":"","thinking":":**"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.2784051Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.2939679Z","message":{"role":"assistant","content":"","thinking":"   The"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.2984888Z","message":{"role":"assistant","content":"","thinking":" use"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3110113Z","message":{"role":"assistant","content":"","thinking":" of"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3194728Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3194728Z","message":{"role":"assistant","content":"","thinking":"yield"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3194728Z","message":{"role":"assistant","content":"","thinking":" return"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3318984Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3401121Z","message":{"role":"assistant","content":"","thinking":" makes"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3598607Z","message":{"role":"assistant","content":"","thinking":" this"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.3793228Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.4015275Z","message":{"role":"assistant","content":"","thinking":" *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.4217445Z","message":{"role":"assistant","content":"","thinking":"generator"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.4422254Z","message":{"role":"assistant","content":"","thinking":"*"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.4422254Z","message":{"role":"assistant","content":"","thinking":" or"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.4629154Z","message":{"role":"assistant","content":"","thinking":" *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.4747296Z","message":{"role":"assistant","content":"","thinking":"iterator"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.4747296Z","message":{"role":"assistant","content":"","thinking":" block"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.5048609Z","message":{"role":"assistant","content":"","thinking":"*."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.5048609Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.5272553Z","message":{"role":"assistant","content":"","thinking":"   The"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.5470691Z","message":{"role":"assistant","content":"","thinking":" method"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.5675822Z","message":{"role":"assistant","content":"","thinking":" does"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6011656Z","message":{"role":"assistant","content":"","thinking":" not"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6011656Z","message":{"role":"assistant","content":"","thinking":" compute"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6212934Z","message":{"role":"assistant","content":"","thinking":" all"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6365234Z","message":{"role":"assistant","content":"","thinking":" results"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6617091Z","message":{"role":"assistant","content":"","thinking":" immediately"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6817103Z","message":{"role":"assistant","content":"","thinking":";"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6981409Z","message":{"role":"assistant","content":"","thinking":" it"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.6981409Z","message":{"role":"assistant","content":"","thinking":" produces"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.718612Z","message":{"role":"assistant","content":"","thinking":" them"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.7390127Z","message":{"role":"assistant","content":"","thinking":" laz"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.7655588Z","message":{"role":"assistant","content":"","thinking":"ily"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.7655588Z","message":{"role":"assistant","content":"","thinking":" as"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.7800683Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.7800683Z","message":{"role":"assistant","content":"","thinking":" consumer"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8003272Z","message":{"role":"assistant","content":"","thinking":" iterates"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8207487Z","message":{"role":"assistant","content":"","thinking":" over"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8207487Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8470864Z","message":{"role":"assistant","content":"","thinking":" returned"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8619882Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8681319Z","message":{"role":"assistant","content":"","thinking":"IEnumerable"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8825697Z","message":{"role":"assistant","content":"","thinking":"\u003cint"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8889245Z","message":{"role":"assistant","content":"","thinking":"\u003e"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.8889245Z","message":{"role":"assistant","content":"","thinking":"`."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9105559Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9105559Z","message":{"role":"assistant","content":"","thinking":"   The"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9307358Z","message":{"role":"assistant","content":"","thinking":" iteration"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9502816Z","message":{"role":"assistant","content":"","thinking":" proceeds"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9713906Z","message":{"role":"assistant","content":"","thinking":" element"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9936422Z","message":{"role":"assistant","content":"","thinking":" by"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9936422Z","message":{"role":"assistant","content":"","thinking":" element"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9936422Z","message":{"role":"assistant","content":"","thinking":","},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:31.9936422Z","message":{"role":"assistant","content":"","thinking":" applying"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0157523Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0157523Z","message":{"role":"assistant","content":"","thinking":" filter"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0157523Z","message":{"role":"assistant","content":"","thinking":" (`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0361281Z","message":{"role":"assistant","content":"","thinking":"value"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0579681Z","message":{"role":"assistant","content":"","thinking":" \u003e"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0579681Z","message":{"role":"assistant","content":"","thinking":" 0"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0579681Z","message":{"role":"assistant","content":"","thinking":"`)"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.076881Z","message":{"role":"assistant","content":"","thinking":" at"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.0949258Z","message":{"role":"assistant","content":"","thinking":" each"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.102829Z","message":{"role":"assistant","content":"","thinking":" step"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.102829Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1214512Z","message":{"role":"assistant","content":"","thinking":"\n\n5"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1254339Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1254339Z","message":{"role":"assistant","content":"","thinking":"  **"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1475648Z","message":{"role":"assistant","content":"","thinking":"Determine"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1475648Z","message":{"role":"assistant","content":"","thinking":" Behavior"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1475648Z","message":{"role":"assistant","content":"","thinking":" if"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1697484Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1697484Z","message":{"role":"assistant","content":"","thinking":"source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1697484Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1697484Z","message":{"role":"assistant","content":"","thinking":" is"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.1903728Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2066535Z","message":{"role":"assistant","content":"","thinking":"null"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2066535Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2066535Z","message":{"role":"assistant","content":"","thinking":":**"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.232329Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.232329Z","message":{"role":"assistant","content":"","thinking":"   The"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.252682Z","message":{"role":"assistant","content":"","thinking":" method"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2733894Z","message":{"role":"assistant","content":"","thinking":" signature"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2733894Z","message":{"role":"assistant","content":"","thinking":" accepts"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2878573Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2878573Z","message":{"role":"assistant","content":"","thinking":"IEnumerable"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.2878573Z","message":{"role":"assistant","content":"","thinking":"\u003cint"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.316553Z","message":{"role":"assistant","content":"","thinking":"\u003e"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.316553Z","message":{"role":"assistant","content":"","thinking":" source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.316553Z","message":{"role":"assistant","content":"","thinking":"`."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3350242Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.338186Z","message":{"role":"assistant","content":"","thinking":"   If"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3590467Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3590467Z","message":{"role":"assistant","content":"","thinking":"source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3590467Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3590467Z","message":{"role":"assistant","content":"","thinking":" is"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3806044Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3806044Z","message":{"role":"assistant","content":"","thinking":"null"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3806044Z","message":{"role":"assistant","content":"","thinking":"`,"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.3806044Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4017802Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4017802Z","message":{"role":"assistant","content":"","thinking":"foreach"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4017802Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4233102Z","message":{"role":"assistant","content":"","thinking":"var"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4233102Z","message":{"role":"assistant","content":"","thinking":" value"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4233102Z","message":{"role":"assistant","content":"","thinking":" in"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4233102Z","message":{"role":"assistant","content":"","thinking":" source"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4446933Z","message":{"role":"assistant","content":"","thinking":")`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4446933Z","message":{"role":"assistant","content":"","thinking":" loop"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4446933Z","message":{"role":"assistant","content":"","thinking":" will"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4446933Z","message":{"role":"assistant","content":"","thinking":" attempt"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4632891Z","message":{"role":"assistant","content":"","thinking":" to"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.473273Z","message":{"role":"assistant","content":"","thinking":" iterate"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4833413Z","message":{"role":"assistant","content":"","thinking":" over"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.4929267Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5132501Z","message":{"role":"assistant","content":"","thinking":" null"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5132501Z","message":{"role":"assistant","content":"","thinking":" reference"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5351256Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5351256Z","message":{"role":"assistant","content":"","thinking":"\n    *"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5543709Z","message":{"role":"assistant","content":"","thinking":"   In"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5768846Z","message":{"role":"assistant","content":"","thinking":" C"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5768846Z","message":{"role":"assistant","content":"","thinking":"#,"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5768846Z","message":{"role":"assistant","content":"","thinking":" iterating"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5971231Z","message":{"role":"assistant","content":"","thinking":" over"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5981257Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.5981257Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6155405Z","message":{"role":"assistant","content":"","thinking":"null"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6155405Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6187761Z","message":{"role":"assistant","content":"","thinking":" collection"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6366618Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6587831Z","message":{"role":"assistant","content":"","thinking":"or"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6587831Z","message":{"role":"assistant","content":"","thinking":" sequence"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6781385Z","message":{"role":"assistant","content":"","thinking":")"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6781385Z","message":{"role":"assistant","content":"","thinking":" typically"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.6991361Z","message":{"role":"assistant","content":"","thinking":" results"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7197608Z","message":{"role":"assistant","content":"","thinking":" in"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7212046Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7212046Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7212046Z","message":{"role":"assistant","content":"","thinking":"Invalid"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7405437Z","message":{"role":"assistant","content":"","thinking":"Operation"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7424094Z","message":{"role":"assistant","content":"","thinking":"Exception"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7424094Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7424094Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7630059Z","message":{"role":"assistant","content":"","thinking":"specifically"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7810225Z","message":{"role":"assistant","content":"","thinking":","},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.7837845Z","message":{"role":"assistant","content":"","thinking":" \""},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.8043473Z","message":{"role":"assistant","content":"","thinking":"Object"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.8242617Z","message":{"role":"assistant","content":"","thinking":" reference"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.8444214Z","message":{"role":"assistant","content":"","thinking":" not"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.8640416Z","message":{"role":"assistant","content":"","thinking":" set"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.8842866Z","message":{"role":"assistant","content":"","thinking":" to"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.9061275Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.9266492Z","message":{"role":"assistant","content":"","thinking":" instance"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.9465657Z","message":{"role":"assistant","content":"","thinking":" of"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.9667644Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:32.9870804Z","message":{"role":"assistant","content":"","thinking":" object"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0091677Z","message":{"role":"assistant","content":"","thinking":"\""},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0299758Z","message":{"role":"assistant","content":"","thinking":" or"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0299758Z","message":{"role":"assistant","content":"","thinking":" similar"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0319657Z","message":{"role":"assistant","content":"","thinking":","},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0528563Z","message":{"role":"assistant","content":"","thinking":" depending"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0528563Z","message":{"role":"assistant","content":"","thinking":" on"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0528563Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0528563Z","message":{"role":"assistant","content":"","thinking":" context"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.069445Z","message":{"role":"assistant","content":"","thinking":","},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0900126Z","message":{"role":"assistant","content":"","thinking":" but"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.0952368Z","message":{"role":"assistant","content":"","thinking":" for"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.1108723Z","message":{"role":"assistant","content":"","thinking":" `"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.1312465Z","message":{"role":"assistant","content":"","thinking":"foreach"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.1549315Z","message":{"role":"assistant","content":"","thinking":"`"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.1587658Z","message":{"role":"assistant","content":"","thinking":" on"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.1726068Z","message":{"role":"assistant","content":"","thinking":" a"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.1995382Z","message":{"role":"assistant","content":"","thinking":" null"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.1995382Z","message":{"role":"assistant","content":"","thinking":" collection"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2141596Z","message":{"role":"assistant","content":"","thinking":","},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2141596Z","message":{"role":"assistant","content":"","thinking":" it"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2141596Z","message":{"role":"assistant","content":"","thinking":"'"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2448739Z","message":{"role":"assistant","content":"","thinking":"s"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2448739Z","message":{"role":"assistant","content":"","thinking":" usually"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2680004Z","message":{"role":"assistant","content":"","thinking":" an"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2680004Z","message":{"role":"assistant","content":"","thinking":" exception"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2680004Z","message":{"role":"assistant","content":"","thinking":")."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2857633Z","message":{"role":"assistant","content":"","thinking":"\n\n6"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2894082Z","message":{"role":"assistant","content":"","thinking":"."},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.2894082Z","message":{"role":"assistant","content":"","thinking":"  **"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3101636Z","message":{"role":"assistant","content":"","thinking":"Synt"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3101636Z","message":{"role":"assistant","content":"","thinking":"hesize"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3101636Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3308762Z","message":{"role":"assistant","content":"","thinking":" Explanation"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3308762Z","message":{"role":"assistant","content":"","thinking":" ("},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3308762Z","message":{"role":"assistant","content":"","thinking":"Draft"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3464643Z","message":{"role":"assistant","content":"","thinking":"ing"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3464643Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3517114Z","message":{"role":"assistant","content":"","thinking":" response"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3718396Z","message":{"role":"assistant","content":"","thinking":" structure"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3930487Z","message":{"role":"assistant","content":"","thinking":"):"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3930487Z","message":{"role":"assistant","content":"","thinking":"**"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3930487Z","message":{"role":"assistant","content":"","thinking":" Structure"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3930487Z","message":{"role":"assistant","content":"","thinking":" the"},"done":false}
+{"model":"gemma4:e2b-it-q4_K_M","created_at":"2026-10-18T20:18:33.3935519Z","message":{"role":"assistant","content":""},"done":true,"done_reason":"length","total_duration":14824857100,"load_duration":9931449900,"prompt_eval_count":97,"prompt_eval_cached_count":0,"prompt_eval_duration":520003000,"eval_count":512,"eval_duration":4342067000}

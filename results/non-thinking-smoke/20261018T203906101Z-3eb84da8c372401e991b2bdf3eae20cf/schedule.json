@@ -1,0 +1,72 @@
+[
+  {
+    "id": "000001",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000002",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000003",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000004",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000005",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000006",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000007",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000008",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000009",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000010",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 4
+  }
+]

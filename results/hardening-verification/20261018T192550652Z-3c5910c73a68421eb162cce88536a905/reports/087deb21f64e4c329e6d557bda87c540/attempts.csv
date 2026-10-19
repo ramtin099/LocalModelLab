@@ -1,0 +1,1 @@
+attempt,model,digest,case,caseVersion,warmup,repetition,status,error,completionReason,truncated,clientMs,firstOutputMs,firstAnswerMs,firstReasoningMs,providerTotalNs,loadNs,promptEvalNs,evalNs,promptTokens,cachedPromptTokens,generatedTokens,providerExcludingLoadMs,generationTokensPerSecond

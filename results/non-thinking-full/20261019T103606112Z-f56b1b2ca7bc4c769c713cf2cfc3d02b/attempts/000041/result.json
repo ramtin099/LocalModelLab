@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000041",
+  "model": "granite4:3b",
+  "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+  "caseId": "csharp-generation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": false,
+  "repetition": 2,
+  "startedUtc": "2026-10-19T10:44:54.101623+00:00",
+  "finishedUtc": "2026-10-19T10:44:58.3642958+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "\u0060\u0060\u0060csharp\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic static class StringCounter\n{\n    public static Dictionary\u003Cstring, int\u003E CountNonEmptyStrings(IEnumerable\u003Cstring?\u003E source)\n    {\n        if (source == null)\n        {\n            throw new ArgumentNullException(nameof(source));\n        }\n\n        return source\n            .OfType\u003Cstring\u003E()\n            .Where(s =\u003E !string.IsNullOrEmpty(s))\n            .GroupBy(s =\u003E s, StringComparer.OrdinalIgnoreCase)\n            .ToDictionary(g =\u003E g.Key, g =\u003E g.Count());\n    }\n}\n\u0060\u0060\u0060",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:44:57 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "gemma4:e2b-it-q4_K_M",
+        "model": "gemma4:e2b-it-q4_K_M",
+        "size": 330783784,
+        "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:19:54.0609109\u002B03:30",
+        "size_vram": 330783784,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "gemma4:e2b-it-q4_K_M"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:44:58.3543813+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "granite4:3b",
+        "model": "granite4:3b",
+        "size": 2506987928,
+        "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "granite",
+          "families": [
+            "granite"
+          ],
+          "parameter_size": "3.4B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:19:58.3530482\u002B03:30",
+        "size_vram": 2506987928,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 3972.257,
+    "timeToFirstOutputMs": 2896.7431,
+    "timeToFirstAnswerMs": 2896.7431,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 3971675000,
+    "loadNs": 2793991300,
+    "promptEvalNs": 85197000,
+    "evalNs": 1076980000,
+    "promptTokens": 91,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 110,
+    "providerExcludingLoadMs": 1177.6837,
+    "generationTokensPerSecond": 102.13745844862486
+  }
+}

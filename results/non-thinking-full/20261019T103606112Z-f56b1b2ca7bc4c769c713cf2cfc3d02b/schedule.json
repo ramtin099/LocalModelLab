@@ -1,0 +1,562 @@
+[
+  {
+    "id": "000001",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000002",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000003",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000004",
+    "model": "granite4:3b",
+    "caseId": "csharp-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000005",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000006",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-bug-detection",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000007",
+    "model": "granite4:3b",
+    "caseId": "csharp-bug-detection",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000008",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000009",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-generation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000010",
+    "model": "granite4:3b",
+    "caseId": "csharp-generation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000011",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000012",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000013",
+    "model": "granite4:3b",
+    "caseId": "persian-technical-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000014",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000015",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000016",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "persian-technical-explanation",
+    "warmup": true,
+    "repetition": 1
+  },
+  {
+    "id": "000017",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000018",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000019",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000020",
+    "model": "granite4:3b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000021",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000022",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000023",
+    "model": "granite4:3b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000024",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000025",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000026",
+    "model": "granite4:3b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000027",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000028",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000029",
+    "model": "granite4:3b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000030",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000031",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000032",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 1
+  },
+  {
+    "id": "000033",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000034",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000035",
+    "model": "granite4:3b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000036",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000037",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000038",
+    "model": "granite4:3b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000039",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000040",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000041",
+    "model": "granite4:3b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000042",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000043",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000044",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000045",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000046",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000047",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000048",
+    "model": "granite4:3b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 2
+  },
+  {
+    "id": "000049",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000050",
+    "model": "granite4:3b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000051",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000052",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000053",
+    "model": "granite4:3b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000054",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000055",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000056",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000057",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000058",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000059",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000060",
+    "model": "granite4:3b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000061",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000062",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000063",
+    "model": "granite4:3b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000064",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 3
+  },
+  {
+    "id": "000065",
+    "model": "granite4:3b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000066",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000067",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000068",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000069",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000070",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000071",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000072",
+    "model": "granite4:3b",
+    "caseId": "csharp-bug-detection",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000073",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000074",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000075",
+    "model": "granite4:3b",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000076",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "csharp-generation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000077",
+    "model": "qwen2.5-coder:7b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000078",
+    "model": "granite4:3b",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000079",
+    "model": "qwen3.5:4b-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 4
+  },
+  {
+    "id": "000080",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "caseId": "persian-technical-explanation",
+    "warmup": false,
+    "repetition": 4
+  }
+]

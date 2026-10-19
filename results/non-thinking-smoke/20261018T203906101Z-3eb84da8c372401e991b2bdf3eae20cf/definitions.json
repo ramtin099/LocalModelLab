@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "csharp-explanation",
+      "version": "1.0.0",
+      "system": "You are a C#/.NET technical assistant. Respond to the request directly.",
+      "prompt": "Explain what this C# method does, when enumeration occurs, and what happens if source is null. Do not execute code.\nstatic IEnumerable<int> Positive(IEnumerable<int> source)\n{\n    foreach (var value in source)\n        if (value > 0) yield return value;\n}"
+    },
+    {
+      "id": "csharp-bug-detection",
+      "version": "1.0.0",
+      "prompt": "Identify the bug and propose a minimal fix for this C# method. Explain the empty-array behavior. Do not execute code.\nstatic int Sum(int[] values)\n{\n    int total = 0;\n    for (int i = 0; i <= values.Length; i++) total += values[i];\n    return total;\n}"
+    },
+    {
+      "id": "csharp-generation",
+      "version": "1.0.0",
+      "prompt": "Write a .NET 8 C# method that counts occurrences of nonempty strings from IEnumerable<string?> using ordinal case-insensitive comparison. Reject a null enumerable, ignore null/empty elements, and return Dictionary<string,int>. Include a short usage example. Return code as text only; do not execute it."
+    },
+    {
+      "id": "persian-technical-explanation",
+      "version": "1.0.0",
+      "prompt": "\u0628\u0647 \u0641\u0627\u0631\u0633\u06cc \u0648 \u0628\u0627 \u06cc\u06a9 \u0645\u062b\u0627\u0644 \u06a9\u0648\u062a\u0627\u0647 \u062f\u0631 \u0633\u06cc\u200c\u0634\u0627\u0631\u067e \u062a\u0648\u0636\u06cc\u062d \u0628\u062f\u0647 async/await \u0686\u0647 \u062a\u0641\u0627\u0648\u062a\u06cc \u0628\u0627 \u0627\u062c\u0631\u0627\u06cc \u0645\u0648\u0627\u0632\u06cc \u062f\u0627\u0631\u062f \u0648 CancellationToken \u0686\u06af\u0648\u0646\u0647 \u0628\u0631\u0627\u06cc \u0644\u063a\u0648 \u062f\u0631\u062e\u0648\u0627\u0633\u062a HTTP \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0645\u06cc\u200c\u0634\u0648\u062f. \u06a9\u062f \u0631\u0627 \u0627\u062c\u0631\u0627 \u0646\u06a9\u0646."
+    }
+  ],
+  "suites": [
+    {
+      "id": "initial",
+      "version": "1.0.0",
+      "cases": [
+        "csharp-explanation",
+        "csharp-bug-detection",
+        "csharp-generation",
+        "persian-technical-explanation"
+      ]
+    },
+    {
+      "id": "smoke",
+      "version": "1.0.0",
+      "cases": [
+        "csharp-explanation"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "non-thinking-smoke",
+      "version": "1.0.0",
+      "warmups": 1,
+      "repetitions": 4,
+      "temperature": 0,
+      "seed": 42,
+      "numCtx": 4096,
+      "numPredict": 512,
+      "stream": true,
+      "timeoutSeconds": 300,
+      "keepAliveSeconds": 300,
+      "scheduling": "rotating",
+      "residency": "singleModel",
+      "thinking": false
+    },
+    {
+      "id": "non-thinking-full",
+      "version": "1.0.0",
+      "warmups": 1,
+      "repetitions": 4,
+      "temperature": 0,
+      "seed": 42,
+      "numCtx": 4096,
+      "numPredict": 2048,
+      "stream": true,
+      "timeoutSeconds": 300,
+      "keepAliveSeconds": 300,
+      "scheduling": "rotating",
+      "residency": "singleModel",
+      "thinking": false
+    }
+  ]
+}

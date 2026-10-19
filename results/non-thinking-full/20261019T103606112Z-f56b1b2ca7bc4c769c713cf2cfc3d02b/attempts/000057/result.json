@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000057",
+  "model": "qwen3.5:4b-q4_K_M",
+  "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "caseId": "csharp-generation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": false,
+  "repetition": 3,
+  "startedUtc": "2026-10-19T10:48:21.0489885+00:00",
+  "finishedUtc": "2026-10-19T10:48:32.3723527+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "\u0060\u0060\u0060csharp\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic static class StringCounter\n{\n    /// \u003Csummary\u003E\n    /// Counts occurrences of non-empty strings from an enumerable using ordinal case-insensitive comparison.\n    /// \u003C/summary\u003E\n    /// \u003Cparam name=\u0022strings\u0022\u003EAn IEnumerable of nullable strings.\u003C/param\u003E\n    /// \u003Creturns\u003EA Dictionary mapping normalized string keys to their counts.\u003C/returns\u003E\n    public static Dictionary\u003Cstring, int\u003E CountNonEmptyStrings(IEnumerable\u003Cstring?\u003E strings)\n    {\n        if (strings == null)\n        {\n            throw new ArgumentNullException(nameof(strings), \u0022The enumerable cannot be null.\u0022);\n        }\n\n        return strings\n            .Where(s =\u003E s != null \u0026\u0026 !string.IsNullOrEmpty(s))\n            .ToDictionary(\n                item =\u003E item.Trim().ToLowerInvariant(), // Normalize for case-insensitive comparison\n                item =\u003E CountOccurrences(item, strings) // Note: This logic is slightly flawed in the lambda above as it re-scans. \n                // Correct approach using GroupBy or a single pass accumulator:\n            );\n    }\n\n    // Refined version using GroupBy for efficiency and correctness\n    public static Dictionary\u003Cstring, int\u003E CountNonEmptyStrings(IEnumerable\u003Cstring?\u003E strings)\n    {\n        if (strings == null)\n        {\n            throw new ArgumentNullException(nameof(strings), \u0022The enumerable cannot be null.\u0022);\n        }\n\n        return strings\n            .Where(s =\u003E s != null \u0026\u0026 !string.IsNullOrEmpty(s))\n            .GroupBy(item =\u003E item.Trim().ToLowerInvariant()) // Case-insensitive grouping\n            .ToDictionary(group =\u003E group.Key, group =\u003E group.Count());\n    }\n\n    // Usage Example\n    public static void Main()\n    {\n        var input = new List\u003Cstring?\u003E\n        {\n            \u0022Hello\u0022,\n            \u0022HELLO\u0022,\n            \u0022  HELLO  \u0022,\n            null,\n            \u0022\u0022,\n            \u0022World\u0022,\n            \u0022world\u0022\n        };\n\n        var counts = CountNonEmptyStrings(input);\n\n        foreach (var kvp in counts)\n        {\n            Console.WriteLine($\u0022\u0027{kvp.Key}\u0027: {kvp.Value}\u0022);\n        }\n    }\n}\n\u0060\u0060\u0060",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:48:25 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "qwen2.5-coder:7b",
+        "model": "qwen2.5-coder:7b",
+        "size": 5152041860,
+        "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:23:20.98013\u002B03:30",
+        "size_vram": 4199263764,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "qwen2.5-coder:7b"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:48:32.3265319+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "qwen3.5:4b-q4_K_M",
+        "model": "qwen3.5:4b-q4_K_M",
+        "size": 3140495604,
+        "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "4.2B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:23:32.3254041\u002B03:30",
+        "size_vram": 3140495604,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 11130.5074,
+    "timeToFirstOutputMs": 4804.3648,
+    "timeToFirstAnswerMs": 4804.3648,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 11130130800,
+    "loadNs": 4590984000,
+    "promptEvalNs": 206737000,
+    "evalNs": 6327603000,
+    "promptTokens": 73,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 462,
+    "providerExcludingLoadMs": 6539.1468,
+    "generationTokensPerSecond": 73.01343020413891
+  }
+}

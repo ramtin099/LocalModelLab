@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "000002",
+  "model": "granite4:3b",
+  "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+  "caseId": "csharp-explanation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "420e432ab18ce1c1829f6c57eee17e4e69f43122342ea1353567e81332371525",
+  "profileFingerprint": "5a04de68f8e6f522ec05a020fd7fe4666db57589ec51bc53284d133043f3d7f2",
+  "warmup": false,
+  "repetition": 1,
+  "startedUtc": "2026-10-18T08:56:48.1899131+00:00",
+  "finishedUtc": "2026-10-18T08:56:48.8675797+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "The provided C# method \u0060Positive\u0060 is a generator method that takes an \u0060IEnumerable\u003Cint\u003E\u0060 parameter named \u0060source\u0060. It filters the \u0060source\u0060 enumerable to only yield positive integers.\n\nHere\u0027s how the method works:\n\n1. The method starts with a \u0060foreach\u0060 loop that iterates over each \u0060value\u0060 in",
+  "reasoning": null,
+  "completionReason": "length",
+  "outputTruncated": true,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Sun, 18 Oct 2026 08:56:48 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "metrics": {
+    "clientElapsedMs": 645.7179,
+    "timeToFirstOutputMs": 24.654,
+    "timeToFirstAnswerMs": 24.654,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 644691500,
+    "loadNs": 6603500,
+    "promptEvalNs": 10205000,
+    "evalNs": 622883000,
+    "promptTokens": 87,
+    "cachedPromptTokens": 86,
+    "generatedTokens": 64,
+    "providerExcludingLoadMs": 638.088,
+    "generationTokensPerSecond": 102.74802812085095
+  }
+}

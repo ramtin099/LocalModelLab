@@ -1,0 +1,22 @@
+{
+  "model": "gemma4:e2b-it-q4_K_M",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a C#/.NET technical assistant. Respond to the request directly."
+    },
+    {
+      "role": "user",
+      "content": "Explain what this C# method does, when enumeration occurs, and what happens if source is null. Do not execute code.\nstatic IEnumerable\u003Cint\u003E Positive(IEnumerable\u003Cint\u003E source)\n{\n    foreach (var value in source)\n        if (value \u003E 0) yield return value;\n}"
+    }
+  ],
+  "stream": true,
+  "keep_alive": "300s",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 512
+  },
+  "think": false
+}

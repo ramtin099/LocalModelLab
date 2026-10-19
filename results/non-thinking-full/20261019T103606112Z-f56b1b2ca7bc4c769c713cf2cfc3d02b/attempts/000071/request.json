@@ -1,0 +1,18 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Identify the bug and propose a minimal fix for this C# method. Explain the empty-array behavior. Do not execute code.\nstatic int Sum(int[] values)\n{\n    int total = 0;\n    for (int i = 0; i \u003C= values.Length; i\u002B\u002B) total \u002B= values[i];\n    return total;\n}"
+    }
+  ],
+  "stream": true,
+  "keep_alive": "300s",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 2048
+  },
+  "think": false
+}

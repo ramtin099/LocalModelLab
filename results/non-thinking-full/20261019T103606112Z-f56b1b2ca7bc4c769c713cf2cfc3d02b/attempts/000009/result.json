@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000009",
+  "model": "qwen2.5-coder:7b",
+  "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+  "caseId": "csharp-generation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": true,
+  "repetition": 1,
+  "startedUtc": "2026-10-19T10:37:44.7108281+00:00",
+  "finishedUtc": "2026-10-19T10:37:59.5954103+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "\u0060\u0060\u0060csharp\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class StringCounter\n{\n    public static Dictionary\u003Cstring, int\u003E CountNonEmptyStrings(IEnumerable\u003Cstring?\u003E enumerable)\n    {\n        if (enumerable == null)\n        {\n            throw new ArgumentNullException(nameof(enumerable));\n        }\n\n        return enumerable\n            .Where(s =\u003E !string.IsNullOrEmpty(s))\n            .GroupBy(s =\u003E s, StringComparer.OrdinalIgnoreCase)\n            .ToDictionary(g =\u003E g.Key, g =\u003E g.Count());\n    }\n}\n\n// Usage example:\npublic class Program\n{\n    public static void Main()\n    {\n        var strings = new List\u003Cstring?\u003E\n        {\n            \u0022apple\u0022, \u0022Banana\u0022, \u0022apple\u0022, \u0022orange\u0022, null, \u0022\u0022, \u0022Banana\u0022, \u0022APPLE\u0022\n        };\n\n        var result = StringCounter.CountNonEmptyStrings(strings);\n\n        foreach (var kvp in result)\n        {\n            Console.WriteLine($\u0022{kvp.Key}: {kvp.Value}\u0022);\n        }\n    }\n}\n\u0060\u0060\u0060\n\nThis code defines a \u0060StringCounter\u0060 class with a static method \u0060CountNonEmptyStrings\u0060 that takes an \u0060IEnumerable\u003Cstring?\u003E\u0060 and returns a \u0060Dictionary\u003Cstring, int\u003E\u0060 with the count of each nonempty string, ignoring case. The \u0060Main\u0060 method demonstrates how to use this method with a sample list of strings.",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:37:50 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "qwen3.5:4b-q4_K_M",
+        "model": "qwen3.5:4b-q4_K_M",
+        "size": 3140495604,
+        "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "4.2B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:12:44.6541037\u002B03:30",
+        "size_vram": 3140495604,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "qwen3.5:4b-q4_K_M"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:37:59.5646298+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "qwen2.5-coder:7b",
+        "model": "qwen2.5-coder:7b",
+        "size": 5152041860,
+        "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:12:59.5629118\u002B03:30",
+        "size_vram": 4199263764,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 14724.8559,
+    "timeToFirstOutputMs": 5545.0778,
+    "timeToFirstAnswerMs": 5545.0778,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 14724455100,
+    "loadNs": 5352516700,
+    "promptEvalNs": 172404000,
+    "evalNs": 9186935000,
+    "promptTokens": 90,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 267,
+    "providerExcludingLoadMs": 9371.9384,
+    "generationTokensPerSecond": 29.063011766165754
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000005",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+  "caseId": "csharp-bug-detection",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "67ba832698d8b41330037563ca1097ba60014630d8e1f7a4018948cc5501ccb3",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": true,
+  "repetition": 1,
+  "startedUtc": "2026-10-19T10:37:03.096793+00:00",
+  "finishedUtc": "2026-10-19T10:37:14.8376608+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "Here is the analysis of the provided C# method:\n\n## Bug Identification\n\nThe bug is an **\u0060IndexOutOfRangeException\u0060** that will occur when the input array \u0060values\u0060 is not empty.\n\nThe loop condition is \u0060i \u003C= values.Length\u0060. If an array has a length of $N$, the valid indices are $0$ through $N-1$. When $i$ reaches \u0060values.Length\u0060, the code attempts to access \u0060values[values.Length]\u0060, which is one index past the end of the array, causing an exception.\n\n## Minimal Fix\n\nThe loop condition must be changed to iterate only up to, but not including, the length of the array.\n\n**Proposed Fix:**\n\n\u0060\u0060\u0060csharp\nstatic int Sum(int[] values)\n{\n    int total = 0;\n    for (int i = 0; i \u003C values.Length; i\u002B\u002B) total \u002B= values[i];\n    return total;\n}\n\u0060\u0060\u0060\n\n## Explanation of Empty-Array Behavior\n\nThe original code handles an empty array (\u0060values.Length\u0060 is 0) in a specific way:\n\n1. **Initialization:** \u0060total\u0060 is initialized to \u00600\u0060.\n2. **Loop Condition:** The loop runs as long as $i \\le 0$.\n3. **First Iteration:** When $i=0$, the condition $0 \\le 0$ is true. The code attempts to execute \u0060total \u002B= values[0]\u0060.\n4. **Result:** Since an empty array has no index 0, this will immediately throw an **\u0060IndexOutOfRangeException\u0060**.\n\n**In summary:** The original code fails immediately on an empty array because the loop condition allows the index $i=0$ to be accessed, which is invalid for an array of length zero.\n\n*(Note: The proposed fix handles the empty array correctly. If \u0060values.Length\u0060 is 0, the loop condition $i \u003C 0$ is immediately false, and the method correctly returns \u0060total = 0\u0060.)*",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:37:12 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "granite4:3b",
+        "model": "granite4:3b",
+        "size": 2506987928,
+        "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "granite",
+          "families": [
+            "granite"
+          ],
+          "parameter_size": "3.4B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:12:03.0429259\u002B03:30",
+        "size_vram": 2506987928,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "granite4:3b"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:37:14.8133466+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "gemma4:e2b-it-q4_K_M",
+        "model": "gemma4:e2b-it-q4_K_M",
+        "size": 330783784,
+        "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:12:14.8109218\u002B03:30",
+        "size_vram": 330783784,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 11615.1602,
+    "timeToFirstOutputMs": 9143.052,
+    "timeToFirstAnswerMs": 9143.052,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 11614559000,
+    "loadNs": 8731987800,
+    "promptEvalNs": 400855000,
+    "evalNs": 2473665000,
+    "promptTokens": 85,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 424,
+    "providerExcludingLoadMs": 2882.5712,
+    "generationTokensPerSecond": 171.40558644763942
+  }
+}

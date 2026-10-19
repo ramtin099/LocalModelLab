@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000019",
+  "model": "qwen2.5-coder:7b",
+  "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+  "caseId": "csharp-explanation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "420e432ab18ce1c1829f6c57eee17e4e69f43122342ea1353567e81332371525",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": false,
+  "repetition": 1,
+  "startedUtc": "2026-10-19T10:40:14.3885921+00:00",
+  "finishedUtc": "2026-10-19T10:40:32.0606394+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "This C# method, \u0060Positive\u0060, is designed to filter and return only the positive integers from a given \u0060IEnumerable\u003Cint\u003E\u0060 source. Here\u0027s a breakdown of its behavior:\n\n1. **Method Signature**: The method is static and returns an \u0060IEnumerable\u003Cint\u003E\u0060, which means it will yield a sequence of integers.\n\n2. **Parameter**: It takes a single parameter, \u0060source\u0060, which is also an \u0060IEnumerable\u003Cint\u003E\u0060. This parameter represents the collection of integers to be filtered.\n\n3. **Enumeration**: The method uses a \u0060foreach\u0060 loop to iterate over each element in the \u0060source\u0060 collection. For each element, it checks if the value is greater than 0.\n\n4. **Yield Return**: If the value is greater than 0, the method uses the \u0060yield return\u0060 statement to include that value in the sequence of results. This allows the method to return one value at a time, rather than all at once, which is memory efficient.\n\n5. **Null Source Handling**: If the \u0060source\u0060 parameter is \u0060null\u0060, the method will throw a \u0060NullReferenceException\u0060 when it attempts to enumerate over the \u0060source\u0060. This is because calling \u0060foreach\u0060 on a \u0060null\u0060 object is not allowed in C#.\n\nIn summary, the \u0060Positive\u0060 method filters out non-positive integers from a collection and returns an enumerable sequence of the positive integers. If the input collection is \u0060null\u0060, the method will throw an exception.",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:40:21 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "gemma4:e2b-it-q4_K_M",
+        "model": "gemma4:e2b-it-q4_K_M",
+        "size": 330783784,
+        "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:15:14.3171613\u002B03:30",
+        "size_vram": 330783784,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "gemma4:e2b-it-q4_K_M"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:40:32.0267403+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "qwen2.5-coder:7b",
+        "model": "qwen2.5-coder:7b",
+        "size": 5152041860,
+        "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:15:32.0249496\u002B03:30",
+        "size_vram": 4199263764,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 17308.1375,
+    "timeToFirstOutputMs": 6344.2112,
+    "timeToFirstAnswerMs": 6344.2112,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 17307651700,
+    "loadNs": 6140239000,
+    "promptEvalNs": 193266000,
+    "evalNs": 10967158000,
+    "promptTokens": 87,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 294,
+    "providerExcludingLoadMs": 11167.4127,
+    "generationTokensPerSecond": 26.807309605642594
+  }
+}

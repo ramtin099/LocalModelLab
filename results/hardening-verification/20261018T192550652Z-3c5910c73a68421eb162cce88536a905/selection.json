@@ -1,0 +1,8 @@
+{
+  "suiteId": "initial",
+  "profileId": "comparison",
+  "modelNames": [
+    "small:latest"
+  ],
+  "endpoint": "http://localhost:11434/"
+}

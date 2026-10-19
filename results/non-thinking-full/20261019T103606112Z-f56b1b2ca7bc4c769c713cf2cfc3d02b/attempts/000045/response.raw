@@ -1,0 +1,1351 @@
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.6945419Z","message":{"role":"assistant","content":"در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.7067419Z","message":{"role":"assistant","content":" زبان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.727614Z","message":{"role":"assistant","content":" **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.737775Z","message":{"role":"assistant","content":"C"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.7479575Z","message":{"role":"assistant","content":"#"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.7683665Z","message":{"role":"assistant","content":"**،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.7861825Z","message":{"role":"assistant","content":" مف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.7998227Z","message":{"role":"assistant","content":"اه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.8142938Z","message":{"role":"assistant","content":"یم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.8284326Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.8416408Z","message":{"role":"assistant","content":"async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.8516899Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.861712Z","message":{"role":"assistant","content":"/"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.88226Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.8983504Z","message":{"role":"assistant","content":"await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.91172Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.9218344Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.9320285Z","message":{"role":"assistant","content":" **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.9518168Z","message":{"role":"assistant","content":"اج"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.9680372Z","message":{"role":"assistant","content":"رای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.9720212Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:41.9918536Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.0046812Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.0224078Z","message":{"role":"assistant","content":"Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.0358355Z","message":{"role":"assistant","content":"ism"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.0517547Z","message":{"role":"assistant","content":")**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.0614695Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.0776842Z","message":{"role":"assistant","content":" **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.0921064Z","message":{"role":"assistant","content":"C"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1021429Z","message":{"role":"assistant","content":"ancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1190461Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1319094Z","message":{"role":"assistant","content":" تفاوت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1420301Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1521002Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1750961Z","message":{"role":"assistant","content":" بن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1884647Z","message":{"role":"assistant","content":"ی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.1987691Z","message":{"role":"assistant","content":"ادی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.2089117Z","message":{"role":"assistant","content":" دارند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.2305755Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.2399543Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.250309Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.2708135Z","message":{"role":"assistant","content":" آن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.2812677Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.2919016Z","message":{"role":"assistant","content":"ها"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.3119699Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.3241905Z","message":{"role":"assistant","content":" مدیریت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.3380859Z","message":{"role":"assistant","content":" صح"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.3530982Z","message":{"role":"assistant","content":"یح"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.3631268Z","message":{"role":"assistant","content":" برنامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.3732178Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.3937434Z","message":{"role":"assistant","content":"ن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.4082607Z","message":{"role":"assistant","content":"وی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.4227367Z","message":{"role":"assistant","content":"سی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.4371876Z","message":{"role":"assistant","content":" حی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.450491Z","message":{"role":"assistant","content":"اتی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.46159Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.471698Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.5024223Z","message":{"role":"assistant","content":"\n\n###"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.5419015Z","message":{"role":"assistant","content":" ۱"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.5608081Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.5713578Z","message":{"role":"assistant","content":" تفاوت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.5915923Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6017998Z","message":{"role":"assistant","content":"async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6119937Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6281103Z","message":{"role":"assistant","content":"/"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6382536Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6551743Z","message":{"role":"assistant","content":"await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6687399Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6841819Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.6974035Z","message":{"role":"assistant","content":" اجرای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.7084571Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.7197628Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.7443558Z","message":{"role":"assistant","content":"\n\n*"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.7750599Z","message":{"role":"assistant","content":"   **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.7937272Z","message":{"role":"assistant","content":"اج"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.806156Z","message":{"role":"assistant","content":"رای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.8208539Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.83172Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.8483407Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.861255Z","message":{"role":"assistant","content":"Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.8712931Z","message":{"role":"assistant","content":"ism"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.8819828Z","message":{"role":"assistant","content":"):**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.9321072Z","message":{"role":"assistant","content":"\n    در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.9466583Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.9522312Z","message":{"role":"assistant","content":" حالت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.9728496Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.9828987Z","message":{"role":"assistant","content":" ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:42.9994198Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.0135919Z","message":{"role":"assistant","content":" روی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.0238049Z","message":{"role":"assistant","content":" چند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.037821Z","message":{"role":"assistant","content":"ین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.0515501Z","message":{"role":"assistant","content":" هست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.0621377Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.0724083Z","message":{"role":"assistant","content":" پرداز"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.0958552Z","message":{"role":"assistant","content":"نده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.1060171Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.1198031Z","message":{"role":"assistant","content":"Core"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.1389251Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.1467229Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.1674491Z","message":{"role":"assistant","content":" صورت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.1724969Z","message":{"role":"assistant","content":" هم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.1930005Z","message":{"role":"assistant","content":"زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.2051289Z","message":{"role":"assistant","content":" اجرا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.2199163Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.2359014Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.2494711Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.2628937Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.2760098Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.2860199Z","message":{"role":"assistant","content":" اگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.296075Z","message":{"role":"assistant","content":" یک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.3164025Z","message":{"role":"assistant","content":" ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.3264624Z","message":{"role":"assistant","content":"ار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.3466573Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.3567575Z","message":{"role":"assistant","content":"ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.3738719Z","message":{"role":"assistant","content":" عمل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.3872316Z","message":{"role":"assistant","content":"یات"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.3975393Z","message":{"role":"assistant","content":" طول"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.4150364Z","message":{"role":"assistant","content":"انی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.4304441Z","message":{"role":"assistant","content":" باشد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.4429206Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.4514617Z","message":{"role":"assistant","content":"مث"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.461634Z","message":{"role":"assistant","content":"لاً"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.4853048Z","message":{"role":"assistant","content":" پرداز"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.4918446Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.5125319Z","message":{"role":"assistant","content":" سنگ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.520508Z","message":{"role":"assistant","content":"ین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.5388152Z","message":{"role":"assistant","content":" ری"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.5493923Z","message":{"role":"assistant","content":"اض"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.5589689Z","message":{"role":"assistant","content":"ی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.5792867Z","message":{"role":"assistant","content":")،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.589594Z","message":{"role":"assistant","content":" زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.5998291Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.6217398Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.6383305Z","message":{"role":"assistant","content":" تمام"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.6483958Z","message":{"role":"assistant","content":" شدن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.6586132Z","message":{"role":"assistant","content":" آن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.6787275Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.6947513Z","message":{"role":"assistant","content":" بین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.7026782Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.7196448Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.7344556Z","message":{"role":"assistant","content":"ر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.747847Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.7578558Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.7678784Z","message":{"role":"assistant","content":" CPU"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.790554Z","message":{"role":"assistant","content":"ها"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.8051028Z","message":{"role":"assistant","content":" کار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.8194427Z","message":{"role":"assistant","content":" دیگری"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.8315081Z","message":{"role":"assistant","content":" انجام"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.8474017Z","message":{"role":"assistant","content":" نمی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.861665Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.8717392Z","message":{"role":"assistant","content":"ده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.8877226Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.902408Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.912485Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.9226622Z","message":{"role":"assistant","content":" روش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.9430434Z","message":{"role":"assistant","content":" معمول"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.9532183Z","message":{"role":"assistant","content":"اً"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.963246Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.9831709Z","message":{"role":"assistant","content":" استفاده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:43.9932461Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.0136906Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.0237309Z","message":{"role":"assistant","content":"Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.0337618Z","message":{"role":"assistant","content":".Run"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.0547732Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.0648599Z","message":{"role":"assistant","content":" یا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.0749147Z","message":{"role":"assistant","content":" کتاب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.0956361Z","message":{"role":"assistant","content":"خانه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.1062413Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.1208018Z","message":{"role":"assistant","content":"Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.1385618Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.1544939Z","message":{"role":"assistant","content":" پی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.166974Z","message":{"role":"assistant","content":"اده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.1836111Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.1965211Z","message":{"role":"assistant","content":"سازی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.2014164Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.2209618Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.2311585Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.2519122Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.2645737Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.2885545Z","message":{"role":"assistant","content":"\n\n*"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.3209014Z","message":{"role":"assistant","content":"   **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.334083Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.3486026Z","message":{"role":"assistant","content":"async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.3625627Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.3690185Z","message":{"role":"assistant","content":"/"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.3896069Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.400153Z","message":{"role":"assistant","content":"await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.4180718Z","message":{"role":"assistant","content":"`:"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.4351114Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.4720681Z","message":{"role":"assistant","content":"\n    این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.4918796Z","message":{"role":"assistant","content":" ال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5020936Z","message":{"role":"assistant","content":"گو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5142028Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5283275Z","message":{"role":"assistant","content":" جای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5385898Z","message":{"role":"assistant","content":" \""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5597291Z","message":{"role":"assistant","content":"اج"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5742191Z","message":{"role":"assistant","content":"رای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5889854Z","message":{"role":"assistant","content":" هم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.5990138Z","message":{"role":"assistant","content":"زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.6090402Z","message":{"role":"assistant","content":"\"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.629744Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.6398404Z","message":{"role":"assistant","content":" **\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.659239Z","message":{"role":"assistant","content":"ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.669884Z","message":{"role":"assistant","content":"وقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.6871347Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.7030664Z","message":{"role":"assistant","content":" ادامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.7169201Z","message":{"role":"assistant","content":"\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.725185Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.7415457Z","message":{"role":"assistant","content":"Co"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.7518414Z","message":{"role":"assistant","content":"operative"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.7622174Z","message":{"role":"assistant","content":" Mult"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.7824747Z","message":{"role":"assistant","content":"it"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.7983181Z","message":{"role":"assistant","content":"asking"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.8129865Z","message":{"role":"assistant","content":")**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.8267508Z","message":{"role":"assistant","content":" استفاده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.8410267Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.8525641Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.8622504Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.8815284Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.8917323Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9081509Z","message":{"role":"assistant","content":" وقتی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9216937Z","message":{"role":"assistant","content":" یک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9319702Z","message":{"role":"assistant","content":" تابع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9483832Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9660823Z","message":{"role":"assistant","content":"async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9790314Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9890979Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:44.9991006Z","message":{"role":"assistant","content":" نقط"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.0197534Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.0355542Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.0399251Z","message":{"role":"assistant","content":"ای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.0599822Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.0701078Z","message":{"role":"assistant","content":" منت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.0904903Z","message":{"role":"assistant","content":"ظر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1005797Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1106024Z","message":{"role":"assistant","content":" شبکه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1312208Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1444863Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1585776Z","message":{"role":"assistant","content":"مث"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1721777Z","message":{"role":"assistant","content":"لاً"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1823926Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.1925015Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.21617Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.2277004Z","message":{"role":"assistant","content":" مت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.244214Z","message":{"role":"assistant","content":"وقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.2589689Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.2721489Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.2784683Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.2991196Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.3138548Z","message":{"role":"assistant","content":" (`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.3285289Z","message":{"role":"assistant","content":"await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.3404172Z","message":{"role":"assistant","content":"`)"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.3551758Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.3653718Z","message":{"role":"assistant","content":" فر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.3755663Z","message":{"role":"assistant","content":"آ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.3951815Z","message":{"role":"assistant","content":"ین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.4101759Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.4244405Z","message":{"role":"assistant","content":" اصلی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.4384545Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.4517593Z","message":{"role":"assistant","content":"Thread"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.4619265Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.4751823Z","message":{"role":"assistant","content":" **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.4921612Z","message":{"role":"assistant","content":"ن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.5022076Z","message":{"role":"assistant","content":"می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.5157998Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.5351265Z","message":{"role":"assistant","content":"ب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.5476983Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.5624222Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.5758071Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.589584Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.5997241Z","message":{"role":"assistant","content":" اجازه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.6099265Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.6306459Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.6454456Z","message":{"role":"assistant","content":"ده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.6509538Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.6718384Z","message":{"role":"assistant","content":" سیستم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.682322Z","message":{"role":"assistant","content":" عامل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.6926277Z","message":{"role":"assistant","content":" یا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.7123265Z","message":{"role":"assistant","content":" هست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.7304106Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.7425975Z","message":{"role":"assistant","content":" پرداز"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.7526368Z","message":{"role":"assistant","content":"نده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.7701055Z","message":{"role":"assistant","content":" کار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.7840946Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.8000066Z","message":{"role":"assistant","content":" دیگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.8138064Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.8267194Z","message":{"role":"assistant","content":" انجام"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.8347596Z","message":{"role":"assistant","content":" دهد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.8550615Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.9053502Z","message":{"role":"assistant","content":"\n    \n    **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.9250388Z","message":{"role":"assistant","content":"ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.9351245Z","message":{"role":"assistant","content":"فاوت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.9493775Z","message":{"role":"assistant","content":" کل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.9596344Z","message":{"role":"assistant","content":"یدی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.9721292Z","message":{"role":"assistant","content":":**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:45.9908198Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.0073851Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.0220197Z","message":{"role":"assistant","content":"async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.0316026Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.0417896Z","message":{"role":"assistant","content":"/"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.0614573Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.072668Z","message":{"role":"assistant","content":"await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.0889133Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.0989703Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.1090224Z","message":{"role":"assistant","content":" ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.1294156Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.1394249Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.1596997Z","message":{"role":"assistant","content":" صورت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.1697478Z","message":{"role":"assistant","content":" ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.1887076Z","message":{"role":"assistant","content":"وال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2003009Z","message":{"role":"assistant","content":"ی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2104576Z","message":{"role":"assistant","content":" خط"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2285684Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2381238Z","message":{"role":"assistant","content":"به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2521775Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2705151Z","message":{"role":"assistant","content":"خط"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2826942Z","message":{"role":"assistant","content":" نوشته"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.2929121Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.3136646Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.3236804Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.3414656Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.3524858Z","message":{"role":"assistant","content":" اما"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.3673951Z","message":{"role":"assistant","content":" اجرا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.3826997Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.3929814Z","message":{"role":"assistant","content":" صورت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.4111266Z","message":{"role":"assistant","content":" غیر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.4251922Z","message":{"role":"assistant","content":"هم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.4384094Z","message":{"role":"assistant","content":"زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.4532786Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.4614963Z","message":{"role":"assistant","content":"Non"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.4716651Z","message":{"role":"assistant","content":"-blocking"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.4936175Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5016533Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5224138Z","message":{"role":"assistant","content":"؛"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5319775Z","message":{"role":"assistant","content":" یعنی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5481275Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5616347Z","message":{"role":"assistant","content":" ارسال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5684256Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5892951Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.5995148Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.6095633Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.6302884Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.6404305Z","message":{"role":"assistant","content":" تابع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.6539208Z","message":{"role":"assistant","content":" بلا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.6712Z","message":{"role":"assistant","content":"فا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.6853249Z","message":{"role":"assistant","content":"صل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.6953824Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.712974Z","message":{"role":"assistant","content":" ادامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.7209823Z","message":{"role":"assistant","content":" پیدا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.741676Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.7554681Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.7695868Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.779668Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.7970374Z","message":{"role":"assistant","content":" تا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.8124154Z","message":{"role":"assistant","content":" زمانی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.8261918Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.8318317Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.8528589Z","message":{"role":"assistant","content":" برگ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.859604Z","message":{"role":"assistant","content":"ردد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.8801855Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.8902679Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.9007201Z","message":{"role":"assistant","content":" مقابل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.9211286Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.9312924Z","message":{"role":"assistant","content":" اجرای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.9417949Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.9622895Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.9727277Z","message":{"role":"assistant","content":" چند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:46.9888558Z","message":{"role":"assistant","content":"ین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.0039292Z","message":{"role":"assistant","content":" ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.0142552Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.0336972Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.0475401Z","message":{"role":"assistant","content":" هم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.0583814Z","message":{"role":"assistant","content":"زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.0685975Z","message":{"role":"assistant","content":" روی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.0892333Z","message":{"role":"assistant","content":" هست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.1035597Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.1097579Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.1312028Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.140776Z","message":{"role":"assistant","content":" مختلف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.1588179Z","message":{"role":"assistant","content":" پ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.1715604Z","message":{"role":"assistant","content":"خش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.1871258Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.2013219Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.212347Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.2290014Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.2432175Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.2710409Z","message":{"role":"assistant","content":"\n\n####"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.2852747Z","message":{"role":"assistant","content":" مثال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.2922026Z","message":{"role":"assistant","content":" کوتاه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.31193Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.327479Z","message":{"role":"assistant","content":" C"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.3429523Z","message":{"role":"assistant","content":"#"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.3568744Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.3651785Z","message":{"role":"assistant","content":"ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.3825854Z","message":{"role":"assistant","content":"فاوت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.3949747Z","message":{"role":"assistant","content":" async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.4119115Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.4263138Z","message":{"role":"assistant","content":" Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.439431Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.4683223Z","message":{"role":"assistant","content":"\n\n```"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.478445Z","message":{"role":"assistant","content":"c"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.4928539Z","message":{"role":"assistant","content":"sharp"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.5202677Z","message":{"role":"assistant","content":"\nusing"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.5290944Z","message":{"role":"assistant","content":" System"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.5516095Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.5696394Z","message":{"role":"assistant","content":"\nusing"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.5895713Z","message":{"role":"assistant","content":" System"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.6058184Z","message":{"role":"assistant","content":".Threading"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.6207213Z","message":{"role":"assistant","content":".Tasks"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.6301474Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.6637184Z","message":{"role":"assistant","content":"\n\nclass"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.6727068Z","message":{"role":"assistant","content":" Program"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.7035714Z","message":{"role":"assistant","content":"\n{"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.7402066Z","message":{"role":"assistant","content":"\n    static"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.7569805Z","message":{"role":"assistant","content":" async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.7704349Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.7845907Z","message":{"role":"assistant","content":" Main"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.7994041Z","message":{"role":"assistant","content":"()"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.8445141Z","message":{"role":"assistant","content":"\n    {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.8903681Z","message":{"role":"assistant","content":"\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.9047456Z","message":{"role":"assistant","content":" سن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.9197359Z","message":{"role":"assistant","content":"اری"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.9297492Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.9492673Z","message":{"role":"assistant","content":":"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.9639334Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.9763333Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:47.9864086Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.0059172Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.0282282Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.0371302Z","message":{"role":"assistant","content":"که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.0557754Z","message":{"role":"assistant","content":" بلا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.0664695Z","message":{"role":"assistant","content":"فا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.0831226Z","message":{"role":"assistant","content":"صل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.0963869Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.1022494Z","message":{"role":"assistant","content":" بر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.1242414Z","message":{"role":"assistant","content":"می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.1324683Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.1428944Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.1625814Z","message":{"role":"assistant","content":"ردد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.1726943Z","message":{"role":"assistant","content":" اما"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.1930214Z","message":{"role":"assistant","content":" شب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.203236Z","message":{"role":"assistant","content":"یه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.2188771Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.233566Z","message":{"role":"assistant","content":"سازی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.2436267Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.2603371Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.2714471Z","message":{"role":"assistant","content":"کن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.2814786Z","message":{"role":"assistant","content":"یم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.3021563Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.3523771Z","message":{"role":"assistant","content":"\n        \n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.3727508Z","message":{"role":"assistant","content":" روش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.3987652Z","message":{"role":"assistant","content":" 1"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.4152801Z","message":{"role":"assistant","content":":"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.4285052Z","message":{"role":"assistant","content":" استفاده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.4430507Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.4515342Z","message":{"role":"assistant","content":" async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.4616473Z","message":{"role":"assistant","content":"/"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.4821324Z","message":{"role":"assistant","content":"await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.4982021Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.5083471Z","message":{"role":"assistant","content":"ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.5223992Z","message":{"role":"assistant","content":"وقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.5391133Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.5491864Z","message":{"role":"assistant","content":" ادامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.5660956Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.6092029Z","message":{"role":"assistant","content":"\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.6192522Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.6299642Z","message":{"role":"assistant","content":" ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.6501383Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.6602046Z","message":{"role":"assistant","content":" فقط"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.6769718Z","message":{"role":"assistant","content":" یک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.6918281Z","message":{"role":"assistant","content":" Thread"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.7049824Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.7110876Z","message":{"role":"assistant","content":" اش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.7309868Z","message":{"role":"assistant","content":"غال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.748424Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.762744Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.776234Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.7882002Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.8041608Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.81716Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.8318674Z","message":{"role":"assistant","content":" ح"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.8411941Z","message":{"role":"assistant","content":"ین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.8513568Z","message":{"role":"assistant","content":" await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.8725856Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.8878181Z","message":{"role":"assistant","content":" Thread"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.900147Z","message":{"role":"assistant","content":" آزاد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.9163003Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.9301451Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.9708433Z","message":{"role":"assistant","content":"\n        var"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.9778701Z","message":{"role":"assistant","content":" task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:48.9961289Z","message":{"role":"assistant","content":"Async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.0062282Z","message":{"role":"assistant","content":" ="},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.0284508Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.0369969Z","message":{"role":"assistant","content":".Run"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.0540681Z","message":{"role":"assistant","content":"(()"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.0681665Z","message":{"role":"assistant","content":" =\u003e"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.1070938Z","message":{"role":"assistant","content":" \n        {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.145907Z","message":{"role":"assistant","content":"\n            Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.1665656Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.1765797Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.1918449Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.2077726Z","message":{"role":"assistant","content":"روع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.2173827Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.2378916Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.2480632Z","message":{"role":"assistant","content":"..."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.2582617Z","message":{"role":"assistant","content":"\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.305461Z","message":{"role":"assistant","content":"\n            //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.3156475Z","message":{"role":"assistant","content":" شب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.3325653Z","message":{"role":"assistant","content":"یه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.3479779Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.3562786Z","message":{"role":"assistant","content":"سازی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.3663594Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.3863605Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.3965349Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.417104Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.4314049Z","message":{"role":"assistant","content":"مث"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.4471806Z","message":{"role":"assistant","content":"لاً"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.4753056Z","message":{"role":"assistant","content":" 2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.4869199Z","message":{"role":"assistant","content":" ثان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.5017363Z","message":{"role":"assistant","content":"یه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.5173604Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.54973Z","message":{"role":"assistant","content":"\n            await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.5738193Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.5876765Z","message":{"role":"assistant","content":".Delay"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.6003632Z","message":{"role":"assistant","content":"("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.6168339Z","message":{"role":"assistant","content":"2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.6311271Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.6452859Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.659389Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.6709838Z","message":{"role":"assistant","content":");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.714889Z","message":{"role":"assistant","content":" \n            Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.7251022Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.7357435Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.7562012Z","message":{"role":"assistant","content":"پ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.7683101Z","message":{"role":"assistant","content":"اس"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.7762365Z","message":{"role":"assistant","content":"خ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.7968545Z","message":{"role":"assistant","content":" دریافت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.8113033Z","message":{"role":"assistant","content":" شد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.82519Z","message":{"role":"assistant","content":".\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.8647924Z","message":{"role":"assistant","content":"\n        });"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.9029402Z","message":{"role":"assistant","content":"\n\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.9153413Z","message":{"role":"assistant","content":" اینجا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.9334938Z","message":{"role":"assistant","content":" برنامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.9437945Z","message":{"role":"assistant","content":" بلا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.9543742Z","message":{"role":"assistant","content":"فا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.9770243Z","message":{"role":"assistant","content":"صل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:49.990929Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.0060556Z","message":{"role":"assistant","content":" ادامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.0156592Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.0325629Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.0464931Z","message":{"role":"assistant","content":"ده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.0621742Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.068385Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.0886865Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.0985249Z","message":{"role":"assistant","content":" حالی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.1160424Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.1294512Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.1384759Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.1590957Z","message":{"role":"assistant","content":" حال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.1693342Z","message":{"role":"assistant","content":" پرداز"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.1793709Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.1997447Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.2098851Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.2545901Z","message":{"role":"assistant","content":"\n        Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.2606155Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.282405Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.2972456Z","message":{"role":"assistant","content":"در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.3096309Z","message":{"role":"assistant","content":" حال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.3240508Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.3380069Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.3502527Z","message":{"role":"assistant","content":"..."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.3603453Z","message":{"role":"assistant","content":"\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.4019829Z","message":{"role":"assistant","content":" \n        \n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.4250655Z","message":{"role":"assistant","content":" روش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.4504941Z","message":{"role":"assistant","content":" 2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.4620338Z","message":{"role":"assistant","content":":"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.4722056Z","message":{"role":"assistant","content":" استفاده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.4822457Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.5053125Z","message":{"role":"assistant","content":" Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.5196877Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.5327957Z","message":{"role":"assistant","content":"اج"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.5436249Z","message":{"role":"assistant","content":"رای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.5604394Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.5705036Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.5906771Z","message":{"role":"assistant","content":" واقعی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.6008751Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.6467327Z","message":{"role":"assistant","content":"\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.6567451Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.6668318Z","message":{"role":"assistant","content":" ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.6869244Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.6970112Z","message":{"role":"assistant","content":" سعی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.7089814Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.7290487Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.7423444Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.7494233Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.7696423Z","message":{"role":"assistant","content":" کار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.7798245Z","message":{"role":"assistant","content":"ها"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.7995974Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.8134046Z","message":{"role":"assistant","content":" روی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.826792Z","message":{"role":"assistant","content":" هست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.841674Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.8517043Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.8637392Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.8821508Z","message":{"role":"assistant","content":" مختلف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.8923132Z","message":{"role":"assistant","content":" CPU"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.9118053Z","message":{"role":"assistant","content":" انجام"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.9217977Z","message":{"role":"assistant","content":" دهد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.9339795Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.9723624Z","message":{"role":"assistant","content":"\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:50.9920995Z","message":{"role":"assistant","content":" اگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.0022052Z","message":{"role":"assistant","content":" دو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.0126334Z","message":{"role":"assistant","content":" تا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.0357512Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.0531219Z","message":{"role":"assistant","content":" Run"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.0662225Z","message":{"role":"assistant","content":" داشته"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.0762695Z","message":{"role":"assistant","content":" باشیم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.0946836Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.1085097Z","message":{"role":"assistant","content":" هر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.1207264Z","message":{"role":"assistant","content":" دو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.1338717Z","message":{"role":"assistant","content":" هم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.1470944Z","message":{"role":"assistant","content":"زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.157243Z","message":{"role":"assistant","content":" اجرا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.1777843Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.1908483Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.1979691Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.218997Z","message":{"role":"assistant","content":"وند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.2341192Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.2709389Z","message":{"role":"assistant","content":"\n        var"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.2814265Z","message":{"role":"assistant","content":" task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.3034659Z","message":{"role":"assistant","content":"Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.3082195Z","message":{"role":"assistant","content":" ="},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.3282028Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.3434084Z","message":{"role":"assistant","content":".Run"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.3587988Z","message":{"role":"assistant","content":"(()"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.3730216Z","message":{"role":"assistant","content":" =\u003e"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.414158Z","message":{"role":"assistant","content":" \n        {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.4514113Z","message":{"role":"assistant","content":"\n            Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.4694763Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.4812852Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.4915105Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.5024329Z","message":{"role":"assistant","content":"روع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.5247354Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.5384886Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.5486333Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.5590023Z","message":{"role":"assistant","content":"..."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.5839224Z","message":{"role":"assistant","content":"\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.6279032Z","message":{"role":"assistant","content":"\n            await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.6438464Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.6540351Z","message":{"role":"assistant","content":".Delay"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.6710176Z","message":{"role":"assistant","content":"("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.6850096Z","message":{"role":"assistant","content":"2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.6953974Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.7057256Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.7263838Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.7368512Z","message":{"role":"assistant","content":");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.7773153Z","message":{"role":"assistant","content":"\n            Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.796578Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.810007Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.8239351Z","message":{"role":"assistant","content":"پ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.8351087Z","message":{"role":"assistant","content":"اس"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.8415003Z","message":{"role":"assistant","content":"خ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.8618776Z","message":{"role":"assistant","content":" دریافت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.872024Z","message":{"role":"assistant","content":" شد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.8945233Z","message":{"role":"assistant","content":".\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.935357Z","message":{"role":"assistant","content":"\n        });"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.9727637Z","message":{"role":"assistant","content":"\n\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.9891511Z","message":{"role":"assistant","content":" اگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:51.9994065Z","message":{"role":"assistant","content":" اینجا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.0196286Z","message":{"role":"assistant","content":" دو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.0298002Z","message":{"role":"assistant","content":" تا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.0399321Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.0618123Z","message":{"role":"assistant","content":" Run"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.073595Z","message":{"role":"assistant","content":" داشته"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.0886111Z","message":{"role":"assistant","content":" باشیم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.1029767Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.1083324Z","message":{"role":"assistant","content":" هر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.1287757Z","message":{"role":"assistant","content":" دو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.1432037Z","message":{"role":"assistant","content":" هم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.1490231Z","message":{"role":"assistant","content":"زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.1691126Z","message":{"role":"assistant","content":" اجرا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.1792175Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.199944Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.2100764Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.220494Z","message":{"role":"assistant","content":"وند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.2359901Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.2788104Z","message":{"role":"assistant","content":"\n        var"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.2925903Z","message":{"role":"assistant","content":" task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.3031365Z","message":{"role":"assistant","content":"Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.3214393Z","message":{"role":"assistant","content":"2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.3358215Z","message":{"role":"assistant","content":" ="},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.351176Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.3620534Z","message":{"role":"assistant","content":".Run"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.3721528Z","message":{"role":"assistant","content":"(()"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.3825469Z","message":{"role":"assistant","content":" =\u003e"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.4389006Z","message":{"role":"assistant","content":" \n        {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.4808093Z","message":{"role":"assistant","content":"\n            Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.4908311Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5010017Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5218401Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5361228Z","message":{"role":"assistant","content":"روع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5483172Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5583389Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5693998Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5887271Z","message":{"role":"assistant","content":" دوم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.5988725Z","message":{"role":"assistant","content":"..."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.6094084Z","message":{"role":"assistant","content":"\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.6611708Z","message":{"role":"assistant","content":"\n            await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.6732745Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.6853071Z","message":{"role":"assistant","content":".Delay"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.7039509Z","message":{"role":"assistant","content":"("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.7164582Z","message":{"role":"assistant","content":"2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.7286896Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.7463675Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.7548059Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.7752369Z","message":{"role":"assistant","content":");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.819426Z","message":{"role":"assistant","content":"\n            Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.8341734Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.8415025Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.8617586Z","message":{"role":"assistant","content":"پ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.8755094Z","message":{"role":"assistant","content":"اس"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.8885627Z","message":{"role":"assistant","content":"خ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.9017757Z","message":{"role":"assistant","content":" دریافت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.9115329Z","message":{"role":"assistant","content":" شد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.9319548Z","message":{"role":"assistant","content":".\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:52.9731107Z","message":{"role":"assistant","content":"\n        });"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.0136248Z","message":{"role":"assistant","content":"\n\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.0237493Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.0439889Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.0539957Z","message":{"role":"assistant","content":" تمام"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.0640595Z","message":{"role":"assistant","content":" شدن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.083831Z","message":{"role":"assistant","content":" هر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.0979838Z","message":{"role":"assistant","content":" دو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.1368833Z","message":{"role":"assistant","content":"\n        await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.1548061Z","message":{"role":"assistant","content":" task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.1667882Z","message":{"role":"assistant","content":"Async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.176276Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.2162131Z","message":{"role":"assistant","content":"\n        await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.237029Z","message":{"role":"assistant","content":" task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.2461493Z","message":{"role":"assistant","content":"Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.2664458Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.306684Z","message":{"role":"assistant","content":"\n        await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.3167637Z","message":{"role":"assistant","content":" task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.3336033Z","message":{"role":"assistant","content":"Parallel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.346601Z","message":{"role":"assistant","content":"2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.3597408Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.3968193Z","message":{"role":"assistant","content":"\n    }"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.4299788Z","message":{"role":"assistant","content":"\n}"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.4514545Z","message":{"role":"assistant","content":"\n```"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.4819977Z","message":{"role":"assistant","content":"\n\n###"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.5255657Z","message":{"role":"assistant","content":" ۲"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.5384485Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.5512814Z","message":{"role":"assistant","content":" استفاده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.5613249Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.576796Z","message":{"role":"assistant","content":" CancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.592211Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.6023969Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.6225999Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.6331752Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.6427085Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.672848Z","message":{"role":"assistant","content":"\n\nدر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.6894771Z","message":{"role":"assistant","content":" برنامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.7025852Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.716284Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.7273527Z","message":{"role":"assistant","content":" مدر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.7484937Z","message":{"role":"assistant","content":"ن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.7529562Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.7686672Z","message":{"role":"assistant","content":"مثل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.7864106Z","message":{"role":"assistant","content":" ASP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.7999195Z","message":{"role":"assistant","content":".NET"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.8133707Z","message":{"role":"assistant","content":" Core"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.8278253Z","message":{"role":"assistant","content":")،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.8417078Z","message":{"role":"assistant","content":" اغلب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.8531149Z","message":{"role":"assistant","content":" نیاز"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.8680301Z","message":{"role":"assistant","content":" داریم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.8824179Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.8971598Z","message":{"role":"assistant","content":" کاربر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.9084965Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.918664Z","message":{"role":"assistant","content":"ی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.9393845Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.9495417Z","message":{"role":"assistant","content":" شروع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.9596151Z","message":{"role":"assistant","content":" کند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.9800287Z","message":{"role":"assistant","content":" اما"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:53.9900888Z","message":{"role":"assistant","content":" قبل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.0003375Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.0208479Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.0314226Z","message":{"role":"assistant","content":" گرفتن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.0417345Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.0624051Z","message":{"role":"assistant","content":" تصمیم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.0716645Z","message":{"role":"assistant","content":" بگیر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.0889984Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1029652Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1131545Z","message":{"role":"assistant","content":" آن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1336647Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1461209Z","message":{"role":"assistant","content":" **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1556067Z","message":{"role":"assistant","content":"ل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1751326Z","message":{"role":"assistant","content":"غو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1871962Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.1953234Z","message":{"role":"assistant","content":" کند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.216959Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.2322597Z","message":{"role":"assistant","content":"مث"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.2442085Z","message":{"role":"assistant","content":"لاً"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.2604217Z","message":{"role":"assistant","content":" کاربر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.2721262Z","message":{"role":"assistant","content":" صفحه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.2800322Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.3006025Z","message":{"role":"assistant","content":" بست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.3151901Z","message":{"role":"assistant","content":" یا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.3206641Z","message":{"role":"assistant","content":" تای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.3439068Z","message":{"role":"assistant","content":"مر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.3584977Z","message":{"role":"assistant","content":" ان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.3697196Z","message":{"role":"assistant","content":"قض"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.3797948Z","message":{"role":"assistant","content":"ای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.4003584Z","message":{"role":"assistant","content":" شد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.4140632Z","message":{"role":"assistant","content":")."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.4417651Z","message":{"role":"assistant","content":"\n\nبر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.4514661Z","message":{"role":"assistant","content":"ای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.4616251Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.4817508Z","message":{"role":"assistant","content":" کار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.4918958Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.5122871Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.5224048Z","message":{"role":"assistant","content":"C"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.5389738Z","message":{"role":"assistant","content":"ancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.553133Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.5616942Z","message":{"role":"assistant","content":" استفاده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.5818536Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.5921086Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.6021128Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.6218357Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.6377202Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.6420666Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.6620148Z","message":{"role":"assistant","content":" تو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.672042Z","message":{"role":"assistant","content":"کن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.6928545Z","message":{"role":"assistant","content":" یک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.7028749Z","message":{"role":"assistant","content":" مکان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.7218172Z","message":{"role":"assistant","content":"یز"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.7337826Z","message":{"role":"assistant","content":"م"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.7491959Z","message":{"role":"assistant","content":" استاندارد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.7625993Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.7693994Z","message":{"role":"assistant","content":" ارسال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.7933857Z","message":{"role":"assistant","content":" سی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.8072555Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.8210332Z","message":{"role":"assistant","content":"نال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.8349106Z","message":{"role":"assistant","content":" \""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.8414392Z","message":{"role":"assistant","content":"ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.863556Z","message":{"role":"assistant","content":"وقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.8681447Z","message":{"role":"assistant","content":"\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.8920056Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.9037329Z","message":{"role":"assistant","content":" عمل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.9182974Z","message":{"role":"assistant","content":"یات"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.9319452Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.9388698Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.9593306Z","message":{"role":"assistant","content":" بل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.9694512Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.9794826Z","message":{"role":"assistant","content":"که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:54.999312Z","message":{"role":"assistant","content":" شده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.0093708Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.0296216Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.0399955Z","message":{"role":"assistant","content":" اگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.0571921Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.0728432Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.0849199Z","message":{"role":"assistant","content":" قبل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.100415Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.1150708Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.12872Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.1415166Z","message":{"role":"assistant","content":" سی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.1556901Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.1763722Z","message":{"role":"assistant","content":"نال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.1865705Z","message":{"role":"assistant","content":" توقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.1970757Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.2177831Z","message":{"role":"assistant","content":" دریافت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.2314857Z","message":{"role":"assistant","content":" کند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.2390621Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.2578982Z","message":{"role":"assistant","content":" نباید"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.2726643Z","message":{"role":"assistant","content":" منت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.288179Z","message":{"role":"assistant","content":"ظر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.2984132Z","message":{"role":"assistant","content":" ب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.3099849Z","message":{"role":"assistant","content":"مان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.3314751Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.3394002Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.3585709Z","message":{"role":"assistant","content":" باید"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.3733914Z","message":{"role":"assistant","content":" بلا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.387698Z","message":{"role":"assistant","content":"فا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4015248Z","message":{"role":"assistant","content":"صل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4160917Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4312712Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4451404Z","message":{"role":"assistant","content":" خط"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4514412Z","message":{"role":"assistant","content":"ایی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4735692Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4821137Z","message":{"role":"assistant","content":" نشان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.4984122Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.5120905Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.5288416Z","message":{"role":"assistant","content":"ده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.5394432Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.5541666Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.5705381Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.5844461Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.5907517Z","message":{"role":"assistant","content":" شده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.614468Z","message":{"role":"assistant","content":" (`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.6208912Z","message":{"role":"assistant","content":"Operation"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.6414123Z","message":{"role":"assistant","content":"Canceled"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.6514278Z","message":{"role":"assistant","content":"Exception"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.6615994Z","message":{"role":"assistant","content":"`)"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.6821287Z","message":{"role":"assistant","content":" پایان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.6954908Z","message":{"role":"assistant","content":" ی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.7133127Z","message":{"role":"assistant","content":"ابد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.7247668Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.7552067Z","message":{"role":"assistant","content":"\n\n####"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.764009Z","message":{"role":"assistant","content":" مثال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.7788757Z","message":{"role":"assistant","content":" کوتاه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.7964619Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.8128675Z","message":{"role":"assistant","content":" C"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.8273865Z","message":{"role":"assistant","content":"#"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.8415349Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.854444Z","message":{"role":"assistant","content":"ل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.8684601Z","message":{"role":"assistant","content":"غو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.8850738Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.8970981Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.9266615Z","message":{"role":"assistant","content":"\n\n```"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.9402895Z","message":{"role":"assistant","content":"c"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.9561158Z","message":{"role":"assistant","content":"sharp"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.9845343Z","message":{"role":"assistant","content":"\nusing"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:55.9975376Z","message":{"role":"assistant","content":" System"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.0076512Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.0420839Z","message":{"role":"assistant","content":"\nusing"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.0490149Z","message":{"role":"assistant","content":" System"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.0696631Z","message":{"role":"assistant","content":".Threading"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.0828532Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.1091076Z","message":{"role":"assistant","content":"\nusing"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.1202565Z","message":{"role":"assistant","content":" System"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.1401516Z","message":{"role":"assistant","content":".Threading"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.1503892Z","message":{"role":"assistant","content":".Tasks"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.1605726Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.189704Z","message":{"role":"assistant","content":"\n\nclass"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.2108033Z","message":{"role":"assistant","content":" Program"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.2306775Z","message":{"role":"assistant","content":"\n{"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.2711362Z","message":{"role":"assistant","content":"\n    static"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.2913037Z","message":{"role":"assistant","content":" async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.3015336Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.3233029Z","message":{"role":"assistant","content":" Main"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.3385607Z","message":{"role":"assistant","content":"()"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.3794865Z","message":{"role":"assistant","content":"\n    {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.4233269Z","message":{"role":"assistant","content":"\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.4367247Z","message":{"role":"assistant","content":" ایجاد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.4514857Z","message":{"role":"assistant","content":" یک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.4658512Z","message":{"role":"assistant","content":" تو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.4717519Z","message":{"role":"assistant","content":"کن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.4921431Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.5021594Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.5122727Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.5329756Z","message":{"role":"assistant","content":" یک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.5482416Z","message":{"role":"assistant","content":" وظ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.5619824Z","message":{"role":"assistant","content":"یف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.5723111Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.582721Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.6027916Z","message":{"role":"assistant","content":" مدیریت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.6130694Z","message":{"role":"assistant","content":" آن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.6547854Z","message":{"role":"assistant","content":"\n        var"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.6650238Z","message":{"role":"assistant","content":" c"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.6856984Z","message":{"role":"assistant","content":"ts"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.6960534Z","message":{"role":"assistant","content":" ="},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.7065355Z","message":{"role":"assistant","content":" new"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.7309356Z","message":{"role":"assistant","content":" CancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.7423868Z","message":{"role":"assistant","content":"Source"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.7578752Z","message":{"role":"assistant","content":"();"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.7999221Z","message":{"role":"assistant","content":"\n        var"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.8143423Z","message":{"role":"assistant","content":" token"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.8284711Z","message":{"role":"assistant","content":" ="},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.8415857Z","message":{"role":"assistant","content":" c"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.8520369Z","message":{"role":"assistant","content":"ts"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.8699877Z","message":{"role":"assistant","content":".Token"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.8864423Z","message":{"role":"assistant","content":";"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.9252069Z","message":{"role":"assistant","content":"\n\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.9417229Z","message":{"role":"assistant","content":" تابع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.9524613Z","message":{"role":"assistant","content":"ی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.965779Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.9758818Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:56.9971913Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.0061778Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.0163796Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.037017Z","message":{"role":"assistant","content":" دریافت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.0471108Z","message":{"role":"assistant","content":" سی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.0651562Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.0781055Z","message":{"role":"assistant","content":"نال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.0881233Z","message":{"role":"assistant","content":" توقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.1079265Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.1181713Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.1286377Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.1463348Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.1565963Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.1774299Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.2187768Z","message":{"role":"assistant","content":"\n        async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.2289708Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.2463856Z","message":{"role":"assistant","content":" Make"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.2597431Z","message":{"role":"assistant","content":"Request"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.2713944Z","message":{"role":"assistant","content":"Async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.2902782Z","message":{"role":"assistant","content":"(CancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.3034566Z","message":{"role":"assistant","content":" cancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.3106188Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.358856Z","message":{"role":"assistant","content":"\n        {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.4028224Z","message":{"role":"assistant","content":"\n            try"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.4473252Z","message":{"role":"assistant","content":"\n            {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.4817321Z","message":{"role":"assistant","content":"\n                Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.5030883Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.508217Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.5282804Z","message":{"role":"assistant","content":"در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.5384764Z","message":{"role":"assistant","content":"خواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.5589082Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.5692026Z","message":{"role":"assistant","content":" حال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.5822459Z","message":{"role":"assistant","content":" ارسال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.6002682Z","message":{"role":"assistant","content":"..."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.6108029Z","message":{"role":"assistant","content":"\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.6619474Z","message":{"role":"assistant","content":"\n                \n                //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.6840598Z","message":{"role":"assistant","content":" شب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.6983502Z","message":{"role":"assistant","content":"یه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.7128635Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.7230194Z","message":{"role":"assistant","content":"سازی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.7382956Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.7539104Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.7641178Z","message":{"role":"assistant","content":" پاسخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.7743614Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.7980005Z","message":{"role":"assistant","content":"مث"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.8118116Z","message":{"role":"assistant","content":"لاً"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.8316485Z","message":{"role":"assistant","content":" 5"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.8522206Z","message":{"role":"assistant","content":" ثان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.8672587Z","message":{"role":"assistant","content":"یه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.8831335Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.925063Z","message":{"role":"assistant","content":"\n                //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.9316594Z","message":{"role":"assistant","content":" اگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.9524971Z","message":{"role":"assistant","content":" تو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.9653762Z","message":{"role":"assistant","content":"کن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.9720424Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:57.9925535Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.0104908Z","message":{"role":"assistant","content":" مدت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.0220976Z","message":{"role":"assistant","content":" سی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.0321439Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.0472799Z","message":{"role":"assistant","content":"نال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.0625337Z","message":{"role":"assistant","content":" توقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.0784844Z","message":{"role":"assistant","content":" بگیر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.0928808Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.1068446Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.1130347Z","message":{"role":"assistant","content":" اینجا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.1333614Z","message":{"role":"assistant","content":" مت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.147164Z","message":{"role":"assistant","content":"وقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.1631763Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.1732735Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.1836336Z","message":{"role":"assistant","content":"ش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.2054802Z","message":{"role":"assistant","content":"ود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.2135718Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.2627468Z","message":{"role":"assistant","content":"\n                await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.2754682Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.2887537Z","message":{"role":"assistant","content":".Delay"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.3028656Z","message":{"role":"assistant","content":"("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.3151705Z","message":{"role":"assistant","content":"5"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.325328Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.3460172Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.3563452Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.3665207Z","message":{"role":"assistant","content":","},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.3869223Z","message":{"role":"assistant","content":" cancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.4038894Z","message":{"role":"assistant","content":");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.4607623Z","message":{"role":"assistant","content":" \n                \n                Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.4729754Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.4830432Z","message":{"role":"assistant","content":"(\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.4930602Z","message":{"role":"assistant","content":"در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.5114531Z","message":{"role":"assistant","content":"خواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.5281118Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.542013Z","message":{"role":"assistant","content":" موفق"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.5521664Z","message":{"role":"assistant","content":"یت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.5685787Z","message":{"role":"assistant","content":" انجام"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.5835414Z","message":{"role":"assistant","content":" شد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.5936485Z","message":{"role":"assistant","content":".\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.634067Z","message":{"role":"assistant","content":"\n            }"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.6845443Z","message":{"role":"assistant","content":"\n            catch"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.6945973Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.7047689Z","message":{"role":"assistant","content":"Operation"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.7264791Z","message":{"role":"assistant","content":"Canceled"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.7342588Z","message":{"role":"assistant","content":"Exception"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.7547177Z","message":{"role":"assistant","content":" ex"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.7716406Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.8184597Z","message":{"role":"assistant","content":"\n            {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.8602831Z","message":{"role":"assistant","content":"\n                //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.8731201Z","message":{"role":"assistant","content":" اگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.8851974Z","message":{"role":"assistant","content":" کاربر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.901441Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.9117873Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.9253605Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.9414608Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.9515812Z","message":{"role":"assistant","content":" کرد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.9728444Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:58.9866322Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.0019499Z","message":{"role":"assistant","content":" خط"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.0081002Z","message":{"role":"assistant","content":"ا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.028705Z","message":{"role":"assistant","content":" رخ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.0387208Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.0488525Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.0688268Z","message":{"role":"assistant","content":"ده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.0814137Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.1219934Z","message":{"role":"assistant","content":"\n                Console"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.1422502Z","message":{"role":"assistant","content":".WriteLine"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.153304Z","message":{"role":"assistant","content":"($\""},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.1686629Z","message":{"role":"assistant","content":"در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.1827625Z","message":{"role":"assistant","content":"خواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.1929058Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.2034394Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.2240628Z","message":{"role":"assistant","content":" شد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.2346186Z","message":{"role":"assistant","content":":"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.2480884Z","message":{"role":"assistant","content":" {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.2659289Z","message":{"role":"assistant","content":"ex"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.2755829Z","message":{"role":"assistant","content":".Message"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.2941574Z","message":{"role":"assistant","content":"}"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.3062776Z","message":{"role":"assistant","content":"\");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.3504208Z","message":{"role":"assistant","content":"\n            }"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.3884623Z","message":{"role":"assistant","content":"\n        }"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.4351429Z","message":{"role":"assistant","content":"\n\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.450403Z","message":{"role":"assistant","content":" شروع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.461425Z","message":{"role":"assistant","content":" یک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.4775133Z","message":{"role":"assistant","content":" ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.4923077Z","message":{"role":"assistant","content":"ار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.502673Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.5209258Z","message":{"role":"assistant","content":"ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.5359577Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.5482448Z","message":{"role":"assistant","content":" انجام"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.5628427Z","message":{"role":"assistant","content":" کار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.5788067Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.5868769Z","message":{"role":"assistant","content":" دیگر"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.6074931Z","message":{"role":"assistant","content":" در"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.6172443Z","message":{"role":"assistant","content":" ح"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.6274649Z","message":{"role":"assistant","content":"ین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.6481618Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.6876872Z","message":{"role":"assistant","content":"\n        Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.6990991Z","message":{"role":"assistant","content":" background"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.718519Z","message":{"role":"assistant","content":"Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.7337748Z","message":{"role":"assistant","content":" ="},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.7418464Z","message":{"role":"assistant","content":" Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.7583903Z","message":{"role":"assistant","content":".Run"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.7685267Z","message":{"role":"assistant","content":"(()"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.7893073Z","message":{"role":"assistant","content":" =\u003e"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.8317959Z","message":{"role":"assistant","content":" \n        {"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.8722468Z","message":{"role":"assistant","content":"\n            Thread"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.8870815Z","message":{"role":"assistant","content":".Sleep"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.8980876Z","message":{"role":"assistant","content":"("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.9082015Z","message":{"role":"assistant","content":"3"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.9271384Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.9436231Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.9577416Z","message":{"role":"assistant","content":"0"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.9679149Z","message":{"role":"assistant","content":");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:45:59.9872012Z","message":{"role":"assistant","content":" //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.0013274Z","message":{"role":"assistant","content":" بعد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.0072365Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.0437196Z","message":{"role":"assistant","content":" 3"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.0575077Z","message":{"role":"assistant","content":" ثان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.0686951Z","message":{"role":"assistant","content":"یه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.0816322Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.0922272Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.1083747Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.1176325Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.1381041Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.1483056Z","message":{"role":"assistant","content":" کن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.1988248Z","message":{"role":"assistant","content":"\n            c"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.208391Z","message":{"role":"assistant","content":"ts"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.2186355Z","message":{"role":"assistant","content":".Cancel"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.2392278Z","message":{"role":"assistant","content":"();"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.2807096Z","message":{"role":"assistant","content":" \n        });"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.3221221Z","message":{"role":"assistant","content":"\n\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.332309Z","message":{"role":"assistant","content":" اجرای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.3486117Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.3632389Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.3733721Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.3944924Z","message":{"role":"assistant","content":" تو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.4084796Z","message":{"role":"assistant","content":"کن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.4230407Z","message":{"role":"assistant","content":" لغ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.4369016Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.4719007Z","message":{"role":"assistant","content":"\n        await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.4932303Z","message":{"role":"assistant","content":" Make"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.502211Z","message":{"role":"assistant","content":"Request"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.5184489Z","message":{"role":"assistant","content":"Async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.5338028Z","message":{"role":"assistant","content":"(token"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.5486485Z","message":{"role":"assistant","content":");"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.5943073Z","message":{"role":"assistant","content":"\n\n        //"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.6025906Z","message":{"role":"assistant","content":" پایان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.613044Z","message":{"role":"assistant","content":" برنامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.6612435Z","message":{"role":"assistant","content":"\n        background"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.6714191Z","message":{"role":"assistant","content":"Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.6920096Z","message":{"role":"assistant","content":".Wait"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.7020733Z","message":{"role":"assistant","content":"();"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.7429602Z","message":{"role":"assistant","content":"\n    }"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.7730882Z","message":{"role":"assistant","content":"\n}"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.803787Z","message":{"role":"assistant","content":"\n```"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.8317729Z","message":{"role":"assistant","content":"\n\n###"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.8407872Z","message":{"role":"assistant","content":" خلا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.8511699Z","message":{"role":"assistant","content":"ص"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.871618Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.8821261Z","message":{"role":"assistant","content":" نه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.8984308Z","message":{"role":"assistant","content":"ایی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.930878Z","message":{"role":"assistant","content":"\n1"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.9453699Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.9716561Z","message":{"role":"assistant","content":"  **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:00.9860815Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.001676Z","message":{"role":"assistant","content":"async"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.0094563Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.0280841Z","message":{"role":"assistant","content":"/"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.035898Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.0564927Z","message":{"role":"assistant","content":"await"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.0665618Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.0852276Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.0993942Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.1138109Z","message":{"role":"assistant","content":" شما"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.124049Z","message":{"role":"assistant","content":" اجازه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.1341714Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.1571815Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.1652805Z","message":{"role":"assistant","content":"ده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.1845552Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.1945765Z","message":{"role":"assistant","content":" ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.2115152Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.2251487Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.2351553Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.2548468Z","message":{"role":"assistant","content":" صورت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.2687386Z","message":{"role":"assistant","content":" ت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.2818262Z","message":{"role":"assistant","content":"وال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.2953513Z","message":{"role":"assistant","content":"ی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.3053557Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.3255904Z","message":{"role":"assistant","content":"ب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.3360213Z","message":{"role":"assistant","content":"ندی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.3497778Z","message":{"role":"assistant","content":" شده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.3667894Z","message":{"role":"assistant","content":" بن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.3769789Z","message":{"role":"assistant","content":"وی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.394025Z","message":{"role":"assistant","content":"س"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.4094345Z","message":{"role":"assistant","content":"ید"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.4250251Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.4394101Z","message":{"role":"assistant","content":" اما"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.4517897Z","message":{"role":"assistant","content":" اجرا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.4611256Z","message":{"role":"assistant","content":" آن"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.4812802Z","message":{"role":"assistant","content":" بلا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.4914428Z","message":{"role":"assistant","content":"فا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.5025848Z","message":{"role":"assistant","content":"صل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.5229478Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.5282253Z","message":{"role":"assistant","content":" پس"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.5500415Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.5586311Z","message":{"role":"assistant","content":" ارسال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.5790246Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.5894439Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.6052198Z","message":{"role":"assistant","content":"مث"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.6206598Z","message":{"role":"assistant","content":"لاً"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.6361164Z","message":{"role":"assistant","content":" HTTP"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.6507757Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.6661159Z","message":{"role":"assistant","content":" ادامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.6762744Z","message":{"role":"assistant","content":" پیدا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.6862819Z","message":{"role":"assistant","content":" کند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.7072715Z","message":{"role":"assistant","content":" تا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.7163877Z","message":{"role":"assistant","content":" منابع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.736951Z","message":{"role":"assistant","content":" سیستم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.7501426Z","message":{"role":"assistant","content":" آزاد"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.7573712Z","message":{"role":"assistant","content":" شوند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.7775553Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.7951417Z","message":{"role":"assistant","content":" این"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.8094266Z","message":{"role":"assistant","content":" با"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.822866Z","message":{"role":"assistant","content":" **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.8317239Z","message":{"role":"assistant","content":"اج"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.8517374Z","message":{"role":"assistant","content":"رای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.8638778Z","message":{"role":"assistant","content":" موا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.876758Z","message":{"role":"assistant","content":"زی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.8938283Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.908463Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.9187227Z","message":{"role":"assistant","content":" چند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.9286482Z","message":{"role":"assistant","content":"ین"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.9502297Z","message":{"role":"assistant","content":" ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.9652481Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.9782974Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:01.9918621Z","message":{"role":"assistant","content":" هم"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.0076365Z","message":{"role":"assistant","content":"زمان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.021866Z","message":{"role":"assistant","content":" روی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.0342734Z","message":{"role":"assistant","content":" هست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.050459Z","message":{"role":"assistant","content":"ه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.0626971Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.0727135Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.088214Z","message":{"role":"assistant","content":" CPU"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.0984124Z","message":{"role":"assistant","content":" پ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.1180654Z","message":{"role":"assistant","content":"خش"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.1319731Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.1505792Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.158663Z","message":{"role":"assistant","content":"ک"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.1805637Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.1936273Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.2038659Z","message":{"role":"assistant","content":" متفاوت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.2214889Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.234834Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.2646385Z","message":{"role":"assistant","content":"\n2"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.2747328Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.3064656Z","message":{"role":"assistant","content":"  **"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.3266028Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.3354014Z","message":{"role":"assistant","content":"C"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.3473364Z","message":{"role":"assistant","content":"ancellationToken"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.357682Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.378173Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.3883162Z","message":{"role":"assistant","content":" اب"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.4135285Z","message":{"role":"assistant","content":"زاری"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.4278204Z","message":{"role":"assistant","content":" برای"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.4418114Z","message":{"role":"assistant","content":" کنترل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.4517511Z","message":{"role":"assistant","content":" جریان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.4658033Z","message":{"role":"assistant","content":" برنامه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.4812915Z","message":{"role":"assistant","content":" است"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.4942284Z","message":{"role":"assistant","content":" که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.5134238Z","message":{"role":"assistant","content":" به"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.518406Z","message":{"role":"assistant","content":" تو"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.5388526Z","message":{"role":"assistant","content":"ابع"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.5510082Z","message":{"role":"assistant","content":" بل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.5688506Z","message":{"role":"assistant","content":"و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.5792149Z","message":{"role":"assistant","content":"که"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.5920244Z","message":{"role":"assistant","content":" شده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.6099087Z","message":{"role":"assistant","content":" ("},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.6204276Z","message":{"role":"assistant","content":"مان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.6410655Z","message":{"role":"assistant","content":"ند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.6510823Z","message":{"role":"assistant","content":" `"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.6611054Z","message":{"role":"assistant","content":"Task"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.6814738Z","message":{"role":"assistant","content":".Delay"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.697599Z","message":{"role":"assistant","content":"`"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.7126713Z","message":{"role":"assistant","content":" یا"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.7227566Z","message":{"role":"assistant","content":" درخواست"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.741761Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.7566041Z","message":{"role":"assistant","content":"های"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.7629042Z","message":{"role":"assistant","content":" شبکه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.7851207Z","message":{"role":"assistant","content":")"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.7999204Z","message":{"role":"assistant","content":" اجازه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.8134496Z","message":{"role":"assistant","content":" می"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.8284843Z","message":{"role":"assistant","content":"‌"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.8416196Z","message":{"role":"assistant","content":"ده"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.8514261Z","message":{"role":"assistant","content":"د"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.872094Z","message":{"role":"assistant","content":" قبل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.8822143Z","message":{"role":"assistant","content":" از"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.8991676Z","message":{"role":"assistant","content":" پایان"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.9115799Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.9221026Z","message":{"role":"assistant","content":" سی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.9420969Z","message":{"role":"assistant","content":"گ"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.9581326Z","message":{"role":"assistant","content":"نال"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.9681469Z","message":{"role":"assistant","content":" توقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.9782167Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:02.9996633Z","message":{"role":"assistant","content":" دریافت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.0148504Z","message":{"role":"assistant","content":" کنند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.0249191Z","message":{"role":"assistant","content":" و"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.0425662Z","message":{"role":"assistant","content":" بدون"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.055171Z","message":{"role":"assistant","content":" انتظار"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.0662496Z","message":{"role":"assistant","content":" نه"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.0882487Z","message":{"role":"assistant","content":"ایی"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.1016624Z","message":{"role":"assistant","content":"،"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.1117897Z","message":{"role":"assistant","content":" عمل"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.1323861Z","message":{"role":"assistant","content":"یات"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.1467721Z","message":{"role":"assistant","content":" خود"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.1526101Z","message":{"role":"assistant","content":" را"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.1762Z","message":{"role":"assistant","content":" مت"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.1826446Z","message":{"role":"assistant","content":"وقف"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.2031645Z","message":{"role":"assistant","content":" کنند"},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.2179866Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"qwen3.5:4b-q4_K_M","created_at":"2026-10-19T10:46:03.235378Z","message":{"role":"assistant","content":""},"done":true,"done_reason":"stop","total_duration":26081307500,"load_duration":4347523400,"prompt_eval_count":60,"prompt_eval_cached_count":0,"prompt_eval_duration":189802000,"eval_count":1536,"eval_duration":21540546000}

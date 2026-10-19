@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000023",
+  "model": "granite4:3b",
+  "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+  "caseId": "csharp-bug-detection",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "67ba832698d8b41330037563ca1097ba60014630d8e1f7a4018948cc5501ccb3",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": false,
+  "repetition": 1,
+  "startedUtc": "2026-10-19T10:41:11.824173+00:00",
+  "finishedUtc": "2026-10-19T10:41:17.8689424+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "The bug in the provided C# method is in the for loop condition. The loop is set to iterate from 0 to \u0060values.Length\u0060, which means it will attempt to access an index that is out of bounds of the array. In C#, arrays are zero-indexed, meaning the first element is at index 0, and the last element is at index \u0060values.Length - 1\u0060. Therefore, trying to access \u0060values[i]\u0060 where \u0060i\u0060 equals \u0060values.Length\u0060 will result in an \u0060IndexOutOfRangeException\u0060.\n\nTo fix this bug, the loop condition should be changed to \u0060i \u003C values.Length\u0060. This ensures that the loop iterates over all valid indices of the array without attempting to access an out-of-bounds index.\n\nHere is the corrected method:\n\n\u0060\u0060\u0060csharp\nstatic int Sum(int[] values)\n{\n    int total = 0;\n    for (int i = 0; i \u003C values.Length; i\u002B\u002B) total \u002B= values[i];\n    return total;\n}\n\u0060\u0060\u0060\n\nRegarding the empty-array behavior, if the \u0060values\u0060 array is empty, the loop will not execute at all because the condition \u0060i \u003C values.Length\u0060 will be false from the start (since \u0060values.Length\u0060 is 0). In this case, the method will return 0, which is the correct sum of an empty set of numbers.",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:41:15 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "qwen2.5-coder:7b",
+        "model": "qwen2.5-coder:7b",
+        "size": 5152041860,
+        "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:16:11.7401163\u002B03:30",
+        "size_vram": 4199263764,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "qwen2.5-coder:7b"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:41:17.8486323+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "granite4:3b",
+        "model": "granite4:3b",
+        "size": 2506987928,
+        "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "granite",
+          "families": [
+            "granite"
+          ],
+          "parameter_size": "3.4B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:16:17.8476652\u002B03:30",
+        "size_vram": 2506987928,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 5851.9449,
+    "timeToFirstOutputMs": 3048.0972,
+    "timeToFirstAnswerMs": 3048.0972,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 5851145600,
+    "loadNs": 2934641300,
+    "promptEvalNs": 100903000,
+    "evalNs": 2805493000,
+    "promptTokens": 97,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 274,
+    "providerExcludingLoadMs": 2916.5043,
+    "generationTokensPerSecond": 97.66554398816892
+  }
+}

@@ -1,0 +1,5 @@
+scope,model,case,attempts,completed,failed,inProgress,truncated,meanClientMs,medianClientMs,meanFirstOutputMs,meanFirstAnswerMs,meanLoadMs,meanProviderExcludingLoadMs,meanGenerationTokensPerSecond,emptyFinalAnswers,reasoningOnly,missingFirstAnswer
+"model","qwen3.5:4b-q4_K_M","null","4","4","0","0","0","7874.281424999999","9038.619","3677.381125","3677.381125","3480.4363999999996","4392.1093","74.52335907949086","0","0","0"
+"model","gemma4:e2b-it-q4_K_M","null","4","4","0","0","4","8002.919975","7901.9478","4828.006175","4828.006175","4491.3875499999995","3511.111025","161.62282944224003","0","0","0"
+"case","qwen3.5:4b-q4_K_M","csharp-explanation","4","4","0","0","0","7874.281424999999","9038.619","3677.381125","3677.381125","3480.4363999999996","4392.1093","74.52335907949086","0","0","0"
+"case","gemma4:e2b-it-q4_K_M","csharp-explanation","4","4","0","0","4","8002.919975","7901.9478","4828.006175","4828.006175","4491.3875499999995","3511.111025","161.62282944224003","0","0","0"

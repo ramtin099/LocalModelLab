@@ -1,0 +1,1 @@
+scope,model,case,attempts,completed,failed,inProgress,truncated,meanClientMs,medianClientMs,meanFirstOutputMs,meanFirstAnswerMs,meanLoadMs,meanProviderExcludingLoadMs,meanGenerationTokensPerSecond

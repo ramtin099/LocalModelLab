@@ -1,0 +1,11 @@
+{
+  "suiteId": "initial",
+  "profileId": "non-thinking-full",
+  "modelNames": [
+    "qwen3.5:4b-q4_K_M",
+    "gemma4:e2b-it-q4_K_M",
+    "qwen2.5-coder:7b",
+    "granite4:3b"
+  ],
+  "endpoint": "http://localhost:11434/"
+}

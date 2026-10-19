@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000047",
+  "model": "qwen2.5-coder:7b",
+  "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+  "caseId": "persian-technical-explanation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "757bfa7fba0700846a459570363d87c0153ee40238ff3f93616800d38fd13bde",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": false,
+  "repetition": 2,
+  "startedUtc": "2026-10-19T10:46:22.1628983+00:00",
+  "finishedUtc": "2026-10-19T10:46:44.3362418+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "async/await \u0648 \u0627\u062C\u0631\u0627\u06CC \u0645\u0648\u0627\u0632\u06CC \u062F\u0631 \u0633\u06CC\u200C\u0634\u0627\u0631\u067E \u0647\u0631 \u062F\u0648 \u0631\u0648\u0634\u06CC \u0628\u0631\u0627\u06CC \u0627\u0646\u062C\u0627\u0645 \u0639\u0645\u0644\u06CC\u0627\u062A \u0647\u0633\u062A\u0646\u062F\u060C \u0627\u0645\u0627 \u0622\u0646\u200C\u0647\u0627 \u0628\u0647 \u0637\u0648\u0631 \u0645\u062A\u0641\u0627\u0648\u062A \u0639\u0645\u0644 \u0645\u06CC\u200C\u06A9\u0646\u0646\u062F.\n\nasync/await: \u0627\u06CC\u0646 \u0631\u0648\u0634 \u0628\u0647 \u0634\u0645\u0627 \u0627\u062C\u0627\u0632\u0647 \u0645\u06CC\u200C\u062F\u0647\u062F \u06A9\u0647 \u0639\u0645\u0644\u06CC\u0627\u062A \u0631\u0627 \u0628\u0647 \u0635\u0648\u0631\u062A \u0647\u0645\u0632\u0645\u0627\u0646 \u0627\u062C\u0631\u0627 \u06A9\u0646\u06CC\u062F\u060C \u0627\u0645\u0627 \u0628\u062F\u0648\u0646 \u0627\u06CC\u0646\u06A9\u0647 \u0628\u0631\u0646\u0627\u0645\u0647 \u0631\u0627 \u0645\u062A\u0648\u0642\u0641 \u06A9\u0646\u062F. \u0628\u0647 \u0639\u0628\u0627\u0631\u062A \u062F\u06CC\u06AF\u0631\u060C \u0627\u06CC\u0646 \u0631\u0648\u0634 \u0628\u0647 \u0634\u0645\u0627 \u0627\u062C\u0627\u0632\u0647 \u0645\u06CC\u200C\u062F\u0647\u062F \u06A9\u0647 \u062F\u0631 \u062D\u0627\u0644\u06CC \u06A9\u0647 \u06CC\u06A9 \u0639\u0645\u0644\u06CC\u0627\u062A \u062F\u0631 \u062D\u0627\u0644 \u0627\u0646\u062C\u0627\u0645 \u0627\u0633\u062A\u060C \u0628\u0631\u0646\u0627\u0645\u0647 \u0634\u0645\u0627 \u0628\u0647 \u062F\u0646\u0628\u0627\u0644 \u0639\u0645\u0644\u06CC\u0627\u062A \u0628\u0639\u062F\u06CC \u062D\u0631\u06A9\u062A \u06A9\u0646\u062F. \u0627\u06CC\u0646 \u0631\u0648\u0634 \u0628\u0647 \u0634\u0645\u0627 \u0627\u062C\u0627\u0632\u0647 \u0645\u06CC\u200C\u062F\u0647\u062F \u06A9\u0647 \u06A9\u062F \u0634\u0645\u0627 \u0631\u0627 \u0628\u0647 \u0635\u0648\u0631\u062A \u062E\u0648\u0627\u0646\u0627 \u0648 \u0642\u0627\u0628\u0644 \u062A\u0648\u062C\u0647\u200C\u062A\u0631 \u0628\u0646\u0648\u06CC\u0633\u06CC\u062F.\n\n\u0645\u062B\u0627\u0644 \u0633\u0627\u062F\u0647 \u062F\u0631 C#:\n\n\u0060\u0060\u0060csharp\npublic async Task\u003Cint\u003E GetNumberAsync()\n{\n    await Task.Delay(1000); // \u0627\u06CC\u0646 \u0639\u0645\u0644\u06CC\u0627\u062A 1 \u062B\u0627\u0646\u06CC\u0647 \u0637\u0648\u0644 \u0645\u06CC\u200C\u0628\u0631\u062F\n    return 42;\n}\n\u0060\u0060\u0060\n\nCancellationToken: \u0627\u06CC\u0646 \u06A9\u0644\u0627\u0633 \u0627\u0645\u06A9\u0627\u0646 \u0627\u0631\u0627\u0626\u0647 \u06CC\u06A9 \u0631\u0627\u0647\u0628\u0631\u062F \u0628\u0631\u0627\u06CC \u0644\u063A\u0648 \u0639\u0645\u0644\u06CC\u0627\u062A \u0647\u0633\u062A\u0646\u062F. \u0627\u06AF\u0631 \u0639\u0645\u0644\u06CC\u0627\u062A \u0644\u063A\u0648 \u0634\u0648\u062F\u060C CancellationToken \u06CC\u06A9 OperationCanceledException \u0631\u0627 \u0627\u0631\u0627\u0626\u0647 \u0645\u06CC\u200C\u062F\u0647\u062F.\n\n\u0645\u062B\u0627\u0644 \u0633\u0627\u062F\u0647 \u062F\u0631 C#:\n\n\u0060\u0060\u0060csharp\npublic async Task\u003Cint\u003E GetNumberAsync(CancellationToken token)\n{\n    for (int i = 0; i \u003C 10; i\u002B\u002B)\n    {\n        if (token.IsCancellationRequested)\n        {\n            throw new OperationCanceledException(token);\n        }\n        await Task.Delay(1000); // \u0627\u06CC\u0646 \u0639\u0645\u0644\u06CC\u0627\u062A 1 \u062B\u0627\u0646\u06CC\u0647 \u0637\u0648\u0644 \u0645\u06CC\u200C\u0628\u0631\u062F\n    }\n    return 42;\n}\n\u0060\u0060\u0060\n\n\u062F\u0631 \u0627\u06CC\u0646 \u0645\u062B\u0627\u0644\u060C \u0627\u06AF\u0631 \u0639\u0645\u0644\u06CC\u0627\u062A \u0644\u063A\u0648 \u0634\u0648\u062F\u060C OperationCanceledException \u0627\u0631\u0627\u0626\u0647 \u0645\u06CC\u200C\u0634\u0648\u062F.",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:46:28 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "gemma4:e2b-it-q4_K_M",
+        "model": "gemma4:e2b-it-q4_K_M",
+        "size": 330783784,
+        "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:21:22.1292031\u002B03:30",
+        "size_vram": 330783784,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "gemma4:e2b-it-q4_K_M"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:46:44.3100427+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "qwen2.5-coder:7b",
+        "model": "qwen2.5-coder:7b",
+        "size": 5152041860,
+        "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:21:44.3082496\u002B03:30",
+        "size_vram": 4199263764,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 21840.6507,
+    "timeToFirstOutputMs": 5541.1918,
+    "timeToFirstAnswerMs": 5541.1918,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 21839980800,
+    "loadNs": 5352776600,
+    "promptEvalNs": 178994000,
+    "evalNs": 16302906000,
+    "promptTokens": 111,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 477,
+    "providerExcludingLoadMs": 16487.2042,
+    "generationTokensPerSecond": 29.25858739540055
+  }
+}

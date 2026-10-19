@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000006",
+  "model": "qwen3.5:4b-q4_K_M",
+  "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "caseId": "csharp-explanation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "420e432ab18ce1c1829f6c57eee17e4e69f43122342ea1353567e81332371525",
+  "profileFingerprint": "80d3eb0cd8b11cf40ee94e2130d0ff6d58e05ce8f8c57bdf737d16cb9fe81b09",
+  "warmup": false,
+  "repetition": 2,
+  "startedUtc": "2026-10-18T20:39:57.5458321+00:00",
+  "finishedUtc": "2026-10-18T20:40:06.9500387+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "### Method Functionality\nThis method, \u0060Positive\u0060, acts as a filter that extracts only positive integers from an input collection. It takes an \u0060IEnumerable\u003Cint\u003E\u0060 (a sequence of integers), iterates through each element, and yields the element back to the caller only if it is strictly greater than zero. Elements less than or equal to zero are skipped.\n\n### When Enumeration Occurs\nEnumeration occurs when the method is invoked as part of a LINQ query or a loop that consumes the \u0060IEnumerable\u003Cint\u003E\u0060 returned by this method. Specifically:\n1.  **Lazy Evaluation**: The method itself does not perform any iteration immediately upon being called. It simply returns an iterator object (an instance of \u0060Enumerator\u0060 internally).\n2.  **Trigger Point**: Actual enumeration happens when the caller attempts to access elements from the returned sequence (e.g., using \u0060foreach\u0060, \u0060.ToList()\u0060, \u0060.First()\u0060, or indexing). At this point, the C# runtime calls the method\u0027s internal enumerator, which executes the \u0060foreach\u0060 loop inside your method and begins processing values one by one.\n\n### Behavior if Source is Null\nIf the \u0060source\u0060 parameter is \u0060null\u0060:\n1.  The method will return a valid iterator object immediately without executing any logic or throwing an exception.\n2.  When the caller attempts to enumerate this returned sequence, the underlying enumerator will simply complete its iteration instantly because there are no elements to process.\n3.  The result of enumerating a null source is effectively an empty collection (zero items yielded).",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Sun, 18 Oct 2026 20:40:02 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "gemma4:e2b-it-q4_K_M",
+        "model": "gemma4:e2b-it-q4_K_M",
+        "size": 330783784,
+        "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T00:14:57.4855812\u002B03:30",
+        "size_vram": 330783784,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "gemma4:e2b-it-q4_K_M"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-18T20:40:06.9313785+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "qwen3.5:4b-q4_K_M",
+        "model": "qwen3.5:4b-q4_K_M",
+        "size": 3140495604,
+        "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "4.2B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T00:15:06.9256086\u002B03:30",
+        "size_vram": 3140495604,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 9081.3652,
+    "timeToFirstOutputMs": 4881.595,
+    "timeToFirstAnswerMs": 4881.595,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 9080689000,
+    "loadNs": 4661738900,
+    "promptEvalNs": 205510000,
+    "evalNs": 4202687000,
+    "promptTokens": 96,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 313,
+    "providerExcludingLoadMs": 4418.9501,
+    "generationTokensPerSecond": 74.47616251222135
+  }
+}

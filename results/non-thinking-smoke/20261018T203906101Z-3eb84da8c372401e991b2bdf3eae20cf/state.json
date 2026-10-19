@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "plannedAttempts": 10,
+  "phase": "execution",
+  "failureKind": null,
+  "finishedAttempts": 10,
+  "finishedUtc": "2026-10-18T20:40:37.3350266+00:00",
+  "error": null
+}

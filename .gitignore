@@ -2,6 +2,9 @@
 **/obj/
 .vs/
 .serena/
-results/
+##results/
 graphify-out/
 TestResults/
+
+# Inferpal AI assistant
+.inferpal/history/

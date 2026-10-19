@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "000028",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+  "caseId": "csharp-generation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef",
+  "profileFingerprint": "2bace2ebeee6df1539d50fd46fee4d7e0ced03f0ce2f76fc9ec307150ecef297",
+  "warmup": false,
+  "repetition": 1,
+  "startedUtc": "2026-10-19T10:41:57.5025099+00:00",
+  "finishedUtc": "2026-10-19T10:42:10.0269909+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "\u0060\u0060\u0060csharp\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class StringCounter\n{\n    /// \u003Csummary\u003E\n    /// Counts the occurrences of nonempty strings from an IEnumerable\u003Cstring?\u003E using ordinal case-insensitive comparison.\n    /// \u003C/summary\u003E\n    /// \u003Cparam name=\u0022input\u0022\u003EThe enumerable of nullable strings to process.\u003C/param\u003E\n    /// \u003Creturns\u003EA Dictionary where keys are the unique, lowercased, non-empty strings and values are their counts.\u003C/returns\u003E\n    public Dictionary\u003Cstring, int\u003E CountNonEmptyStrings(IEnumerable\u003Cstring?\u003E input)\n    {\n        if (input == null)\n        {\n            return new Dictionary\u003Cstring, int\u003E();\n        }\n\n        var counts = new Dictionary\u003Cstring, int\u003E();\n\n        foreach (var str in input)\n        {\n            // 1. Ignore null elements\n            if (str == null)\n            {\n                continue;\n            }\n\n            // 2. Ignore empty elements\n            if (string.IsNullOrWhiteSpace(str))\n            {\n                continue;\n            }\n\n            // 3. Perform case-insensitive comparison (by converting to lower case)\n            string key = str.ToLowerInvariant();\n\n            // Update the count\n            if (counts.ContainsKey(key))\n            {\n                counts[key]\u002B\u002B;\n            }\n            else\n            {\n                counts.Add(key, 1);\n            }\n        }\n\n        return counts;\n    }\n}\n\n/*\nUsage Example:\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        var counter = new StringCounter();\n\n        // Example 1: Valid input\n        IEnumerable\u003Cstring?\u003E data1 = new List\u003Cstring?\u003E { \u0022Apple\u0022, null, \u0022apple\u0022, \u0022Banana\u0022, \u0022\u0022, \u0022apple\u0022, \u0022orange\u0022, null, \u0022Banana\u0022 };\n        var result1 = counter.CountNonEmptyStrings(data1);\n        Console.WriteLine(\u0022Result 1: \u0022 \u002B string.Join(\u0022, \u0022, result1.Select(kv =\u003E $\u0022{kv.Key}: {kv.Value}\u0022)));\n        // Expected output (order may vary): apple: 3, banana: 2, orange: 1\n\n        // Example 2: Null enumerable\n        IEnumerable\u003Cstring?\u003E data2 = null;\n        var result2 = counter.CountNonEmptyStrings(data2);\n        Console.WriteLine(\u0022Result 2 (Null Input): \u0022 \u002B string.Join(\u0022, \u0022, result2.Select(kv =\u003E $\u0022{kv.Key}: {kv.Value}\u0022)));\n        // Expected output: (Empty string)\n\n        // Example 3: Only nulls and empty strings\n        IEnumerable\u003Cstring?\u003E data3 = new List\u003Cstring?\u003E { null, \u0022\u0022, null, \u0022 \u0022 };\n        var result3 = counter.CountNonEmptyStrings(data3);\n        Console.WriteLine(\u0022Result 3 (Empty/Null Input): \u0022 \u002B string.Join(\u0022, \u0022, result3.Select(kv =\u003E $\u0022{kv.Key}: {kv.Value}\u0022)));\n        // Expected output: (Empty string)\n    }\n}\n*/\n\u0060\u0060\u0060",
+  "reasoning": null,
+  "completionReason": "stop",
+  "outputTruncated": false,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Mon, 19 Oct 2026 10:42:06 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "residencyBefore": {
+    "models": [
+      {
+        "name": "qwen3.5:4b-q4_K_M",
+        "model": "qwen3.5:4b-q4_K_M",
+        "size": 3140495604,
+        "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "4.2B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:16:57.4623416\u002B03:30",
+        "size_vram": 3140495604,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "residencyAfter": {
+    "models": []
+  },
+  "unloadRequests": [
+    "qwen3.5:4b-q4_K_M"
+  ],
+  "residencyVerified": true,
+  "runtimeSampleUtc": "2026-10-19T10:42:10.0112034+00:00",
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "gemma4:e2b-it-q4_K_M",
+        "model": "gemma4:e2b-it-q4_K_M",
+        "size": 330783784,
+        "digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-19T14:17:10.010133\u002B03:30",
+        "size_vram": 330783784,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 4096,
+  "metrics": {
+    "clientElapsedMs": 12385.8932,
+    "timeToFirstOutputMs": 8669.0457,
+    "timeToFirstAnswerMs": 8669.0457,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 12385215600,
+    "loadNs": 8283399600,
+    "promptEvalNs": 377488000,
+    "evalNs": 3720180000,
+    "promptTokens": 72,
+    "cachedPromptTokens": 0,
+    "generatedTokens": 682,
+    "providerExcludingLoadMs": 4101.816,
+    "generationTokensPerSecond": 183.324462794811
+  }
+}

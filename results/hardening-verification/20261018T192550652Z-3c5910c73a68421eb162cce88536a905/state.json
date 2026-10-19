@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "plannedAttempts": 0,
+  "phase": "preflight",
+  "failureKind": "invalidConfiguration",
+  "finishedAttempts": 0,
+  "finishedUtc": "2026-10-18T19:25:50.7129204+00:00",
+  "error": "Profile comparison: invalid repetitions, options or timeout."
+}

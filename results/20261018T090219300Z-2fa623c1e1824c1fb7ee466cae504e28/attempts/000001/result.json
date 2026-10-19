@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "000001",
+  "model": "granite4:3b",
+  "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+  "caseId": "csharp-explanation",
+  "caseVersion": "1.0.0",
+  "caseFingerprint": "420e432ab18ce1c1829f6c57eee17e4e69f43122342ea1353567e81332371525",
+  "profileFingerprint": "5a04de68f8e6f522ec05a020fd7fe4666db57589ec51bc53284d133043f3d7f2",
+  "warmup": true,
+  "repetition": 1,
+  "startedUtc": "2026-10-18T09:02:21.5247607+00:00",
+  "finishedUtc": "2026-10-18T09:02:22.4464805+00:00",
+  "status": "completed",
+  "error": null,
+  "answer": "The provided C# method \u0060Positive\u0060 is a generator method that takes an \u0060IEnumerable\u003Cint\u003E\u0060 parameter named \u0060source\u0060. It filters the \u0060source\u0060 enumerable to only yield positive integers.\n\nHere\u0027s how the method works:\n\n1. The method starts with a \u0060foreach\u0060 loop that iterates over each \u0060value\u0060 in",
+  "reasoning": null,
+  "completionReason": "length",
+  "outputTruncated": true,
+  "providerCompleted": true,
+  "digestVerifiedAfter": true,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Date": [
+      "Sun, 18 Oct 2026 09:02:21 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Content-Type": [
+      "application/x-ndjson"
+    ]
+  },
+  "providerRuntime": {
+    "models": [
+      {
+        "name": "granite4:3b",
+        "model": "granite4:3b",
+        "size": 2337118616,
+        "digest": "89962fcc75239ac434cdebceb6b7e0669397f92eaef9c487774b718bc36a3e5f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "granite",
+          "families": [
+            "granite"
+          ],
+          "parameter_size": "3.4B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-18T12:37:22.4126193\u002B03:30",
+        "size_vram": 2337118616,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "runtimeMetadataError": null,
+  "verifiedContextLength": 2048,
+  "metrics": {
+    "clientElapsedMs": 846.3495,
+    "timeToFirstOutputMs": 194.039,
+    "timeToFirstAnswerMs": 194.039,
+    "timeToFirstReasoningMs": null,
+    "providerTotalNs": 844638000,
+    "loadNs": 10590400,
+    "promptEvalNs": 169434000,
+    "evalNs": 659849000,
+    "promptTokens": 87,
+    "cachedPromptTokens": 86,
+    "generatedTokens": 64,
+    "providerExcludingLoadMs": 834.0476,
+    "generationTokensPerSecond": 96.9918875379064
+  }
+}

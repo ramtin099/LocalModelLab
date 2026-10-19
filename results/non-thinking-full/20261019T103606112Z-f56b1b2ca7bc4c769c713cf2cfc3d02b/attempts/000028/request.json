@@ -1,0 +1,18 @@
+{
+  "model": "gemma4:e2b-it-q4_K_M",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Write a .NET 8 C# method that counts occurrences of nonempty strings from IEnumerable\u003Cstring?\u003E using ordinal case-insensitive comparison. Reject a null enumerable, ignore null/empty elements, and return Dictionary\u003Cstring,int\u003E. Include a short usage example. Return code as text only; do not execute it."
+    }
+  ],
+  "stream": true,
+  "keep_alive": "300s",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 2048
+  },
+  "think": false
+}
