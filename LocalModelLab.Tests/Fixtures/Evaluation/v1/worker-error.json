@@ -3,7 +3,7 @@
   "evaluationId": "synthetic-evaluation",
   "manifest": {
     "path": "manifest.json",
-    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    "sha256": "beb26b7ac6218de8c85350c84470851f16178d71d95936e55b60d636a68bbc6c"
   },
   "lifecycle": "finalized",
   "outcome": "error",

@@ -1,3 +1,4 @@
 # Evaluation hashes identify exact bytes across Windows and Linux checkouts.
+# Write UTF-8 without BOM and LF before hashing; Git attributes do not rewrite existing working copies.
 evaluations/** text eol=lf
 LocalModelLab.Tests/Fixtures/Evaluation/** text eol=lf

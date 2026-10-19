@@ -5,7 +5,7 @@
   "engineVersion": "1.0.0",
   "definition": {
     "path": "package/definition.json",
-    "sha256": "7466518093bc79bd53be9db65f4484fd68a2f456b1091c98b3cb53377747bee9"
+    "sha256": "541cb7cd83895c0b2008b68b31b1b40505055afc05be1c84d3e3d594d4a58fdf"
   },
   "case": {
     "id": "string-counting-legacy",

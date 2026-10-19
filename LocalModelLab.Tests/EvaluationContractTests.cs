@@ -1,4 +1,5 @@
 using System.Collections.Immutable;
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using LocalModelLab.Core;
@@ -19,7 +20,10 @@ public class EvaluationContractTests
         var item = Assert.Single(definition.Cases);
         var verifier = Assert.Single(definition.Verifiers);
         foreach (var artifact in verifier.Artifacts.Prepend(item.Contract))
-            Assert.Equal(artifact.Sha256, LabJson.Hash(File.ReadAllBytes(Path.Combine(PackageRoot, artifact.Path))));
+        {
+            var actual = LabJson.Hash(File.ReadAllBytes(Path.Combine(PackageRoot, artifact.Path)));
+            Assert.True(artifact.Sha256 == actual, $"{artifact.Path}: recorded SHA-256 {artifact.Sha256}; actual {actual}.");
+        }
 
         var benchmark = Read<BenchmarkDefinitions>(Path.Combine(AppContext.BaseDirectory, "benchmarks", "comparison.non-thinking.v1.json"));
         var source = Assert.Single(benchmark.Cases, c => c.Id == item.SourceCaseId);
@@ -50,6 +54,34 @@ public class EvaluationContractTests
         Assert.Equal(reason, Assert.Single(result.Checks, c => c.Id == "compilation").ReasonCode);
         Assert.True(JsonNode.DeepEquals(JsonNode.Parse(json), JsonSerializer.SerializeToNode(result, LabJson.Options)));
         Assert.Equal(LabJson.Fingerprint(result), LabJson.Fingerprint(Roundtrip(result)));
+        Assert.Equal("manifest.json", result.Manifest.Path);
+        Assert.Equal(LabJson.Hash(File.ReadAllBytes(Path.Combine(FixtureRoot, result.Manifest.Path))), result.Manifest.Sha256);
+    }
+
+    [Fact]
+    public void PackageAndGoldenFilesUseExactUtf8LfBytes()
+    {
+        foreach (var path in Directory.GetFiles(PackageRoot).Concat(Directory.GetFiles(FixtureRoot, "*.json")))
+        {
+            var bytes = File.ReadAllBytes(path);
+            Assert.False(bytes.AsSpan().StartsWith(new byte[] { 0xef, 0xbb, 0xbf }), $"{path}: UTF-8 BOM changes artifact hashes.");
+            Assert.DoesNotContain((byte)'\r', bytes);
+            Assert.NotEmpty(bytes);
+            Assert.Equal((byte)'\n', bytes[^1]);
+            Assert.Equal(bytes, new UTF8Encoding(false, true).GetBytes(new UTF8Encoding(false, true).GetString(bytes)));
+        }
+    }
+
+    [Fact]
+    public void HashesDoNotHideByteChangesOrNormalizeLineEndings()
+    {
+        var bytes = File.ReadAllBytes(Path.Combine(PackageRoot, "observations.json"));
+        var crlf = Encoding.UTF8.GetBytes(Encoding.UTF8.GetString(bytes).Replace("\n", "\r\n", StringComparison.Ordinal));
+        Assert.NotEqual(LabJson.Hash(bytes), LabJson.Hash(crlf));
+        Assert.NotEqual(LabJson.Hash(bytes), LabJson.Hash(new byte[] { 0xef, 0xbb, 0xbf }.Concat(bytes).ToArray()));
+        var changed = bytes.ToArray();
+        changed[0] ^= 1;
+        Assert.NotEqual(LabJson.Hash(bytes), LabJson.Hash(changed));
     }
 
     [Fact]
@@ -216,6 +248,41 @@ public class EvaluationContractTests
             Assert.ThrowsAny<ArgumentException>(() => EvaluationValidator.Validate(invalid, definition));
     }
 
+    [Fact]
+    public void ReferencesWithinOneRootCannotContradictHashesOrPathCasing()
+    {
+        var definition = Definition();
+        var item = definition.Cases[0];
+        var verifier = definition.Verifiers[0];
+        Assert.Throws<ArgumentException>(() => EvaluationValidator.Validate(definition with
+        {
+            Verifiers = [verifier with { Artifacts = verifier.Artifacts.Add(item.Contract with { Path = item.Contract.Path.ToUpperInvariant() }) }]
+        }));
+        var manifest = Manifest();
+        Assert.Throws<ArgumentException>(() => EvaluationValidator.Validate(manifest with
+        {
+            Provenance = [manifest.Definition with { Sha256 = new string('1', 64) }]
+        }, definition));
+        var result = Result();
+        foreach (var conflicting in new[] { result.Manifest with { Sha256 = new string('1', 64) }, result.Manifest with { Path = "MANIFEST.JSON" } })
+            Assert.Throws<ArgumentException>(() => EvaluationValidator.Validate(result with
+            {
+                Checks = result.Checks.SetItem(1, result.Checks[1] with { Evidence = [conflicting] })
+            }, manifest, definition));
+        var check = result.Checks[1];
+        Assert.Throws<ArgumentException>(() => EvaluationValidator.Validate(result with
+        {
+            Checks = result.Checks.SetItem(0, check with
+            {
+                Id = "submission", Evidence = [check.Evidence[0] with { Sha256 = new string('1', 64) }]
+            })
+        }, manifest, definition));
+        EvaluationValidator.Validate(result with
+        {
+            Checks = result.Checks.SetItem(0, check with { Id = "submission" })
+        }, manifest, definition);
+    }
+
     [Theory]
     [InlineData("../result.json")]
     [InlineData("/result.json")]
@@ -226,6 +293,12 @@ public class EvaluationContractTests
     [InlineData("attempts/result.json.")]
     [InlineData("attempts/*.json")]
     [InlineData("attempts/result.json:stream")]
+    [InlineData("NUL")]
+    [InlineData("evidence/con.json")]
+    [InlineData("evidence/COM1.txt")]
+    [InlineData("evidence/lpt9/log.json")]
+    [InlineData("evidence/COM\u00b9.txt")]
+    [InlineData("CONOUT$")]
     public void UnsafeArtifactReferencesAreRejected(string path)
     {
         var result = Result() with { Manifest = Evidence() with { Path = path } };
@@ -284,6 +357,29 @@ public class EvaluationContractTests
         Assert.Equal("compilationRejected", controls["duplicate-declarations"].GetProperty("reasonCode").GetString());
         foreach (var control in controls.Values)
             Assert.Contains(control.GetProperty("observation").GetString(), probes.Keys.Concat(["submission", "compilation"]));
+    }
+
+    [Fact]
+    public void DeclaredExpectedGroupsAgreeWithTheirStaticInputs()
+    {
+        using var observations = JsonDocument.Parse(File.ReadAllBytes(Path.Combine(PackageRoot, "observations.json")));
+        foreach (var observation in observations.RootElement.GetProperty("observations").EnumerateArray())
+        {
+            if (!observation.GetProperty("expected").TryGetProperty("groups", out var groups)) continue;
+            var input = observation.GetProperty("input").EnumerateArray().Select(v => v.GetString()).Where(v => !string.IsNullOrEmpty(v)).ToArray();
+            var seen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            var total = 0;
+            foreach (var group in groups.EnumerateArray())
+            {
+                var key = group.GetProperty("key").GetString()!;
+                Assert.True(seen.Add(key), $"{observation.GetProperty("id")}: duplicate expected equivalence class.");
+                var expected = group.GetProperty("count").GetInt32();
+                Assert.True(expected > 0);
+                Assert.Equal(expected, input.Count(value => StringComparer.OrdinalIgnoreCase.Equals(value, key)));
+                total += expected;
+            }
+            Assert.Equal(input.Length, total);
+        }
     }
 
     private static EvaluationDefinition Definition() => Read<EvaluationDefinition>(Path.Combine(PackageRoot, "definition.json"));

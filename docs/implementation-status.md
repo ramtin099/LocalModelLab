@@ -1,4 +1,16 @@
-# Phase 1A implementation and verification
+# Implementation and verification status
+
+## Phase 1B.1 committed state and CI correction
+
+Phase 1B.1 was committed as `c47a92b01f80735b92a76bb124f6e1e013b5f62b` (`1b.1`). It contains evaluation contracts/validation, a static string-counting package, synthetic serialization fixtures and governance only. It does not implement Phase 1B.2 or generated-code execution.
+
+[Actions run 39247348204](https://github.com/ramtin099/LocalModelLab/actions/runs/39247348204) is **failed**, not accepted: [Ubuntu job 118042397060](https://github.com/ramtin099/LocalModelLab/actions/runs/39247348204/job/118042397060) built with zero warnings/errors, then ran 108 tests: 107 passed, 1 failed, 0 skipped. `EvaluationContractTests.VersionOnePackageAndSourceBindingAreIntact` found the observations.json SHA-256 mismatch. [Windows job 118042396586](https://github.com/ramtin099/LocalModelLab/actions/runs/39247348204/job/118042396586) was cancelled during build by matrix fail-fast; its tests were skipped. There is no Windows CI pass for this commit.
+
+The confirmed cause was hashes computed over pre-normalization CRLF working-tree JSON while Git committed LF blobs. Existing `.gitattributes` correctly specified `text eol=lf`, but did not rewrite already present working copies. Original observations.json: 4,993 CRLF bytes hash to the recorded `9f1bab6208b5ce4b936de424fa63b5289ab568cca877bcf28512ee44ccd366ff`; its 4,775 committed LF bytes hash to Ubuntu's actual `f43ef22b6a3bb2f517d2397680597bbdfa7efb832bc1175ee701d36eabad16ca`. incorrect-fixtures.json and the synthetic manifest's definition reference had the same defect. Details and the corrected hash chain are in [Phase 1B verification](phase-1b.md#ci-correction-for-c47a92b).
+
+The current correction is **uncommitted**, locally verified on Windows: Release build zero warnings/errors; **118 passed, 0 failed, 0 skipped**. Package/golden files use exact UTF-8/LF bytes; raw-byte integrity checks remain enabled. Additional tests cover byte format, hash sensitivity, actual synthetic-manifest binding, cross-reference consistency and declared expected groups. Fresh checkouts from a temporary Git index with core.autocrlf=false and true produced identical bytes for all eight artifact files. This is a Git checkout test on Windows, not an Ubuntu test run. CI matrix fail-fast is disabled in the correction so both jobs can finish independently.
+
+No benchmark code was compiled/loaded/executed, no inference artifacts or prompts were modified, and no commit/push was performed during this correction. **Hosted acceptance remains pending:** after explicit authorization to commit/push, record the corrected SHA and verify both Windows and Ubuntu jobs succeed for exactly that SHA. Independent ground-truth review and all Phase 1B.2 execution gates also remain pending.
 
 ## Current milestone update: 2026-10-19
 
@@ -6,7 +18,7 @@ The non-thinking smoke and full four-model hardware benchmark have now completed
 
 This update supersedes the pending-run statements in the historical correction record below; its earlier build/test/CI claims remain scoped to the revisions they describe. Phase 1B.1 contracts, static reference specifications and governance are documented in [Phase 1B](phase-1b.md) and [ROADMAP](ROADMAP.md). No VM, worker or generated-code execution has been added. Current verification is recorded there, not attributed to historical CI.
 
-## Committed baseline
+## Historical Phase 1A committed baseline
 
 The hardening implementation is committed on main at 0a1a7131ae3ca34ca3ffa409d40557fc7f589f7e (parent b9c5e6ca3a1f6e86d9fc9d8ff750e828085bf221). It includes harness 1.1.0, deterministic rotating schedules, singleModel residency enforcement, structured preflight evidence, context/digest checks, buffered partial output preservation, runtime snapshots, reports and the separate comparison.v1.json definition.
 

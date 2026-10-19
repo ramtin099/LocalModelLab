@@ -118,9 +118,7 @@ public static class EvaluationValidator
                 throw new ArgumentException("Evaluation case references an unknown verifier version.");
         }
         var artifacts = definition.Cases.Select(c => c.Contract).Concat(definition.Verifiers.SelectMany(v => v.Artifacts));
-        foreach (var group in artifacts.GroupBy(a => a.Path, StringComparer.OrdinalIgnoreCase))
-            if (group.Select(a => a.Sha256).Distinct(StringComparer.Ordinal).Count() != 1)
-                throw new ArgumentException("An artifact path cannot identify conflicting hashes.");
+        ConsistentReferences(artifacts);
     }
 
     public static void Validate(EvaluationManifest manifest, EvaluationDefinition definition)
@@ -142,6 +140,7 @@ public static class EvaluationValidator
         Hash(manifest.Source.CaseFingerprint);
         if (manifest.Source.Repetition < 1) throw new ArgumentException("Source repetition must be positive.");
         Artifacts(manifest.Provenance, required: true);
+        ConsistentReferences(manifest.Provenance.Prepend(manifest.Definition));
         var item = definition.Cases.SingleOrDefault(c => c.Id == manifest.Case.Id && c.Version == manifest.Case.Version);
         if (item is null || item.Verifier != manifest.Verifier || item.SourceCaseFingerprint != manifest.Source.CaseFingerprint)
             throw new ArgumentException("Manifest case, verifier and source fingerprint must agree with the definition.");
@@ -166,6 +165,7 @@ public static class EvaluationValidator
             Text(check.ReasonCode);
             Artifacts(check.Evidence, required: check.Outcome != CheckOutcome.NotRun);
         }
+        ConsistentReferences(result.Checks.SelectMany(c => c.Evidence).Prepend(result.Manifest));
         // Lifecycle is operational state; incomplete work cannot claim an overall correctness verdict.
         CheckOutcome expected;
         if (result.Lifecycle != EvaluationLifecycle.Finalized) expected = CheckOutcome.NotRun;
@@ -213,6 +213,14 @@ public static class EvaluationValidator
         if (artifact.Path.Any(c => c is '\\' or ':' or '<' or '>' or '"' or '|' or '?' or '*' || char.IsControl(c)) ||
             artifact.Path.Split('/').Any(p => p is "" or "." or ".." || p.EndsWith(' ') || p.EndsWith('.')))
             throw new ArgumentException("Artifact paths must be portable relative paths without traversal.");
+        foreach (var segment in artifact.Path.Split('/'))
+        {
+            var stem = segment.Split('.')[0].ToUpperInvariant();
+            if (stem is "CON" or "PRN" or "AUX" or "NUL" or "CONIN$" or "CONOUT$" ||
+                (stem.Length == 4 && (stem.StartsWith("COM", StringComparison.Ordinal) || stem.StartsWith("LPT", StringComparison.Ordinal)) &&
+                 "123456789\u00b9\u00b2\u00b3".Contains(stem[3])))
+                throw new ArgumentException("Artifact paths cannot contain Windows device names.");
+        }
         Hash(artifact.Sha256);
     }
 
@@ -238,5 +246,13 @@ public static class EvaluationValidator
         foreach (var artifact in artifacts) Artifact(artifact);
         if (artifacts.Select(a => a.Path).Distinct(StringComparer.OrdinalIgnoreCase).Count() != artifacts.Length)
             throw new ArgumentException("Artifact paths must be unique even on case-insensitive filesystems.");
+    }
+
+    private static void ConsistentReferences(IEnumerable<ArtifactReference> artifacts)
+    {
+        foreach (var group in artifacts.GroupBy(a => a.Path, StringComparer.OrdinalIgnoreCase))
+            if (group.Select(a => a.Path).Distinct(StringComparer.Ordinal).Count() != 1 ||
+                group.Select(a => a.Sha256).Distinct(StringComparer.Ordinal).Count() != 1)
+                throw new ArgumentException("References within one artifact root must use identical path spelling and SHA-256.");
     }
 }

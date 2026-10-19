@@ -1,6 +1,6 @@
 # LocalModelLab roadmap
 
-Last updated: 2026-10-19. This is a local progress record, not a claim of new hosted CI or publication.
+Last updated: 2026-10-19. Committed milestones and local corrections are distinguished below; no unverified hosted CI success is claimed.
 
 ## Final goal
 
@@ -23,12 +23,12 @@ The overall architecture is approved. Each implementation/execution milestone re
 
 | Milestone | Status | Exit gate |
 |---|---|---|
-| 1B.1 contracts, ground truth, governance | Implemented; local build/test verification recorded in phase-1b.md | Stable schema 1 JSON; definition/result validation; hash-bound static package; reviewed expected observations; Phase 1A regressions pass; no generated-code execution |
+| 1B.1 contracts, ground truth, governance | Committed at c47a92b; hosted CI failed; correction locally verified, hosted gate pending | Stable schema 1 JSON; definition/result validation; hash-bound static package; reviewed expected observations; Phase 1A regressions pass; both Windows/Ubuntu CI pass at the exact corrected SHA; no generated-code execution |
 | 1B.2 isolation design/preflight and implementation | Not started; separate approval required | Confirm Windows edition/virtualization/resources; pin offline guest/toolchain; demonstrate containment, limits, trusted verdict ownership and teardown with approved fixtures; no host fallback |
 | 1B.3 deterministic compilation and behavioral verifier | Not started; separate approval required | Fixed trusted build inputs; exact required checks; candidate failures vs infrastructure errors; artifact integrity and repeatable outcomes; generated code runs only after isolation approval |
 | 1B.4 small retrospective pilot | Not started; separate execution approval required | Freeze selection; four string-counting answers plus four iterator manual reviews; traceable evidence and explicit coverage; expand only after review |
 
-1B.1's independent human ground-truth review remains **pending**, even after its automated tests pass. Static fixture consistency is not execution-based oracle verification. See [Phase 1B contracts and gates](phase-1b.md) and [legacy package](../evaluations/string-counting/1.0.0/contract.md).
+1B.1's independent human ground-truth review remains **pending**, even after its automated tests pass. Run [39247348204](https://github.com/ramtin099/LocalModelLab/actions/runs/39247348204) failed on Ubuntu's committed-byte integrity check; Windows was cancelled before testing. The uncommitted correction passes 118 local Windows tests but requires authorized commit/push and both hosted jobs for that exact corrected SHA. Static fixture consistency is not execution-based oracle verification. See [Phase 1B contracts and gates](phase-1b.md) and [legacy package](../evaluations/string-counting/1.0.0/contract.md).
 
 ## Later work (not implemented)
 
@@ -46,6 +46,6 @@ No repair loop, repository retrieval, agent executor, model router, optimization
 - Legacy case: null input must be rejected, but no exception type is prescribed. Count ordinal case-insensitively; returned dictionary lookup comparer is not scored. Never retroactively strengthen the prompt.
 - Unknown: machine Hyper-V eligibility, available RAM/disk, chosen guest image/distribution and license, exact supported SDK/runtime patch and resource-limit calibration.
 - Pending: independent review of observation/fixture expectations and extraction policy, approval of strict future requirements, isolation preflight and output-transfer design.
-- Next: review 1B.1 diff and static package; close or annotate ground-truth ambiguities; approve only the next bounded milestone. No generated-code execution, commit or push is authorized by 1B.1.
+- Next: review the 1B.1 CI correction; explicitly authorize commit/push before obtaining and verifying both hosted CI results for the corrected SHA. Review ground truth before approving the next bounded milestone. No generated-code execution, commit or push is authorized by 1B.1 alone.
 
 New evidence, verdict-affecting edits and acceptance decisions must be recorded with version/hash and review provenance. Never overwrite a released evaluation package; bump case/verifier versions as appropriate.

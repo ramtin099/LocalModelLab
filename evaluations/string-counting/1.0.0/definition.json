@@ -46,11 +46,11 @@
         },
         {
           "path": "observations.json",
-          "sha256": "9f1bab6208b5ce4b936de424fa63b5289ab568cca877bcf28512ee44ccd366ff"
+          "sha256": "f43ef22b6a3bb2f517d2397680597bbdfa7efb832bc1175ee701d36eabad16ca"
         },
         {
           "path": "incorrect-fixtures.json",
-          "sha256": "bc079f3eab5e54c9df906f89ee060862bca6b4c1d494f267b166d067a03e5207"
+          "sha256": "a0cb9b6e4ca66de51eeb846b521a958d99c46bcbb982263a3cdfafe22f1d24b2"
         }
       ]
     }
