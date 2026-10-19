@@ -16,7 +16,8 @@
       "verifier": {
         "id": "string-counting-verifier",
         "version": "1.0.0"
-      }
+      },
+      "sourceCaseFingerprintAlgorithm": "phase1a-stj-indented-crlf-v1"
     }
   ],
   "verifiers": [

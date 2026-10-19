@@ -33,6 +33,7 @@ public sealed record EvaluationCase
     public required string SourceCaseId { get; init; }
     public required string SourceCaseVersion { get; init; }
     public required string SourceCaseFingerprint { get; init; }
+    public required string SourceCaseFingerprintAlgorithm { get; init; }
     public required ArtifactReference Contract { get; init; }
     public required VersionedEvaluationReference Verifier { get; init; }
 }
@@ -53,6 +54,7 @@ public sealed record SourceAttemptReference
     public required string AttemptId { get; init; }
     public required ArtifactReference Result { get; init; }
     public required string CaseFingerprint { get; init; }
+    public required string CaseFingerprintAlgorithm { get; init; }
     public required bool Warmup { get; init; }
     public required int Repetition { get; init; }
 }
@@ -112,6 +114,8 @@ public static class EvaluationValidator
             Identity(item.Id, item.Version);
             Identity(item.SourceCaseId, item.SourceCaseVersion);
             Hash(item.SourceCaseFingerprint);
+            if (!EvaluationFingerprints.IsSourceAlgorithm(item.SourceCaseFingerprintAlgorithm))
+                throw new ArgumentException("An explicit supported source-case fingerprint algorithm is required.");
             Artifact(item.Contract);
             Reference(item.Verifier);
             if (!definition.Verifiers.Any(v => v.Id == item.Verifier.Id && v.Version == item.Verifier.Version))
@@ -138,11 +142,14 @@ public static class EvaluationValidator
         Text(manifest.Source.AttemptId);
         Artifact(manifest.Source.Result);
         Hash(manifest.Source.CaseFingerprint);
+        if (!EvaluationFingerprints.IsSourceAlgorithm(manifest.Source.CaseFingerprintAlgorithm))
+            throw new ArgumentException("An explicit supported source-attempt fingerprint algorithm is required.");
         if (manifest.Source.Repetition < 1) throw new ArgumentException("Source repetition must be positive.");
         Artifacts(manifest.Provenance, required: true);
         ConsistentReferences(manifest.Provenance.Prepend(manifest.Definition));
         var item = definition.Cases.SingleOrDefault(c => c.Id == manifest.Case.Id && c.Version == manifest.Case.Version);
-        if (item is null || item.Verifier != manifest.Verifier || item.SourceCaseFingerprint != manifest.Source.CaseFingerprint)
+        if (item is null || item.Verifier != manifest.Verifier || item.SourceCaseFingerprint != manifest.Source.CaseFingerprint ||
+            item.SourceCaseFingerprintAlgorithm != manifest.Source.CaseFingerprintAlgorithm)
             throw new ArgumentException("Manifest case, verifier and source fingerprint must agree with the definition.");
     }
 

@@ -16,6 +16,7 @@ public static class LabJson
     };
 
     public static string Hash(byte[] bytes) => Convert.ToHexString(SHA256.HashData(bytes)).ToLowerInvariant();
+    // Phase 1A legacy identity: indented serialization uses OS newlines. Do not migrate frozen runs.
     public static string Fingerprint<T>(T value) => Hash(JsonSerializer.SerializeToUtf8Bytes(value, Options));
 }
 

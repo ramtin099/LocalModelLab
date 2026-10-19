@@ -28,7 +28,9 @@ public class EvaluationContractTests
         var benchmark = Read<BenchmarkDefinitions>(Path.Combine(AppContext.BaseDirectory, "benchmarks", "comparison.non-thinking.v1.json"));
         var source = Assert.Single(benchmark.Cases, c => c.Id == item.SourceCaseId);
         Assert.Equal(source.Version, item.SourceCaseVersion);
-        Assert.Equal(LabJson.Fingerprint(source), item.SourceCaseFingerprint);
+        var sourceFingerprint = EvaluationFingerprints.ForSourceCase(source, item.SourceCaseFingerprintAlgorithm);
+        Assert.Equal(EvaluationFingerprints.Phase1ACrlfV1, sourceFingerprint.Algorithm);
+        Assert.Equal(sourceFingerprint.Sha256, item.SourceCaseFingerprint);
         var manifest = Manifest();
         Assert.Equal(LabJson.Hash(File.ReadAllBytes(Path.Combine(PackageRoot, "definition.json"))), manifest.Definition.Sha256);
         EvaluationValidator.Validate(manifest, definition);
@@ -39,7 +41,7 @@ public class EvaluationContractTests
     {
         var json = File.ReadAllText(Path.Combine(PackageRoot, "definition.json"));
         Assert.True(JsonNode.DeepEquals(JsonNode.Parse(json), JsonSerializer.SerializeToNode(Definition(), LabJson.Options)));
-        Assert.Equal(LabJson.Fingerprint(Definition()), LabJson.Fingerprint(Roundtrip(Definition())));
+        Assert.Equal(EvaluationFingerprints.Create(Definition()), EvaluationFingerprints.Create(Roundtrip(Definition())));
     }
 
     [Theory]
@@ -53,7 +55,7 @@ public class EvaluationContractTests
         Assert.Equal(outcome, result.Outcome);
         Assert.Equal(reason, Assert.Single(result.Checks, c => c.Id == "compilation").ReasonCode);
         Assert.True(JsonNode.DeepEquals(JsonNode.Parse(json), JsonSerializer.SerializeToNode(result, LabJson.Options)));
-        Assert.Equal(LabJson.Fingerprint(result), LabJson.Fingerprint(Roundtrip(result)));
+        Assert.Equal(EvaluationFingerprints.Create(result), EvaluationFingerprints.Create(Roundtrip(result)));
         Assert.Equal("manifest.json", result.Manifest.Path);
         Assert.Equal(LabJson.Hash(File.ReadAllBytes(Path.Combine(FixtureRoot, result.Manifest.Path))), result.Manifest.Sha256);
     }

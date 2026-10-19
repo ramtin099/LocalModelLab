@@ -4,6 +4,8 @@ Scope: domain data and validation, static verification specifications, governanc
 
 ## Contracts and versioning
 
+Raw hashes and logical identities are separate. New logical identities use the tagged `lab-json-canonical-v1` algorithm in [fingerprints.md](fingerprints.md). Legacy source bindings require SourceCaseFingerprintAlgorithm and SourceAttemptReference.CaseFingerprintAlgorithm; both must agree as well as the digest. The current package explicitly uses `phase1a-stj-indented-crlf-v1` to retain its Windows Phase 1A identity on either evaluator OS. Missing labels are rejected in this amendment to the unaccepted schema-1 draft; there is no automatic historical artifact migration. ArtifactReference.Sha256 always remains exact-byte SHA-256.
+
 `LocalModelLab.Core/Evaluation.cs` uses existing `LabJson.Options`: camelCase JSON properties and enum strings, rejected unknown fields and numeric enums. All contract properties are required, including explicit schemaVersion, lifecycle and outcome; missing properties are rejected on deserialization. Empty evidence is permitted only for notRun checks. Collections use ImmutableArray and records have init-only properties. No contract contains an AttemptResult, BenchmarkDefinitions, provider, mutable inference store or generated executable.
 
 - EvaluationDefinition owns versioned cases and verifiers. EvaluationCase binds exact source case ID/version/fingerprint to a public contract and verifier. VerifierDefinition identifies its kind, required check IDs and private artifact hashes. An unknown kind is data, not permission to run it; any future dispatcher must return unsupported/notRun.
@@ -85,4 +87,12 @@ Local correction verification on Windows (SDK 10.0.402, .NET 8.0.32 runtime): th
 
 Review also added same-root hash/path consistency checks and Windows device-name rejection, without changing the schema-1 wire shape. CI fail-fast is disabled so both matrix jobs can finish independently. No candidate compiler/loader/executor, new production dependency or Phase 1B.2 code was added; inference artifacts and prompts remain unchanged.
 
-This correction is uncommitted and unpushed. Acceptance remains **pending**: obtain explicit commit/push authorization, run both CI jobs for the exact corrected SHA, verify their completed test results, and record that evidence. Ground-truth review and all execution/isolation gates remain pending independently.
+That correction was subsequently committed as `28417ce290fa560ec349803f0bee284806bff9cb`. [Run 39251761172](https://github.com/ramtin099/LocalModelLab/actions/runs/39251761172) verified Windows 118/118 but Ubuntu 117/118; acceptance remained pending. The new failure at source binding (line 31) was a separate legacy logical-fingerprint newline issue, not another raw-file hash mismatch.
+
+## Logical fingerprint correction for 28417ce
+
+The actual .NET 8.0.32 serializer reproduced the 414-byte CRLF source case hash `90ce6abc...` and the 409-byte LF hash `ad82ca5f...`. The package had implicitly bound a Windows fingerprint while the test recomputed with host-native formatting. See [algorithm specification, exact vectors and caller audit](fingerprints.md).
+
+The current uncommitted correction retains that recorded Windows digest and tags its algorithm, adds canonical logical fingerprints for new evaluation objects, and leaves raw hashing plus Phase 1A generation/artifacts unchanged. Definition/manifest/result fixture hash references are refreshed because the new algorithm-label fields change those exact bytes. Contract, extraction, hidden observations and negative fixtures remain unchanged. Their expected behavior has not been strengthened.
+
+Local Release verification: zero build warnings/errors; **145 passed, 0 failed, 0 skipped** on Windows, targeting net8.0. Fixed canonical and both explicit legacy vectors run with identical expected values on all OSes. Tests cover formatting/indentation/escape independence, exact numeric normalization, algorithm-label validation and strict raw-byte sensitivity. Hosted verification of this new correction is not claimed. No benchmark-generated code was compiled, loaded or executed; no Phase 1B.2 code, inference artifact changes, commit or push were made. A newly authorized corrected commit must pass both hosted jobs before acceptance. Independent ground-truth review and execution/isolation gates remain pending.

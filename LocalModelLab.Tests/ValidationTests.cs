@@ -50,7 +50,7 @@ public class ValidationTests
     }
 
     [Fact]
-    public void ValidDefinitionsHaveStableFingerprints()
+    public void LegacyDefinitionFingerprintsRoundTripWithinTheCurrentPlatform()
     {
         var definitions = TestData.Definitions();
         DefinitionValidator.Validate(definitions);

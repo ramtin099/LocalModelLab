@@ -1,6 +1,16 @@
 # Implementation and verification status
 
-## Phase 1B.1 committed state and CI correction
+## Current Phase 1B.1 status: not accepted
+
+Current committed revision: `28417ce290fa560ec349803f0bee284806bff9cb`. [Actions run 39251761172](https://github.com/ramtin099/LocalModelLab/actions/runs/39251761172) completed both builds; [Windows job 118057016721](https://github.com/ramtin099/LocalModelLab/actions/runs/39251761172/job/118057016721) passed **118/118**, while [Ubuntu job 118057016297](https://github.com/ramtin099/LocalModelLab/actions/runs/39251761172/job/118057016297) passed **117/118**. Both had zero skipped tests; Ubuntu failed VersionOnePackageAndSourceBindingAreIntact at line 31. The raw artifact-hash correction was committed, but Phase 1B.1 did not meet its cross-platform acceptance gate.
+
+The new root cause is verified in the actual .NET implementation: indented BenchmarkCase serialization contains OS-dependent structural newlines. The same source case serializes to 414 CRLF bytes hashing to `90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef`, or 409 LF bytes hashing to `ad82ca5fb410ce52d6bd7b5aebe03acdd4e291b6cabb20c82b166c36b0b7273d`. The package's implicit Windows identity was compared to Ubuntu's native identity. This is separate from Git normalization of physical artifact files.
+
+Current correction: **uncommitted and unpushed**. It adds versioned, tagged canonical logical fingerprints and explicit legacy CRLF/LF compatibility for source bindings, retaining the recorded Windows digest. Raw SHA-256 verification and Phase 1A fingerprint generation/frozen evidence are unchanged. The evaluation package and source reference now explicitly name the compatible algorithm. Required labels amend the still-unaccepted evaluation draft; no silent OS guessing or historical migration is performed. Full specification and all case/suite/profile/report/manifest caller findings: [fingerprints.md](fingerprints.md).
+
+Local Windows Release build: **0 warnings, 0 errors**. Full tests: **145 passed, 0 failed, 0 skipped**, including fixed cross-platform canonical/legacy vectors and the existing strict raw-byte tests. Local runtime is .NET 8.0.32; SDK 10.0.402. These are local results, not hosted acceptance for a new commit. After explicit commit/push authorization, verify both hosted jobs for the exact corrected SHA and update this record. Ground-truth review and Phase 1B.2 remain pending; no candidate code execution, inference artifact edits, commit or push occurred during this correction.
+
+## Historical Phase 1B.1 raw-hash correction
 
 Phase 1B.1 was committed as `c47a92b01f80735b92a76bb124f6e1e013b5f62b` (`1b.1`). It contains evaluation contracts/validation, a static string-counting package, synthetic serialization fixtures and governance only. It does not implement Phase 1B.2 or generated-code execution.
 
@@ -8,9 +18,9 @@ Phase 1B.1 was committed as `c47a92b01f80735b92a76bb124f6e1e013b5f62b` (`1b.1`).
 
 The confirmed cause was hashes computed over pre-normalization CRLF working-tree JSON while Git committed LF blobs. Existing `.gitattributes` correctly specified `text eol=lf`, but did not rewrite already present working copies. Original observations.json: 4,993 CRLF bytes hash to the recorded `9f1bab6208b5ce4b936de424fa63b5289ab568cca877bcf28512ee44ccd366ff`; its 4,775 committed LF bytes hash to Ubuntu's actual `f43ef22b6a3bb2f517d2397680597bbdfa7efb832bc1175ee701d36eabad16ca`. incorrect-fixtures.json and the synthetic manifest's definition reference had the same defect. Details and the corrected hash chain are in [Phase 1B verification](phase-1b.md#ci-correction-for-c47a92b).
 
-The current correction is **uncommitted**, locally verified on Windows: Release build zero warnings/errors; **118 passed, 0 failed, 0 skipped**. Package/golden files use exact UTF-8/LF bytes; raw-byte integrity checks remain enabled. Additional tests cover byte format, hash sensitivity, actual synthetic-manifest binding, cross-reference consistency and declared expected groups. Fresh checkouts from a temporary Git index with core.autocrlf=false and true produced identical bytes for all eight artifact files. This is a Git checkout test on Windows, not an Ubuntu test run. CI matrix fail-fast is disabled in the correction so both jobs can finish independently.
+That correction was locally verified on Windows before commit: Release build zero warnings/errors; **118 passed, 0 failed, 0 skipped**. Package/golden files use exact UTF-8/LF bytes; raw-byte integrity checks remain enabled. Additional tests cover byte format, hash sensitivity, actual synthetic-manifest binding, cross-reference consistency and declared expected groups. Fresh checkouts from a temporary Git index with core.autocrlf=false and true produced identical bytes for all eight artifact files. This was a Git checkout test on Windows, not an Ubuntu test run. CI matrix fail-fast was disabled so both jobs could finish independently. It was subsequently committed as 28417ce; the newer CI state is recorded above.
 
-No benchmark code was compiled/loaded/executed, no inference artifacts or prompts were modified, and no commit/push was performed during this correction. **Hosted acceptance remains pending:** after explicit authorization to commit/push, record the corrected SHA and verify both Windows and Ubuntu jobs succeed for exactly that SHA. Independent ground-truth review and all Phase 1B.2 execution gates also remain pending.
+No benchmark code was compiled/loaded/executed and no inference artifacts or prompts were modified by that correction. Its subsequent hosted results did not satisfy acceptance; see the current status above. Independent ground-truth review and all Phase 1B.2 execution gates also remain pending.
 
 ## Current milestone update: 2026-10-19
 

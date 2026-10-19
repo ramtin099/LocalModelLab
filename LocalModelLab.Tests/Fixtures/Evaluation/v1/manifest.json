@@ -5,7 +5,7 @@
   "engineVersion": "1.0.0",
   "definition": {
     "path": "package/definition.json",
-    "sha256": "541cb7cd83895c0b2008b68b31b1b40505055afc05be1c84d3e3d594d4a58fdf"
+    "sha256": "239e366b9a3d3dfcd2f9eadfdfb293b957b289fcfbf8d67c0cf23687badaf245"
   },
   "case": {
     "id": "string-counting-legacy",
@@ -24,7 +24,8 @@
     },
     "caseFingerprint": "90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef",
     "warmup": false,
-    "repetition": 1
+    "repetition": 1,
+    "caseFingerprintAlgorithm": "phase1a-stj-indented-crlf-v1"
   },
   "provenance": [
     {
