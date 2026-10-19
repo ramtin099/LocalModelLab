@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "reviewStatus": "pendingIndependentReview",
+  "execution": "specificationOnly",
+  "fixtures": [
+    {
+      "id": "returns-empty-for-null",
+      "observation": "null-input",
+      "defect": "Returns an empty dictionary for null input.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "prescribed-exception-not-required",
+      "observation": "null-input",
+      "behavior": "Throws InvalidOperationException for null input.",
+      "expectedOutcome": "pass",
+      "reasonCode": "legacyRejectionSatisfied"
+    },
+    {
+      "id": "counts-null",
+      "observation": "null-elements",
+      "defect": "Converts null elements into a key or increments an existing count.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "counts-empty",
+      "observation": "empty-strings",
+      "defect": "Includes the empty string as a key.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "skips-whitespace",
+      "observation": "whitespace-only",
+      "defect": "Uses IsNullOrWhiteSpace and drops nonempty whitespace.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "case-sensitive-counts",
+      "observation": "ordinal-grouping",
+      "defect": "Produces separate entries for a and A.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "trims-keys",
+      "observation": "whitespace-preservation",
+      "defect": "Trims input before counting.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "duplicate-declarations",
+      "observation": "compilation",
+      "inertSource": "class Candidate { static int Count() => 1; static int Count() => 2; }",
+      "defect": "Two identical method signatures in the same type and scope.",
+      "expectedOutcome": "fail",
+      "reasonCode": "compilationRejected",
+      "diagnostic": "CS0111",
+      "note": "Trusted inert JSON text; never compiled in Phase 1B.1. It is a compiler-negative specification, not a compatible task implementation."
+    },
+    {
+      "id": "enumerates-twice",
+      "observation": "single-pass",
+      "defect": "Calls Any(), then foreach on the original one-shot enumerable.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "culture-dependent-counts",
+      "observation": "culture-invariance",
+      "defect": "Groups using CurrentCultureIgnoreCase under tr-TR.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    },
+    {
+      "id": "case-sensitive-lookup-allowed",
+      "observation": "lookup-comparer-diagnostic",
+      "behavior": "Correctly groups a/A, returns one count of 2 using a case-sensitive dictionary.",
+      "expectedOutcome": "pass",
+      "reasonCode": "lookupComparerUnspecified"
+    },
+    {
+      "id": "ambiguous-two-blocks",
+      "observation": "submission",
+      "defect": "Two csharp fenced blocks each propose a different counting method.",
+      "expectedOutcome": "notRun",
+      "reasonCode": "ambiguousSubmission"
+    },
+    {
+      "id": "missing-example",
+      "observation": "usage-example",
+      "defect": "A clear method is present but no usage example exists.",
+      "expectedOutcome": "fail",
+      "reasonCode": "missingUsageExample"
+    },
+    {
+      "id": "wrong-return-type",
+      "observation": "return-type",
+      "defect": "Returns a list of pairs instead of Dictionary<string,int>.",
+      "expectedOutcome": "fail",
+      "reasonCode": "contractMismatch"
+    }
+  ]
+}

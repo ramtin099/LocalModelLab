@@ -1,12 +1,18 @@
 # Phase 1A implementation and verification
 
+## Current milestone update: 2026-10-19
+
+The non-thinking smoke and full four-model hardware benchmark have now completed. Full run `non-thinking-full/20261019T103606112Z-f56b1b2ca7bc4c769c713cf2cfc3d02b` records completed execution with 80 finalized attempts: 16 warmups and 64 measured, four cases and four models. Local `state.json`, `schedule.json`, manifest and per-attempt artifacts are the evidence. Inference completion is not correctness. Manual review reported C# and contract errors; no automated correctness verdict is claimed.
+
+This update supersedes the pending-run statements in the historical correction record below; its earlier build/test/CI claims remain scoped to the revisions they describe. Phase 1B.1 contracts, static reference specifications and governance are documented in [Phase 1B](phase-1b.md) and [ROADMAP](ROADMAP.md). No VM, worker or generated-code execution has been added. Current verification is recorded there, not attributed to historical CI.
+
 ## Committed baseline
 
 The hardening implementation is committed on main at 0a1a7131ae3ca34ca3ffa409d40557fc7f589f7e (parent b9c5e6ca3a1f6e86d9fc9d8ff750e828085bf221). It includes harness 1.1.0, deterministic rotating schedules, singleModel residency enforcement, structured preflight evidence, context/digest checks, buffered partial output preservation, runtime snapshots, reports and the separate comparison.v1.json definition.
 
 GitHub API verification confirmed [build-and-test run 39162228502](https://github.com/ramtin099/LocalModelLab/actions/runs/39162228502) succeeded for that exact commit: both [Windows](https://github.com/ramtin099/LocalModelLab/actions/runs/39162228502/job/117777744785) and [Ubuntu](https://github.com/ramtin099/LocalModelLab/actions/runs/39162228502/job/117777745036) jobs passed. The workflow uses .NET SDK 8.0.x for restore, Release build and tests. These CI results describe the committed baseline, not the changes below.
 
-## Current uncommitted correction
+## Historical correction record (before full-run completion)
 
 Reviewed across the 2026-10-18/19 local session. No commit or push was made.
 
@@ -18,7 +24,7 @@ Reviewed across the 2026-10-18/19 local session. No commit or push was made.
 - Regression tests cover null/empty/whitespace answers, reasoning-only versus mixed output, absent reasoning, missing/zero timing, unknown/false/true truncation, warmup and unsuccessful-attempt exclusions, unchanged serialized results, CSV/Markdown rendering, profiles, validation and request options.
 - Persian operations and comparison instructions document exact operator tags qwen3.5:4b-q4_K_M and gemma4, installed-name/digest resolution, exact two-model smoke and four-model full commands, and memory-field limitations.
 
-## Local verification of this correction
+## Historical local verification of that correction
 
 Executed successfully:
 

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "synthetic-evaluation",
+  "createdUtc": "2026-10-19T00:00:00+00:00",
+  "engineVersion": "1.0.0",
+  "definition": {
+    "path": "package/definition.json",
+    "sha256": "7466518093bc79bd53be9db65f4484fd68a2f456b1091c98b3cb53377747bee9"
+  },
+  "case": {
+    "id": "string-counting-legacy",
+    "version": "1.0.0"
+  },
+  "verifier": {
+    "id": "string-counting-verifier",
+    "version": "1.0.0"
+  },
+  "source": {
+    "runId": "synthetic-run",
+    "attemptId": "000017",
+    "result": {
+      "path": "attempts/000017/result.json",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "caseFingerprint": "90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef",
+    "warmup": false,
+    "repetition": 1
+  },
+  "provenance": [
+    {
+      "path": "provenance/selection.json",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

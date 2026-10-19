@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "evaluationId": "synthetic-evaluation",
+  "manifest": {
+    "path": "manifest.json",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "lifecycle": "finalized",
+  "outcome": "fail",
+  "checks": [
+    {
+      "id": "submission",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "compilation",
+      "outcome": "fail",
+      "reasonCode": "compilationRejected",
+      "evidence": [
+        {
+          "path": "evidence/compiler.json",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "id": "null-input",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "null-elements",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "empty-strings",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "empty-input",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "whitespace-only",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "ordinal-grouping",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "whitespace-preservation",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "single-pass",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "culture-invariance",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "return-type",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    },
+    {
+      "id": "usage-example",
+      "outcome": "notRun",
+      "reasonCode": "blocked",
+      "evidence": []
+    }
+  ]
+}

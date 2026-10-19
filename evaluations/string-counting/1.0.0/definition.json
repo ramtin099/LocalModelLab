@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "string-counting-package",
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "string-counting-legacy",
+      "version": "1.0.0",
+      "sourceCaseId": "csharp-generation",
+      "sourceCaseVersion": "1.0.0",
+      "sourceCaseFingerprint": "90ce6abc62003f6fce835c6eced0fcd8573e20b68b803fe8d7996cd01c365eef",
+      "contract": {
+        "path": "contract.md",
+        "sha256": "4ad915c240950a1b043babf901cf4054ba373e9beac09a31c5a76d7435292ef6"
+      },
+      "verifier": {
+        "id": "string-counting-verifier",
+        "version": "1.0.0"
+      }
+    }
+  ],
+  "verifiers": [
+    {
+      "id": "string-counting-verifier",
+      "version": "1.0.0",
+      "kind": "csharpBehaviorSpecification",
+      "requiredChecks": [
+        "submission",
+        "compilation",
+        "null-input",
+        "null-elements",
+        "empty-strings",
+        "empty-input",
+        "whitespace-only",
+        "ordinal-grouping",
+        "whitespace-preservation",
+        "single-pass",
+        "culture-invariance",
+        "return-type",
+        "usage-example"
+      ],
+      "artifacts": [
+        {
+          "path": "extraction.md",
+          "sha256": "a136d9adfe79af8fd55d57e193697bdf200104453af3fab45a08bc1d9ee55f92"
+        },
+        {
+          "path": "observations.json",
+          "sha256": "9f1bab6208b5ce4b936de424fa63b5289ab568cca877bcf28512ee44ccd366ff"
+        },
+        {
+          "path": "incorrect-fixtures.json",
+          "sha256": "bc079f3eab5e54c9df906f89ee060862bca6b4c1d494f267b166d067a03e5207"
+        }
+      ]
+    }
+  ]
+}

@@ -20,9 +20,11 @@ Phase 1A collects responses and inference metrics only. Never compile or execute
 
 Capability declarations reserve Chat, FIM, Embedding, Vision, Decision and Thinking names. Reserving names does not implement executors or claim provider support.
 
-## Phase 1B (requires separate approval)
+## Phase 1B (architecture approved; implementation gated)
 
 Design independent evaluation artifacts and deterministic checks, resource isolation and threat model before any generated-code execution. Specify worker contracts, cancellation/resource limits, and evaluation provenance. Add future executors only under their own scope. Do not mix evaluation results with inference measurements.
+
+Phase 1B.1 is authorized for contracts, static reference observations, validation/serialization tests and project governance only. Evaluation records live in Core and contain value-only hash references to frozen inference artifacts. They do not add a service, worker, storage writer or execution command. Candidate failures and evaluator errors are separate outcomes; operational lifecycle is independent. See [Phase 1B](phase-1b.md), [roadmap](ROADMAP.md) and the [legacy string-counting package](../evaluations/string-counting/1.0.0/contract.md). Legacy requirements are not strengthened: null rejection has no prescribed exception type, and dictionary lookup comparer is not scored. Generated-code execution remains prohibited on the host and is not authorized in this milestone.
 
 ## Recorded scheduling and residency
 

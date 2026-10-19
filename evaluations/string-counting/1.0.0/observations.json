@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "reviewStatus": "pendingIndependentReview",
+  "comparison": "Inspect every output entry; one per OrdinalIgnoreCase equivalence class, whitespace preserved; key spelling/order ignored.",
+  "observations": [
+    {
+      "id": "null-input",
+      "input": null,
+      "expected": {
+        "kind": "exception",
+        "type": "unspecified"
+      },
+      "rationale": "Reject null; no exception type, parameter name or message was prescribed."
+    },
+    {
+      "id": "null-elements",
+      "input": [
+        null,
+        "a",
+        null,
+        "A"
+      ],
+      "expected": {
+        "groups": [
+          {
+            "key": "a",
+            "count": 2
+          }
+        ]
+      },
+      "rationale": "Null elements contribute no group or count."
+    },
+    {
+      "id": "empty-strings",
+      "input": [
+        "",
+        "a",
+        ""
+      ],
+      "expected": {
+        "groups": [
+          {
+            "key": "a",
+            "count": 1
+          }
+        ]
+      },
+      "rationale": "Empty strings contribute no group or count."
+    },
+    {
+      "id": "empty-input",
+      "input": [],
+      "expected": {
+        "groups": []
+      },
+      "rationale": "There are no occurrences to count."
+    },
+    {
+      "id": "whitespace-only",
+      "input": [
+        " ",
+        "  ",
+        "\t",
+        " "
+      ],
+      "expected": {
+        "groups": [
+          {
+            "key": " ",
+            "count": 2
+          },
+          {
+            "key": "  ",
+            "count": 1
+          },
+          {
+            "key": "\t",
+            "count": 1
+          }
+        ]
+      },
+      "rationale": "Whitespace-only strings are nonempty and distinct unless ordinal case-equivalent."
+    },
+    {
+      "id": "ordinal-grouping",
+      "input": [
+        "a",
+        "A",
+        "Aa",
+        "aA"
+      ],
+      "expected": {
+        "groups": [
+          {
+            "key": "a",
+            "count": 2
+          },
+          {
+            "key": "aa",
+            "count": 2
+          }
+        ]
+      },
+      "rationale": "One entry per OrdinalIgnoreCase group; representative key spelling is not prescribed."
+    },
+    {
+      "id": "whitespace-preservation",
+      "input": [
+        "a",
+        " a ",
+        "A",
+        " a",
+        "a "
+      ],
+      "expected": {
+        "groups": [
+          {
+            "key": "a",
+            "count": 2
+          },
+          {
+            "key": " a ",
+            "count": 1
+          },
+          {
+            "key": " a",
+            "count": 1
+          },
+          {
+            "key": "a ",
+            "count": 1
+          }
+        ]
+      },
+      "rationale": "Trimming would merge distinct strings and violate counting occurrences."
+    },
+    {
+      "id": "single-pass",
+      "input": [
+        "a",
+        null,
+        "A",
+        ""
+      ],
+      "expected": {
+        "groups": [
+          {
+            "key": "a",
+            "count": 2
+          }
+        ]
+      },
+      "rationale": "A trusted enumerable that throws on a second GetEnumerator is a valid input. Materializing once is allowed; exact MoveNext counts are not scored.",
+      "sourceBehavior": "secondGetEnumeratorThrows",
+      "forbiddenAssumption": "input is a collection or can be traversed twice"
+    },
+    {
+      "id": "culture-invariance",
+      "input": [
+        "i",
+        "I",
+        "file",
+        "FILE"
+      ],
+      "expected": {
+        "groups": [
+          {
+            "key": "i",
+            "count": 2
+          },
+          {
+            "key": "file",
+            "count": 2
+          }
+        ]
+      },
+      "rationale": "OrdinalIgnoreCase merges ASCII i/I regardless of ambient Turkish culture; CurrentCultureIgnoreCase under tr-TR does not.",
+      "cultures": [
+        "en-US",
+        "tr-TR"
+      ]
+    },
+    {
+      "id": "lookup-comparer-diagnostic",
+      "input": [
+        "a",
+        "A"
+      ],
+      "expected": {
+        "kind": "notScored",
+        "lookupKey": "A",
+        "lookupSuccess": "unspecified"
+      },
+      "rationale": "Correct grouping does not prescribe the returned dictionary lookup comparer.",
+      "scored": false
+    },
+    {
+      "id": "return-type",
+      "input": [
+        "x"
+      ],
+      "expected": {
+        "type": "System.Collections.Generic.Dictionary<System.String,System.Int32>"
+      },
+      "rationale": "The prompt explicitly requires Dictionary<string,int>."
+    },
+    {
+      "id": "usage-example",
+      "input": "submission text",
+      "expected": {
+        "kind": "presenceReview",
+        "required": true
+      },
+      "rationale": "A short usage example is explicit; its presence is reviewed without running it."
+    }
+  ]
+}

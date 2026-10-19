@@ -6,7 +6,11 @@ Phase 1A: reproducible local inference benchmarks using .NET 8 and Ollama. Four 
 - [Approved architecture and boundaries](docs/architecture.md)
 - [Implementation and verification record](docs/implementation-status.md)
 - [Controlled four-model comparison](docs/comparison.md)
+- [Goal, milestones and acceptance gates](docs/ROADMAP.md)
+- [Phase 1B contracts, ground truth and isolation preflight](docs/phase-1b.md)
 - [Versioned initial cases, suites and profiles](benchmarks/initial.v1.json)
+
+The first full four-model run completed 80 attempts (16 warmups, 64 measured). Phase 1B.1 adds independent evaluation contracts and static ground-truth specifications only. There is no generated-code evaluator or execution path; inference completion still says nothing about correctness. The legacy string-counting evaluation package is separate from model-facing benchmark definitions.
 
 From the repository root, with a .NET SDK supporting net8.0:
 
